@@ -1,0 +1,5 @@
+---
+title: "About"
+---
+
+My name is Smrithi Sunil. I am a Scientist at the Allen Institute for Neural Dynamics. 

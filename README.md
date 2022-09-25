@@ -1,1 +1,0 @@
-# smrithi-sunil.github.io
