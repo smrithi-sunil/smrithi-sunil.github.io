@@ -10,6 +10,8 @@ title: "hello, world!"
 
 ::: {.column}
 I'm Smrithi Sunil. I am a Scientist at the Allen Institute for Neural Dynamics. 
+
+Prior to joining the Allen Institute I was a PhD student at Boston University in the lab of [David Boas](https://sites.bu.edu/boas/). I used multimodal optical techniques to study the evolution of neurovascular coupling during stroke recovery. 
 :::
 
 ::::
