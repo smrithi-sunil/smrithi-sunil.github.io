@@ -2,8 +2,14 @@
 title: "hello, world!"
 ---
 
-::: {layout-ncol=2}
-![Smrithi Sunil, PhD](SmrithiSunil.jpg)
+:::: {.columns}
 
+::: {.column}
+![Smrithi Sunil, PhD](SmrithiSunil.jpg)
+:::
+
+::: {.column}
 I'm Smrithi Sunil. I am a Scientist at the Allen Institute for Neural Dynamics. 
 :::
+
+::::
