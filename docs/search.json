@@ -11,6 +11,13 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "My name is Smrithi Sunil. I am a Scientist at the Allen Institute for Neural Dynamics."
+    "text": "Hi, I’m Smrithi Sunil. I am a Scientist at the Allen Institute for Neural Dynamics."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Email: smrithi (dot) sunil (at) alleninstitute (dot) com"
   }
 ]
