@@ -5,10 +5,11 @@ project:
 website:
   title: "Smrithi Sunil"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - CV.qmd
+      - blog.qmd
       - contact.qmd
 
 format:
