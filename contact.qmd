@@ -10,6 +10,10 @@ about:
           - icon: linkedin
             text: LinkedIn
             href: https://www.linkedin.com/in/smrithi-sunil-96a0b998/
+          - icon: github
+            text: GitHub
+            href: https://github.com/smrithi-sunil
+            
 ---
 
 E-mail: smrithi (dot) sunil (at) alleninstitute (dot) org
