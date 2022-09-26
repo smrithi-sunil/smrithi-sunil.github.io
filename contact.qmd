@@ -1,5 +1,15 @@
 ---
 title: "Contact"
+image: images/SSlab.jpg
+about:
+    template: marquee
+    links: 
+          - icon: google scholar
+            text: Google Scholar
+            href: https://scholar.google.com/citations?user=KKWokecAAAAJ&hl=en&oi=ao
+          - icon: linkedin
+            text: LinkedIn
+            href: https://www.linkedin.com/in/smrithi-sunil-96a0b998/
 ---
 
 E-mail: smrithi (dot) sunil (at) alleninstitute (dot) org

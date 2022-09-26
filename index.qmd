@@ -5,7 +5,7 @@ title: "Biography"
 :::: {.columns}
 
 ::: {.column}
-![Smrithi Sunil, PhD](SmrithiSunil.jpg)
+![Smrithi Sunil, PhD](images/SmrithiSunil.jpg)
 :::
 
 ::: {.column}
