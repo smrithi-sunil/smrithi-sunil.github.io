@@ -1,3 +1,60 @@
 ---
-title: CV
+title: Curriculum Vitae
+date: "September 26, 2022"
 ---
+
+## Education
+
+#### Boston University
+*Boston, MA* <br />
+PhD in Biomedical Engineering <br />
+Advisor: David Boas <br />
+Thesis: Widefield optical imaging of neurovascular coupling during stroke recovery
+
+#### Case Western Reserve University
+*Cleveland, OH* <br />
+BSc in Biomedical Engineering
+
+## Relevant Experience
+
+#### Scientist I
+Allen Institute for Neural Dynamics <br />
+*Allen Institute, Seattle, WA* <br />
+November 2021 - Present
+
+I develop and utilize imaging techniques to study the dynamics of neuromodulators and neurotransmitters across different brain regions during decision making behaviors in mice.
+
+#### Graduate Student
+BOAS Lab, Department of Biomedical Engineering <br />
+*Boston University, Boston, MA* <br />
+November 2017 - September 2021
+
+I studied the longitudinal evolution of neurovascular coupling during stroke recovery in a mouse model of photothrombosis.
+
+#### Graduate Student 
+Ritt Lab, Department of Biomedical Engineering <br />
+*Boston University, Boston, MA* <br />
+December 2015 - October 2017
+
+I used closed-loop real-time optogenetic feedback to understand the involvement of cortical sensory areas in active sensing motor outputs on short timescales.
+
+#### Undergraduate Researcher
+Ajiboye Lab, Department of Biomedical Engineering <br />
+*Case Western Reserve University, Cleveland, OH* <br />
+September 2014 - February 2015
+
+#### Undergraduate Researcher
+Capadona Lab, Department of Biomedical Engineering <br />
+*Case Western Reserve University, Cleveland, OH* <br />
+March 2012 - August 2014
+
+#### Undergraduate Researcher
+Tyler Lab, Department of Biomedical Engineering <br />
+*Case Western Reserve University, Cleveland, OH* <br />
+September 2011 - April 2012
+
+### Publications
+
+### Presentations
+
+### Professional associations and Honors

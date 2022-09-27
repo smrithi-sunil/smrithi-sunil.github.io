@@ -8,12 +8,13 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - CV.qmd
+      - href: CV.qmd
+        text: CV
       - contact.qmd
 
 format:
   html:
-    theme: lux
+    theme: litera
     css: styles.css
     toc: true
 
