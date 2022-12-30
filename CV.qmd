@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitae
-date: "September 26, 2022"
+date: "December 30, 2022"
 ---
 
 ## Education
@@ -9,11 +9,14 @@ date: "September 26, 2022"
 *Boston, MA* <br />
 PhD in Biomedical Engineering <br />
 Advisor: David Boas <br />
-Thesis: Widefield optical imaging of neurovascular coupling during stroke recovery
+Thesis: Widefield optical imaging of neurovascular coupling during stroke recovery <br />
+September 2021
 
 #### Case Western Reserve University
 *Cleveland, OH* <br />
-BSc in Biomedical Engineering
+Bachelor of Science in Biomedical Engineering <br />
+Minor in Electrical Engineering <br />
+May 2015
 
 ## Relevant Experience
 
