@@ -1,63 +1,123 @@
 ---
 title: Curriculum Vitae
-date: "December 30, 2022"
+subtitle: Smrithi Sunil
+format:
+    html: default
+    pdf: 
+        keep-tex: true
 ---
 
 ## Education
 
 #### Boston University
-*Boston, MA* <br />
-PhD in Biomedical Engineering <br />
-Advisor: David Boas <br />
-Thesis: Widefield optical imaging of neurovascular coupling during stroke recovery <br />
+*Boston, MA* \
+PhD in Biomedical Engineering \
+Advisor: David Boas \
+Thesis: Widefield optical imaging of neurovascular coupling during stroke recovery \
 September 2021
 
 #### Case Western Reserve University
-*Cleveland, OH* <br />
-Bachelor of Science in Biomedical Engineering <br />
-Minor in Electrical Engineering <br />
+*Cleveland, OH* \
+Bachelor of Science in Biomedical Engineering \
+Minor in Electrical Engineering \
 May 2015
 
-## Relevant Experience
+## Research Experience
 
 #### Scientist I
-Allen Institute for Neural Dynamics <br />
-*Allen Institute, Seattle, WA* <br />
+Allen Institute for Neural Dynamics \
+*Allen Institute, Seattle, WA* \
 November 2021 - Present
 
-I develop and utilize imaging techniques to study the dynamics of neuromodulators and neurotransmitters across different brain regions during decision making behaviors in mice.
+- I develop and utilize imaging techniques to study the dynamics of neuromodulators and neurotransmitters across different brain regions during decision making behaviors in mice.
+- The goal of this research is to understand how neuromodulators like dopamine, serotonin, and acetylcholine influence decision making.
 
-#### Graduate Student
-BOAS Lab, Department of Biomedical Engineering <br />
-*Boston University, Boston, MA* <br />
+#### Graduate Research Assistant
+Advised by [David Boas](https://sites.bu.edu/boas/) \
+Department of Biomedical Engineering \
+*Boston University, Boston, MA* \
 November 2017 - September 2021
 
-I studied the longitudinal evolution of neurovascular coupling during stroke recovery in a mouse model of photothrombosis.
+- I studied the longitudinal evolution of neurovascular coupling during stroke recovery in a mouse model of photothrombosis.
+- The goal of this research was to guide the use of functional neuroimaging in human stroke patients. 
 
-#### Graduate Student 
-Ritt Lab, Department of Biomedical Engineering <br />
-*Boston University, Boston, MA* <br />
+#### Catalyst Fellow
+Massachusetts Institute of Technology \
+*Boston, MA* \
+Spring 2020
+
+- An immersive and collaborative program that accelerates and heightens the potential impact of biomedical research on health technology.
+- Spearheaded a team to explore and develop a proposal for a low-cost non-invasive hemoglobin monitor that can be deployed in low-resource settings in Africa and India to combat severe anemia and malaria. 
+
+#### Graduate Research Assistant 
+Advised by [Jason Ritt](https://vivo.brown.edu/display/jritt) \
+Department of Biomedical Engineering \
+*Boston University, Boston, MA* \
 December 2015 - October 2017
 
-I used closed-loop real-time optogenetic feedback to understand the involvement of cortical sensory areas in active sensing motor outputs on short timescales.
+- I used closed-loop real-time optogenetic feedback to understand the involvement of cortical sensory areas in active sensing motor outputs on short timescales.
+- The goal of this research was to understand how sensory information is integrated in cortical circuits. 
 
-#### Undergraduate Researcher
-Ajiboye Lab, Department of Biomedical Engineering <br />
-*Case Western Reserve University, Cleveland, OH* <br />
+#### Undergraduate Research Assistant
+Advised by [Bolu Ajiboye](https://www.braingate.org/team/bolu-ajiboye-ph-d/) \
+Department of Biomedical Engineering \
+*Case Western Reserve University, Cleveland, OH* \
 September 2014 - February 2015
 
-#### Undergraduate Researcher
-Capadona Lab, Department of Biomedical Engineering <br />
-*Case Western Reserve University, Cleveland, OH* <br />
+- Performed and evaluated EEG recordings during hand grasp movements performed by patients using a joystick.
+
+#### Undergraduate Research Assistant
+Advised by [Jeffrey Capadona](https://engineering.case.edu/ebme/capadona) \
+Department of Biomedical Engineering \
+*Case Western Reserve University, Cleveland, OH* \
 March 2012 - August 2014
 
-#### Undergraduate Researcher
-Tyler Lab, Department of Biomedical Engineering <br />
-*Case Western Reserve University, Cleveland, OH* <br />
+- Performed experiments to understand the role of macrophages and microglia in neuroinflammation after intracortical electrode implantation. 
+
+#### Undergraduate Research Assistant
+Advised by [Dustin Tyler](https://engineering.case.edu/ebme/tyler) \
+Department of Biomedical Engineering \
+*Case Western Reserve University, Cleveland, OH* \
 September 2011 - April 2012
 
-### Publications
+- Developed an external stimulation technique to trigger swallowing for patients suffering from dysphagia.
 
-### Presentations
+## Publications
 
-### Professional associations and Honors
+- **Sunil, S.**, Jiang J., Shah S., Kura S., Kilic K., Erdener, S.E., Ayata C., Devor A., Boas D.A. Targeted photothrombotic stroke leads to disruptions in neurovascular coupling. ([bioRxiv](https://www.biorxiv.org/content/10.1101/2022.01.22.477341v1))
+- **Sunil, S.**, Zilpelwar, S., Boas, D. A., Postnov, D. D. Guidelines for obtaining an absolute blood flow index with laser speckle contrast imaging. ([bioRxiv](https://www.biorxiv.org/content/10.1101/2021.04.02.438198v1))
+- Kılıç, K., Desjardins, M., Tang, J., Thunemann, M., **Sunil, S.**, Erdener, Ş. E., Postnov, D. D., Boas, D. A., & Devor, A. (2021). Chronic Cranial Windows for Long Term Multimodal Neurovascular Imaging in Mice. [Frontiers in Physiology](https://doi.org/10.3389/fphys.2020.612678), 11.
+- **Sunil, S.**, Evren, S., Cheng, X., Kura, S., Tang, J., Jiang, J., Karrobi, K., Kılıç, K., Roblyer, D., & Boas, D. A. (2021). Stroke core revealed by tissue scattering using spatial frequency domain imaging. [NeuroImage: Clinical](https://doi.org/10.1016/j.nicl.2020.102539), 29, 102539.
+- Yang, J., Chen, I. A., Chang, S., Tang, J., Lee, B., Kılıç, K., **Sunil, S.**, Wang, H., Varadarajan, D., Magnain, C. V, Chen, S.-C., Costantini, I., Pavone, F. S., Fischl, B., & Boas, D. A. (2020). Improving the characterization of ex vivo human brain optical properties using high numerical aperture optical coherence tomography by spatially constraining the confocal parameters. [Neurophotonics](https://doi.org/10.1117/1.NPh.7.4.045005), 7(4), 1–16. 
+- Kılıç, K., Tang, J., Erdener, Ş. E., **Sunil, S.**, Giblin, J. T., Lee, B. S., Postnov, D. D., Chen, A., & Boas, D. A. (2020). Chronic Imaging of Mouse Brain: From Optical Systems to Functional Ultrasound. [Current Protocols in Neuroscience](https://doi.org/10.1002/cpns.98), 93(1), e98. 
+- **Sunil, S.**, Erdener, S. E., Lee, B. S., Postnov, D., Tang, J., Kura, S., Cheng, X., Chen, I. A., Boas, D. A., & Kılıç, K. (2020). Awake chronic mouse model of targeted pial vessel occlusion via photothrombosis. [Neurophotonics](https://doi.org/10.1117/1.NPh.7.1.015005), 7(1), 1–18. 
+- Tang, J., Erdener, S. E., **Sunil, S.**, & Boas, D. A. (2019). Normalized field autocorrelation function-based optical coherence tomography three-dimensional angiography. [Journal of Biomedical Optics](https://doi.org/10.1117/1.JBO.24.3.036005), 24(3), 036005. 
+- Hermann, J. K., Lin, S., Soffer, A., Wong, C., Srivastava, V., Chang, J., **Sunil, S.**, Sudhakar, S., Tomaszewski, W. H., Protasiewicz, G., Selkirk, S. M., Miller, R. H., & Capadona, J. R. (2018). The Role of Toll-Like Receptor 2 and 4 Innate Immunity Pathways in Intracortical Microelectrode-Induced Neuroinflammation. [Frontiers in Bioengineering and Biotechnology](https://doi.org/10.3389/fbioe.2018.00113), 6, 113. 
+- Freedman, D. S., Schroeder, J. B., Telian, G. I., Zhang, Z., **Sunil, S.**, & Ritt, J. T. (2016). OptoZIF Drive: a 3D printed implant and assembly tool package for neural recording and optical stimulation in freely moving mice. [Journal of Neural Engineering](https://doi.org/10.1088/1741-2560/13/6/066013), 13(6), 066013. 
+- Ravikumar, M., **Sunil, S.**, Black, J., Barkauskas, D. S., Haung, A. Y., Miller, R. H., Selkirk, S. M., & Capadona, J. R. (2014). The roles of blood-derived macrophages and resident microglia in the neuroinflammatory response to implanted Intracortical microelectrodes. [Biomaterials](https://doi.org/10.1016/j.biomaterials.2014.05.084), 35(28). 
+- Potter-Baker, K. A., Ravikumar, M., Burke, A. A., Meador, W. D., Householder, K. T., Buck, A. C., **Sunil, S.**, Stewart, W. G., Anna, J. P., Tomaszewski, W. H., & Capadona, J. R. (2014). A comparison of neuroinflammation to implanted microelectrodes in rat and mouse models. [Biomaterials](https://doi.org/10.1016/j.biomaterials.2014.03.076), 35(22). 
+- Potter, K. A., Buck, A. C., Self, W. K., Callanan, M. E., **Sunil, S.**, & Capadona, J. R. (2013). The effect of resveratrol on neurodegeneration and blood brain barrier stability surrounding intracortical microelectrodes. [Biomaterials](https://doi.org/10.1016/j.biomaterials.2013.05.035), 34(29). 
+
+## Talks
+- Allen Institute Showcase Symposium. *Towards a multiplexed understanding of neuromodulators.* December 2022.
+- Optical Society of America, Biophotonics Congress. *Wide-field optical imaging of neurovascular coupling during stroke recovery.* April 2021.
+- SPIE Photonics West Conference. *Longitudinal evolution of neurovascular coupling during stroke recovery.* March 2021
+- Optical Society of America, Biophotonics Congress. *The evolution of hemodynamics during stroke recovery: from early hours to subsequent weeks.* April 2020.
+
+## Poster Presentations
+- SPIE Photonics West Conference. *Focal pial vessel occlusion via photothrombosis with simultaneous monitoring of blood flow in awake mice.*  February 2019.
+- Society for Neuroscience Annual Conference. *Phase dependent differences in excitatory and inhibitory modulation of somatosensory cortex during active touch.* November 2017.
+- Society for Neuroscience Annual Conference. *Active touch modulates cortical excitation and inhibition evoked by closed-loop optogenetic stimulation.* November 2016.
+- Biomedical Engineering Society Annual Conference. *The Roles of Blood-derived Macrophages and Resident Microglia in the Neuroinflammatory Response to Implanted Intracortical Microelectrodes.* October 2014.
+- Biomedical Engineering Society Annual Conference. *Characterization of Blood Brain Barrier Disruption at the Tissue-Electrode Interface.* September 2013.
+- Biomedical Engineering Society Annual Conference. *Comparison of a rat and mouse model for evaluation of acute and chronic Neuroinflammation following device implantation in the brain.* October 2012.
+- PiNO. *Grape-Derived Antioxidants Prevent Neurodegeneration in the Brain after Medical Device Implantation: Application for the Development of Neuroprotective Biomimetic Polymers.* June 2012.
+
+## Teaching Experience
+#### Boston University Teaching Fellow
+- BE 402 - Control Systems in Biomedical Engineering, Spring 2018, with Mary Dunlop
+- BE 402 - Control Systems in Biomedical Engineering, Spring 2017, with Ahmad Khalil
+
+#### Case Western Reserve University Teaching Fellow
+- EBME 360 - Biomedical Instrumentation Laboratory, Spring 2015, with Dustin Tyler
+- EBME 201 - Physiology-Biophysics I, Fall 2013, with Efstathios Karathanasis
