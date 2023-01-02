@@ -1,31 +1,33 @@
 ---
 title: Curriculum Vitae
-subtitle: Smrithi Sunil
+subtitle: Smrithi Sunil | smrithi.x.sunil@gmail.com
 format:
     html: default
     pdf: 
         keep-tex: true
+        geometry:
+            - top=20mm
+            - left=20mm
+            - heightrounded
 ---
 
 ## Education
 
-#### Boston University
-*Boston, MA* \
-PhD in Biomedical Engineering \
+**PhD in Biomedical Engineering** \
+*Boston University*, Boston, MA \
+September 2021, GPA: 3.92/4.0 \
 Advisor: David Boas \
-Thesis: Widefield optical imaging of neurovascular coupling during stroke recovery \
-September 2021
+Thesis: Widefield optical imaging of neurovascular coupling during stroke recovery
 
-#### Case Western Reserve University
-*Cleveland, OH* \
-Bachelor of Science in Biomedical Engineering \
+**Bachelor of Science in Biomedical Engineering** \
 Minor in Electrical Engineering \
-May 2015
+*Case Western Reserve University*, Cleveland, OH \
+May 2015, GPA: 3.6/4.0
 
 ## Research Experience
 
 #### Scientist I
-Allen Institute for Neural Dynamics \
+[Allen Institute for Neural Dynamics](https://alleninstitute.org/what-we-do/brain-science/research/allen-institute-neural-dynamics/) \
 *Allen Institute, Seattle, WA* \
 November 2021 - Present
 
@@ -42,8 +44,8 @@ November 2017 - September 2021
 - The goal of this research was to guide the use of functional neuroimaging in human stroke patients. 
 
 #### Catalyst Fellow
-Massachusetts Institute of Technology \
-*Boston, MA* \
+[Catalyst](https://catalyst.mit.edu/) \
+*Massachusetts Institute of Technology, Boston, MA* \
 Spring 2020
 
 - An immersive and collaborative program that accelerates and heightens the potential impact of biomedical research on health technology.
@@ -64,23 +66,15 @@ Department of Biomedical Engineering \
 *Case Western Reserve University, Cleveland, OH* \
 September 2014 - February 2015
 
-- Performed and evaluated EEG recordings during hand grasp movements performed by patients using a joystick.
+- Recorded and evaluated EEG signals during hand grasp movements performed by patients using a joystick.
 
 #### Undergraduate Research Assistant
 Advised by [Jeffrey Capadona](https://engineering.case.edu/ebme/capadona) \
 Department of Biomedical Engineering \
 *Case Western Reserve University, Cleveland, OH* \
-March 2012 - August 2014
+January 2012 - August 2014
 
 - Performed experiments to understand the role of macrophages and microglia in neuroinflammation after intracortical electrode implantation. 
-
-#### Undergraduate Research Assistant
-Advised by [Dustin Tyler](https://engineering.case.edu/ebme/tyler) \
-Department of Biomedical Engineering \
-*Case Western Reserve University, Cleveland, OH* \
-September 2011 - April 2012
-
-- Developed an external stimulation technique to trigger swallowing for patients suffering from dysphagia.
 
 ## Publications
 
