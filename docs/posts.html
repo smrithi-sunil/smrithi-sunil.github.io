@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Smrithi Sunil - My Blog</title>
+<title>Smrithi Sunil - Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -115,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html">Home</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page">My Blog</a>
+    <a class="nav-link active" href="./posts.html" aria-current="page">Blog</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./CV.html">CV</a>
@@ -135,13 +135,13 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Woodworking">Woodworking <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">My Blog</h1>
+<h1 class="title">Blog</h1>
 </div>
 
 
@@ -161,19 +161,30 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1664152223730" data-listing-reading-time-sort="0.25">
-<a href="./posts/testpost.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="Woodworking" data-listing-date-sort="1694674800000" data-listing-file-modified-sort="1694713495587" data-listing-reading-time-sort="0.04">
+<a href="./posts/2023-09-14-first-post/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/2023-09-14-first-post/DALL·E 2023-09-14 10.43.33 - The Cerebral Wood Crafter.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Post with code
+My first blog post
 </h5>
-<div class="card-text listing-description">
-For a demonstration of a line plot on a polar axis, see Figure&nbsp;1.
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Woodworking'); return false;">
+Woodworking
 </div>
-<div class="card-attribution card-text-small start">
+</div>
+<div class="card-text listing-description">
+Starting a blog about my woodworking projects
+</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-
+Smrithi Sunil
+</div>
+<div class="listing-date">
+Sep 14, 2023
 </div>
 </div>
 </div>

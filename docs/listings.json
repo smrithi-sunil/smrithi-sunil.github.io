@@ -2,13 +2,14 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/testpost.html"
+      "/posts/testpost.html",
+      "/posts/2023-09-14-first-post/index.html"
     ]
   },
   {
     "listing": "/posts.html",
     "items": [
-      "/posts/testpost.html"
+      "/posts/2023-09-14-first-post/index.html"
     ]
   }
 ]
