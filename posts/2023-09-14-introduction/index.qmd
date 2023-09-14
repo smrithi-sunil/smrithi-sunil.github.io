@@ -5,7 +5,7 @@ author: Smrithi Sunil
 date: 09-14-2023
 categories: [Woodworking]
 image: DALL·E 2023-09-14 10.43.33 - The Cerebral Wood Crafter.png
-draft: true
+draft: 'true'
 ---
 
 It was about a year ago when I picked up a plane and started planing some scrap wood that Gavin had left lying around. He was just finishing up a tree bookshelf project and up until that time I had only mockingly paid attention to his woodworking. The tree bookshelf was his third project, having already completed a piano bench and a coffee table. The bookshelf was beautiful and my planing was the first step towards a potential life changing interest.
