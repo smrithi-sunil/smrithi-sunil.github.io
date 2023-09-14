@@ -1,0 +1,11 @@
+---
+title: Paul Sellers and Cutting Boards
+description: I can't start a woodworking blog without talking about Paul Sellers
+author: Smrithi Sunil
+date: 09-14-2023
+categories: [Woodworking]
+image: cutting-boards.jpg
+draft: true
+---
+
+It all started with Paul Sellers (after Gavin!). 

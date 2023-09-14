@@ -12,6 +12,8 @@ title: "Biography"
 I'm Smrithi Sunil. I am a Scientist at the [Allen Institute for Neural Dynamics](https://alleninstitute.org/what-we-do/brain-science/research/allen-institute-neural-dynamics/). As part of the Optical Physiology team in Neural Dynamics, I develop and use imaging techniques to study the dynamics of neuromodulators and neurotransmitters across different brain regions during decision making behaviors in mice. 
 
 Prior to joining the Allen Institute, I was a PhD student in the lab of [David Boas](https://sites.bu.edu/boas/) in the Biomedical Engineering Department at Boston University. For my PhD thesis, I used multimodal optical techniques to study the evolution of neurovascular coupling during stroke recovery. 
+
+In my free time I enjoy woodworking - check out my blog posts capturing my woodworking projects.
 :::
 
 ::::
