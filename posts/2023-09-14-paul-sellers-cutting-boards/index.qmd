@@ -5,7 +5,7 @@ author: Smrithi Sunil
 date: 09-14-2023
 categories: [Woodworking]
 image: cutting-boards.jpg
-draft: 'true'
+draft: true
 ---
 
 It all started with Paul Sellers (after Gavin!). 
