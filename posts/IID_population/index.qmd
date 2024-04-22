@@ -7,7 +7,7 @@ categories: [India In Data]
 image: IID_population.png
 execute:
   echo: false
-draft: false
+draft: true
 ---
 
 ```{python}
