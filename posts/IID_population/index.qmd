@@ -1,10 +1,11 @@
 ---
-title: India population trends
+title: India In Data
 description: Population statistics across states over time
 author: Smrithi Sunil
 date: 04-22-2024
 categories: [India In Data]
 image: IID_population.png
+bibliography: references.bib
 execute:
   echo: false
 draft: true
@@ -12,42 +13,67 @@ draft: true
 
 ```{python}
 import pandas as pd
+import pandas as pd
 import geopandas as gpd
 import plotly.express as px
+import plotly.graph_objects as go
+import numpy as np
+```
+
+In April 2023 India overtook China to become the most populous country in the world. While represented as a single data point on the world map, India is diverse in complex ways. Geography, language, culture, and caste are just a few dimensions that make India diverse. In April 2024 I started to dig into that single number, 1.4 billion - Who are we? Where do we live? How healthy are we? How have we changed over time? and What can we learn from the past? 
+
+I wanted to break down that single number on the world map. I figured I could use data to expand my understanding of India. I love looking at data and using data to learn about the world. As an engineer and neuroscientist, I collect, visualize, analyze, and interpret data on a daily basis. While I will not be collecting any of my own data, I will use the wealth of data that is publicly available and make visualizations that are more accessible than tables in PDF format. Perhaps it might even be interesting to someone who is not me. 
+
+### Population over time
+
+In this post I touch on some general population trends and characteristics. Below is an interactive map and line graph of population by state over time. Nothing too unusual here, the population of every state has been increasing over time. Note that 2011 is the most recent census year. The census was not conducted in 2021 due to COVID-19 and will be held after the 2024 general election. *Note: Explore the line plot further by individually selecting specific states or a subset of states.*  
+
+```{python}
+# Population breakdown 1901-2011
+
 # Load the CSV with GeoJSON geometries
-gdf = gpd.read_file('geoJSON_cut.geojson')  # Adjust filename as necessary
+gdf = gpd.read_file('geojson_filtered.geojson')
 # Load the CSV with population data
-pop_data = pd.read_csv('population_data.csv')  # Adjust filename as necessary
+pop_data = pd.read_csv('population_data.csv')
 # Merge the data on the common identifier (e.g., 'state_code' or 'state_name')
 merged_data = pd.merge(gdf,pop_data, on='NAME_1')
 merged_data.rename(columns={'NAME_1': 'State', 'Persons': 'Population'}, inplace=True)
-```
 
-Population of India.
-
-```{python}
 # Plot the choropleth map for total population
 fig = px.choropleth(merged_data,
                     geojson=merged_data.geometry,
-                    locations=merged_data.index,  # Use the DataFrame index as locations
+                    locations=merged_data.index, #merged_data.index,  # Use the DataFrame index as locations
                     projection="natural earth",
                     fitbounds="locations",
-                    #basemap_visible=False,
                     color="Population",  # Column containing the values to color
                     color_continuous_scale='Greens',
-                    range_color=(0, 70000000),
+                    range_color=(0, 80000000),
+                    hover_name=merged_data.State,
+                    custom_data=['State','Year'],
                     animation_frame="Year",  # Column that changes over time
-                    title="Population Over Time by State")
+                    # title="Population"
+)
+fig.update_traces(hovertemplate="<b>%{customdata[0]}</b><br>Year: %{customdata[1]}<br>Population: %{z}")
 # Show the plot
-#fig.update_geos(fitbounds="locations", visible=False)
-fig.show(config={'staticPlot': True})
+fig.show(config={
+    'staticPlot': False,
+    'scrollZoom': False,
+    'doubleClick': False
+})
 
 # Plot line plot for all states
 df = merged_data
 fig = px.line(df, x="Year", y="Population", color='State', markers=False)
 fig.show()
 ```
-Female to Male Ratio.
+
+Uttar Pradesh is by far the most populous state and has been since 1901 at least. Uttar Pradesh is followed by Maharashtra, Bihar, and West Bengal. Sikkim is the least populous state.  
+
+### Changes in sex ratio across states
+
+The ratio between number of males and females in the population is called the sex ratio. A number of different factors, like birth ratio, death ratio, and migration can affect the overall population sex ratio of a given place [explore the data at  @owid-gender-ratio]. The natural sex ratio at birth is slightly biased towards more males being born. This trend is seen in almost every country, and on average, there are 105 males born for every 100 females. Following birth, at virtually every age group, more males die compared to females. Additionally, women tend to live longer than men. These last two factors contribute to a larger share of the population being female in the later years. In 2021, this crossover point for the world was around 50 years of age. 
+
+Below is an interactive map and line graph of the number of females for every 100 males across states over time. 
 
 ```{python}
 # Plot the choropleth map for female:male ratio
@@ -57,28 +83,99 @@ fig = px.choropleth(merged_data,
                     projection="natural earth",
                     hover_name=merged_data.State,
                     fitbounds="locations",
-                    #basemap_visible=False,
-                    color="Female_Male_Ratio",  # Column containing the values to color
+                    color="Female_Male100",  # Column containing the values to color
                     color_continuous_scale='Balance',
-                    range_color=(0.9, 1.1),
+                    range_color=(90, 110),
+                    custom_data=['State','Year'],
                     animation_frame="Year",  # Column that changes over time
-                    title="Female to Male Ratio Over Time")
-# Show the plot
-#fig.update_geos(fitbounds="locations", visible=False)
+                    title="Number of females for every 100 males")
+fig.update_traces(hovertemplate="<b>%{customdata[0]}</b><br>Year: %{customdata[1]}<br>Female_Male100: %{z}")
 fig.update_layout(
     coloraxis_colorbar=dict(
-        title='Female to Male Ratio',
+        title='',
         titleside='right',  # Position of the title ('top', 'right', 'bottom', 'left')
         ticks='outside'   # Where to position the ticks ('outside', 'inside')
     )
 )
-fig.show(config={'staticPlot': True})
+# Show the plot
+fig.show(config={
+    'staticPlot': False,
+    'scrollZoom': False,
+    'doubleClick': False
+})
 
 # Plot line plot for all states
 df = merged_data
-fig = px.line(df, x="Year", y="Female_Male_Ratio", color='State', markers=False, range_y=[0.7, 1.3])
+fig = px.line(df, x="Year", y="Female_Male100", color='State', markers=False) #, range_y=[0.7, 1.3])
+# Calculate the mean ratio per year across all states
+mean_ratio = df.groupby('Year')['Female_Male100'].mean().reset_index()
+# Adding the mean line to the figure
+fig.add_trace(go.Scatter(x=mean_ratio['Year'], y=mean_ratio['Female_Male100'],
+                         mode='markers', name='India Mean Ratio',
+                         marker=dict(size=20,color='rgba(0, 0, 0, 0.3)')
+                         ))                        
+female_male_ideal = [95,95,95,95,95,95,95,95,95,95,95,95]
+fig.add_trace(go.Scatter(
+    x=df.Year, y=female_male_ideal,
+    mode = 'lines',
+    line_color='black',
+    name='Natural (Birth) Ratio',
+))
 fig.update_layout(
-    yaxis=dict(title="Female to Male Ratio")   # Turns off grid lines for y-axis
+    yaxis=dict(title="Number of females for every 100 males")   # Turns off grid lines for y-axis
 )
 fig.show()
 ```
+
+These graphs are a little depressing to look at. India has a highly skewed sex ratio. Over time, the ratio becomes more skewed towards males in most states. Overlaid on the line plot is the natural sex ratio at birth in solid black. The translucent black dots represent India's mean sex ratio. While the distribution across states is large, the mean ratio dips below the natural birth ratio in the 1971 data. A siginificant factor that might play a role in this change is the use of ultrasound technology to perform sex selective abortions. Ultrasound was introduced in India in the 60s and became widely available in the 70s. While having access to ultrasound in pregnancy is a good thing for maternal and child outcomes, it resulted in a large increase in sex selective abortions. India passed the Pre-Conception and Pre-Natal Diagnostic Techniques (PCPNDT) Act in 1994 which banned prenatal sex determintaion. The trending upward mean sex ratio post 2000 might be a result of the PCPNDT Act. 
+
+However, as mentioned, the distribution across states is large and the birth ratio is not the only factor that affects the sex ratio. Take for example Kerala. Kerala tends to be skewed towards more females throughout the years. Many factors might contribute to this trend. Historically, Kerala was a matrelineal society where the family assets were passed down to the children of the daughters. This made women key decision makers in the family. While this system is no longer formally practiced, it might have had a lasting cultural impact in a country that otherwise has a strong 'son preference'. Additionally, Kerala has a high literacy rate, especially female literacy, and a strong public health system. This might contribute to low sex selective abortion as well as longer life expectancy and generally women live longer than men. Another factor seen in recent years might be the high rate of emigration from Kerala to the Middle East. Emigration tends to be skewed towards men and might contribute to Kerala's sex ratio. All these factors taken together might explain the high (and climbing) female to male sex ratio in Kerala. 
+
+### Age breakdown in 2011
+
+```{python}
+# Age breakdown in 2011
+
+age_data = pd.read_csv('Age2011_combined.csv')  # Adjust filename as necessary
+age_data.rename(columns={'NAME_1': 'State'}, inplace=True)
+fig = px.bar(age_data, x='Age range', y='Persons', color='State', title='Age range breakdown by state')
+fig.show()
+
+# Load the CSV with GeoJSON geometries
+gdf = gpd.read_file('geojson_filtered_NE.geojson')  # Adjust filename as necessary
+# Load the CSV with population data
+age_median = pd.read_csv('median_age_2011.csv')  # Adjust filename as necessary
+# Merge the data on the common identifier (e.g., 'state_code' or 'state_name')
+merged_data = pd.merge(gdf,age_median, on='NAME_1')
+merged_data.rename(columns={'NAME_1': 'State'}, inplace=True)
+
+# Plot the choropleth map for median age
+fig = px.choropleth(merged_data,
+                    geojson=merged_data.geometry,
+                    locations=merged_data.index,  # Use the DataFrame index as locations
+                    projection="natural earth",
+                    fitbounds="locations",
+                    color="Mean_Age",  # Column containing the values to color
+                    color_continuous_scale='inferno',
+                    range_color=(15, 30),
+                    custom_data=['State'],
+                    title="Median Age by State (shown as mean of age range)")
+fig.update_traces(hovertemplate="<b>%{customdata[0]}</b><br>Median Age: %{z}")
+fig.update_layout(
+    coloraxis_colorbar=dict(
+        title='Median Age',
+        titleside='top',  # Position of the title ('top', 'right', 'bottom', 'left')
+        ticks='inside'   # Where to position the ticks ('outside', 'inside')
+    )
+)
+# Show the plot
+fig.show(config={
+    'staticPlot': False,
+    'scrollZoom': False,
+    'doubleClick': False
+})
+```
+
+#### References
+::: {#refs}
+:::

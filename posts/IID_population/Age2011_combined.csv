@@ -1,0 +1,375 @@
+NAME_1,Age range,Persons
+Jammu and Kashmir,0-4,1438
+Jammu and Kashmir,5-9,1391
+Jammu and Kashmir,10-14,1347
+Jammu and Kashmir,15-19,1238
+Jammu and Kashmir,20-24,1133
+Jammu and Kashmir,25-29,1035
+Jammu and Kashmir,30-34,919
+Jammu and Kashmir,35-39,809
+Jammu and Kashmir,40-44,698
+Jammu and Kashmir,45-49,578
+Jammu and Kashmir,50-54,457
+Jammu and Kashmir,55-59,360
+Jammu and Kashmir,60-64,291
+Jammu and Kashmir,65-69,224
+Jammu and Kashmir,70-74,192
+Jammu and Kashmir,75-79,98
+Jammu and Kashmir,80+,59
+Himachal Pradesh,0-4,557
+Himachal Pradesh,5-9,593
+Himachal Pradesh,10-14,628
+Himachal Pradesh,15-19,642
+Himachal Pradesh,20-24,630
+Himachal Pradesh,25-29,593
+Himachal Pradesh,30-34,551
+Himachal Pradesh,35-39,508
+Himachal Pradesh,40-44,452
+Himachal Pradesh,45-49,392
+Himachal Pradesh,50-54,331
+Himachal Pradesh,55-59,274
+Himachal Pradesh,60-64,222
+Himachal Pradesh,65-69,170
+Himachal Pradesh,70-74,151
+Himachal Pradesh,75-79,106
+Himachal Pradesh,80+,64
+Punjab,0-4,2137
+Punjab,5-9,2367
+Punjab,10-14,2592
+Punjab,15-19,2753
+Punjab,20-24,2713
+Punjab,25-29,2459
+Punjab,30-34,2175
+Punjab,35-39,1974
+Punjab,40-44,1791
+Punjab,45-49,1557
+Punjab,50-54,1265
+Punjab,55-59,1043
+Punjab,60-64,919
+Punjab,65-69,738
+Punjab,70-74,597
+Punjab,75-79,416
+Punjab,80+,249
+Uttarakhand,0-4,965
+Uttarakhand,5-9,1049
+Uttarakhand,10-14,1120
+Uttarakhand,15-19,1093
+Uttarakhand,20-24,970
+Uttarakhand,25-29,824
+Uttarakhand,30-34,719
+Uttarakhand,35-39,650
+Uttarakhand,40-44,573
+Uttarakhand,45-49,486
+Uttarakhand,50-54,401
+Uttarakhand,55-59,341
+Uttarakhand,60-64,299
+Uttarakhand,65-69,233
+Uttarakhand,70-74,184
+Uttarakhand,75-79,111
+Uttarakhand,80+,67
+Haryana,0-4,2397
+Haryana,5-9,2510
+Haryana,10-14,2632
+Haryana,15-19,2651
+Haryana,20-24,2514
+Haryana,25-29,2234
+Haryana,30-34,1948
+Haryana,35-39,1733
+Haryana,40-44,1506
+Haryana,45-49,1240
+Haryana,50-54,982
+Haryana,55-59,829
+Haryana,60-64,737
+Haryana,65-69,558
+Haryana,70-74,431
+Haryana,75-79,281
+Haryana,80+,169
+NCT of Delhi,0-4,1416
+NCT of Delhi,5-9,1527
+NCT of Delhi,10-14,1627
+NCT of Delhi,15-19,1688
+NCT of Delhi,20-24,1718
+NCT of Delhi,25-29,1635
+NCT of Delhi,30-34,1466
+NCT of Delhi,35-39,1294
+NCT of Delhi,40-44,1107
+NCT of Delhi,45-49,903
+NCT of Delhi,50-54,699
+NCT of Delhi,55-59,545
+NCT of Delhi,60-64,432
+NCT of Delhi,65-69,302
+NCT of Delhi,70-74,216
+NCT of Delhi,75-79,133
+NCT of Delhi,80+,80
+Rajasthan,0-4,7785
+Rajasthan,5-9,7973
+Rajasthan,10-14,8061
+Rajasthan,15-19,7388
+Rajasthan,20-24,6404
+Rajasthan,25-29,5483
+Rajasthan,30-34,4801
+Rajasthan,35-39,4299
+Rajasthan,40-44,3752
+Rajasthan,45-49,3148
+Rajasthan,50-54,2529
+Rajasthan,55-59,2028
+Rajasthan,60-64,1681
+Rajasthan,65-69,1332
+Rajasthan,70-74,1094
+Rajasthan,75-79,491
+Rajasthan,80+,299
+Uttar Pradesh,0-4,22437
+Uttar Pradesh,5-9,24290
+Uttar Pradesh,10-14,25165
+Uttar Pradesh,15-19,22566
+Uttar Pradesh,20-24,18343
+Uttar Pradesh,25-29,15045
+Uttar Pradesh,30-34,13370
+Uttar Pradesh,35-39,12173
+Uttar Pradesh,40-44,10452
+Uttar Pradesh,45-49,8498
+Uttar Pradesh,50-54,6827
+Uttar Pradesh,55-59,5853
+Uttar Pradesh,60-64,5221
+Uttar Pradesh,65-69,4088
+Uttar Pradesh,70-74,3167
+Uttar Pradesh,75-79,1451
+Uttar Pradesh,80+,865
+Bihar,0-4,14501
+Bihar,5-9,14245
+Bihar,10-14,13138
+Bihar,15-19,10272
+Bihar,20-24,8351
+Bihar,25-29,7646
+Bihar,30-34,7088
+Bihar,35-39,6308
+Bihar,40-44,5285
+Bihar,45-49,4271
+Bihar,50-54,3436
+Bihar,55-59,2990
+Bihar,60-64,2736
+Bihar,65-69,2026
+Bihar,70-74,1483
+Bihar,75-79,203
+Bihar,80+,120
+Assam,0-4,3404
+Assam,5-9,3450
+Assam,10-14,3401
+Assam,15-19,3136
+Assam,20-24,2927
+Assam,25-29,2719
+Assam,30-34,2435
+Assam,35-39,2172
+Assam,40-44,1881
+Assam,45-49,1554
+Assam,50-54,1210
+Assam,55-59,921
+Assam,60-64,728
+Assam,65-69,542
+Assam,70-74,422
+Assam,75-79,189
+Assam,80+,113
+West Bengal,0-4,7596
+West Bengal,5-9,8256
+West Bengal,10-14,8916
+West Bengal,15-19,9019
+West Bengal,20-24,8654
+West Bengal,25-29,7909
+West Bengal,30-34,7182
+West Bengal,35-39,6763
+West Bengal,40-44,6171
+West Bengal,45-49,5277
+West Bengal,50-54,4285
+West Bengal,55-59,3389
+West Bengal,60-64,2689
+West Bengal,65-69,2028
+West Bengal,70-74,1599
+West Bengal,75-79,963
+West Bengal,80+,579
+Jharkhand,0-4,4010
+Jharkhand,5-9,4022
+Jharkhand,10-14,3902
+Jharkhand,15-19,3347
+Jharkhand,20-24,2889
+Jharkhand,25-29,2619
+Jharkhand,30-34,2359
+Jharkhand,35-39,2100
+Jharkhand,40-44,1818
+Jharkhand,45-49,1516
+Jharkhand,50-54,1227
+Jharkhand,55-59,1032
+Jharkhand,60-64,887
+Jharkhand,65-69,661
+Jharkhand,70-74,453
+Jharkhand,75-79,91
+Jharkhand,80+,54
+Odisha,0-4,3875
+Odisha,5-9,4049
+Odisha,10-14,4186
+Odisha,15-19,4007
+Odisha,20-24,3777
+Odisha,25-29,3519
+Odisha,30-34,3217
+Odisha,35-39,2983
+Odisha,40-44,2700
+Odisha,45-49,2308
+Odisha,50-54,1884
+Odisha,55-59,1577
+Odisha,60-64,1357
+Odisha,65-69,1053
+Odisha,70-74,822
+Odisha,75-79,413
+Odisha,80+,248
+Chhattisgarh,0-4,2669
+Chhattisgarh,5-9,2738
+Chhattisgarh,10-14,2784
+Chhattisgarh,15-19,2621
+Chhattisgarh,20-24,2361
+Chhattisgarh,25-29,2082
+Chhattisgarh,30-34,1868
+Chhattisgarh,35-39,1739
+Chhattisgarh,40-44,1568
+Chhattisgarh,45-49,1311
+Chhattisgarh,50-54,1028
+Chhattisgarh,55-59,830
+Chhattisgarh,60-64,703
+Chhattisgarh,65-69,547
+Chhattisgarh,70-74,409
+Chhattisgarh,75-79,179
+Chhattisgarh,80+,109
+Madhya Pradesh,0-4,7959
+Madhya Pradesh,5-9,8151
+Madhya Pradesh,10-14,8220
+Madhya Pradesh,15-19,7555
+Madhya Pradesh,20-24,6680
+Madhya Pradesh,25-29,5886
+Madhya Pradesh,30-34,5276
+Madhya Pradesh,35-39,4794
+Madhya Pradesh,40-44,4208
+Madhya Pradesh,45-49,3493
+Madhya Pradesh,50-54,2746
+Madhya Pradesh,55-59,2202
+Madhya Pradesh,60-64,1867
+Madhya Pradesh,65-69,1489
+Madhya Pradesh,70-74,1210
+Madhya Pradesh,75-79,557
+Madhya Pradesh,80+,182
+Gujarat,0-4,5647
+Gujarat,5-9,5843
+Gujarat,10-14,6024
+Gujarat,15-19,5939
+Gujarat,20-24,5699
+Gujarat,25-29,5298
+Gujarat,30-34,4809
+Gujarat,35-39,4347
+Gujarat,40-44,3862
+Gujarat,45-49,3311
+Gujarat,50-54,2702
+Gujarat,55-59,2142
+Gujarat,60-64,1677
+Gujarat,65-69,1247
+Gujarat,70-74,994
+Gujarat,75-79,559
+Gujarat,80+,340
+Maharashtra,0-4,9538
+Maharashtra,5-9,9971
+Maharashtra,10-14,10517
+Maharashtra,15-19,10809
+Maharashtra,20-24,10778
+Maharashtra,25-29,10082
+Maharashtra,30-34,9029
+Maharashtra,35-39,8151
+Maharashtra,40-44,7194
+Maharashtra,45-49,6067
+Maharashtra,50-54,4957
+Maharashtra,55-59,4098
+Maharashtra,60-64,3575
+Maharashtra,65-69,2996
+Maharashtra,70-74,2411
+Maharashtra,75-79,1373
+Maharashtra,80+,826
+Andhra Pradesh,0-4,6627
+Andhra Pradesh,5-9,7341
+Andhra Pradesh,10-14,8024
+Andhra Pradesh,15-19,8205
+Andhra Pradesh,20-24,8113
+Andhra Pradesh,25-29,7648
+Andhra Pradesh,30-34,6932
+Andhra Pradesh,35-39,6307
+Andhra Pradesh,40-44,5541
+Andhra Pradesh,45-49,4635
+Andhra Pradesh,50-54,3755
+Andhra Pradesh,55-59,3198
+Andhra Pradesh,60-64,2896
+Andhra Pradesh,65-69,2285
+Andhra Pradesh,70-74,1665
+Andhra Pradesh,75-79,879
+Andhra Pradesh,80+,530
+Karnataka,0-4,5077
+Karnataka,5-9,5321
+Karnataka,10-14,5640
+Karnataka,15-19,5865
+Karnataka,20-24,5930
+Karnataka,25-29,5578
+Karnataka,30-34,4970
+Karnataka,35-39,4482
+Karnataka,40-44,3970
+Karnataka,45-49,3394
+Karnataka,50-54,2767
+Karnataka,55-59,2263
+Karnataka,60-64,1947
+Karnataka,65-69,1542
+Karnataka,70-74,1199
+Karnataka,75-79,718
+Karnataka,80+,434
+Kerala,0-4,2534
+Kerala,5-9,2599
+Kerala,10-14,2706
+Kerala,15-19,2680
+Kerala,20-24,2639
+Kerala,25-29,2585
+Kerala,30-34,2526
+Kerala,35-39,2509
+Kerala,40-44,2441
+Kerala,45-49,2262
+Kerala,50-54,1989
+Kerala,55-59,1709
+Kerala,60-64,1395
+Kerala,65-69,1039
+Kerala,70-74,879
+Kerala,75-79,566
+Kerala,80+,347
+Tamil Nadu,0-4,5333
+Tamil Nadu,5-9,5645
+Tamil Nadu,10-14,6046
+Tamil Nadu,15-19,6280
+Tamil Nadu,20-24,6441
+Tamil Nadu,25-29,6395
+Tamil Nadu,30-34,6038
+Tamil Nadu,35-39,5643
+Tamil Nadu,40-44,5174
+Tamil Nadu,45-49,4553
+Tamil Nadu,50-54,3809
+Tamil Nadu,55-59,3175
+Tamil Nadu,60-64,2636
+Tamil Nadu,65-69,1983
+Tamil Nadu,70-74,1535
+Tamil Nadu,75-79,912
+Tamil Nadu,80+,549
+North East States,0-4,1551
+North East States,5-9,1589
+North East States,10-14,1618
+North East States,15-19,1549
+North East States,20-24,1446
+North East States,25-29,1305
+North East States,30-34,1127
+North East States,35-39,979
+North East States,40-44,845
+North East States,45-49,703
+North East States,50-54,551
+North East States,55-59,413
+North East States,60-64,312
+North East States,65-69,229
+North East States,70-74,186
+North East States,75-79,101
+North East States,80+,61
