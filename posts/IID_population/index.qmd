@@ -8,7 +8,7 @@ image: IID_population.png
 bibliography: references.bib
 execute:
   echo: false
-draft: true
+draft: false
 ---
 
 ```{python}
@@ -75,6 +75,7 @@ Uttar Pradesh is by far the most populous state and has been since 1901 at least
 The ratio between number of males and females in the population is called the sex ratio. A number of different factors, like birth ratio, death ratio, and migration can affect the overall population sex ratio of a given place. The natural sex ratio at birth is slightly biased towards more males being born. This trend is seen in almost every country, and on average, there are 105 males born for every 100 females [explore the world data at  @owid-gender-ratio]. Following birth, at virtually every age group, more males die compared to females. Additionally, women tend to live longer than men. These last two factors contribute to a larger share of the population being female in the later years. In 2021, this crossover point for the world was around 50 years of age. Below is an interactive map and line graph of the number of females for every 100 males across states over time. 
 
 ```{python}
+#| cache-lazy: true
 # Plot the choropleth map for female:male ratio
 fig = px.choropleth(merged_data,
                     geojson=merged_data.geometry,
