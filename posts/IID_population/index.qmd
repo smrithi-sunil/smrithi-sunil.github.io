@@ -55,11 +55,16 @@ fig = px.choropleth(merged_data,
                     # title="Population"
 )
 fig.update_traces(hovertemplate="<b>%{customdata[0]}</b><br>Year: %{customdata[1]}<br>Population: %{z}")
+fig.update_layout(
+    autosize=True,
+    margin=dict(l=0, r=0, t=0, b=0),
+)
 # Show the plot
 fig.show(config={
     'staticPlot': False,
     'scrollZoom': False,
-    'doubleClick': False
+    'doubleClick': False,
+    'responsive': True
 })
 
 # Plot line plot for all states
