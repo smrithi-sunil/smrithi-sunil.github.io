@@ -5,7 +5,6 @@ author: Smrithi Sunil
 date: 05-01-2024
 categories: [India In Data]
 image: IID_population.png
-bibliography: references.bib
 execute:
   echo: false
 draft: false
@@ -26,8 +25,7 @@ I wanted to break down that single number on the world map. Welcome to India in 
 
 ### Population over time
 
-In this post I touch on some general population trends and characteristics. Below is an interactive map and line graph of population by state over time. Nothing too unusual here, the population of every state has been increasing over time. Note that 2011 is the most recent census year. The census was not conducted in 2021 due to COVID-19 and will be held after the 2024 general election. 
-*Note: Explore the line plot further by individually selecting specific states or a subset of states.*  
+In this post I touch on some general population trends and characteristics. Below is an interactive map and line graph of population by state over time[^1]. Nothing too unusual here, the population of every state has been increasing over time. Note that 2011 is the most recent census year. The census was not conducted in 2021 due to COVID-19 and will be held after the 2024 general election. *Note: Explore the line plot further by individually selecting specific states or a subset of states.*  
 
 ```{python}
 # Population breakdown 1901-2011
@@ -55,10 +53,7 @@ fig = px.choropleth(merged_data,
                     # title="Population"
 )
 fig.update_traces(hovertemplate="<b>%{customdata[0]}</b><br>Year: %{customdata[1]}<br>Population: %{z}")
-fig.update_layout(
-    autosize=True,
-    # margin=dict(l=0, r=0, t=0, b=0),
-)
+
 # Show the plot
 fig.show(config={
     'staticPlot': False,
@@ -76,7 +71,7 @@ Uttar Pradesh is by far the most populous state and has been since 1901 at least
 
 ### Sex ratio over time
 
-The ratio between number of males and females in the population is called the sex ratio. A number of different factors, like birth ratio, death ratio, and migration can affect the overall population sex ratio of a given place. The natural sex ratio at birth is slightly biased towards more males being born. This trend is seen in almost every country, and on average, there are 105 males born for every 100 females [explore the world data at  @owid-gender-ratio]. Following birth, at virtually every age group, more males die compared to females. Additionally, women tend to live longer than men. These last two factors contribute to a larger share of the population being female in the later years. In 2021, this crossover point for the world was around 50 years of age. Below is an interactive map and line graph of the number of females for every 100 males across states over time. 
+The ratio between number of males and females in the population is called the sex ratio. A number of different factors, like birth ratio, death ratio, and migration can affect the overall population sex ratio of a given place. The natural sex ratio at birth is slightly biased towards more males being born. This trend is seen in almost every country, and on average, there are 105 males born for every 100 females (explore the world data at Our World in Data[^2]). Following birth, at virtually every age group, more males die compared to females. Additionally, women tend to live longer than men. These last two factors contribute to a larger share of the population being female in the later years. In 2021, this crossover point for the world was around 50 years of age. Below is an interactive map and line graph of the number of females for every 100 males across states over time. 
 
 ```{python}
 #| cache-lazy: true
@@ -141,7 +136,7 @@ I will explore sex ratio in more detail in a future post.
 
 ### Age breakdown in 2011
 
-The age distribution of a population is another important dempgraphic factor that can provide insights into the health, social, and economic characteristics of a place. Below is a bar plot of India's population broken down by age range and a map with the median age for each state. India is a relatively young country with the northern half of the country being generally younger than the southern half. Fertility rate and life expectancy are two possible factors that play a role in the age distribution. I expect these to correlate across states in a similar way and will be explored in a later post.
+The age distribution of a population is another important dempgraphic factor that can provide insights into the health, social, and economic characteristics of a place. Below is a bar plot of India's population broken down by age range and a map with the median age for each state[^3]. India is a relatively young country with the northern half of the country being generally younger than the southern half. Fertility rate and life expectancy are two possible factors that play a role in the age distribution. I expect these to correlate across states in a similar way and will be explored in a later post.
 
 ```{python}
 # Age breakdown in 2011
@@ -195,3 +190,11 @@ As of May 2024 India is the most populous country and accounts for over 17% of t
 The sex ratio in India is highly skewed towards males. In 2011 every state except Kerala had more males than females. 
 
 India is a young country with the northern half of the country being generally younger than the southern half.
+
+All the data used in this post and corresponding code can be found on my [github page](https://github.com/smrithi-sunil/IndiaInData_Population).[^4]
+
+
+[^1]: Data source: Census of India. Decadal Variation in Population 1901-2011. 
+[^2]: Hannah Ritchie and Max Roser (2019) - “Gender Ratio” Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/gender-ratio' [Online Resource]
+[^3]: Data source: Census of India. Population Projections for India and States 2011-2036.
+[^4]: [Smrithi's Github](https://github.com/smrithi-sunil/IndiaInData_Population)
