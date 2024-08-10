@@ -1,0 +1,16 @@
+---
+title: Awake chronic mouse model of targeted pial vessel occlusion via photothrombosis
+description: Smrithi Sunil, Sefik Evren Erdener, Blaire S. Lee, Dmitry Postnov, Jianbo Tang, Sreekanth Kura, Xiaojun Cheng, Ichun Anderson Chen, David A. Boas, Kivilcim Kilic
+date: 01-30-2020
+categories: [Stroke]
+image: image.png
+draft: false
+---
+
+[https://doi.org/10.1117/1.NPh.7.1.015005](https://doi.org/10.1117/1.NPh.7.1.015005)
+
+## Abstract
+
+Animal models of stroke are used extensively to study the mechanisms involved in the acute and chronic phases of recovery following stroke. A translatable animal model that closely mimics the mechanisms of a human stroke is essential in understanding recovery processes as well as developing therapies that improve functional outcomes. We describe a photothrombosis stroke model that is capable of targeting a single distal pial branch of the middle cerebral artery with minimal damage to the surrounding parenchyma in awake head-fixed mice. Mice are implanted with chronic cranial windows above one hemisphere of the brain that allow optical access to study recovery mechanisms for over a month following occlusion. Additionally, we study the effect of laser spot size used for occlusion and demonstrate that a spot size with small axial and lateral resolution has the advantage of minimizing unwanted photodamage while still monitoring macroscopic changes to cerebral blood flow during photothrombosis. We show that temporally guiding illumination using real-time feedback of blood flow dynamics also minimized unwanted photodamage to the vascular network. Finally, through quantifiable behavior deficits and chronic imaging we show that this model can be used to study recovery mechanisms or the effects of therapeutics longitudinally.
+
+[Download full article](Sunil_2020.pdf.pdf)
