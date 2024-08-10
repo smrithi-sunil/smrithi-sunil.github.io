@@ -122,8 +122,8 @@
     "objectID": "CV.html#education",
     "href": "CV.html#education",
     "title": "Curriculum Vitae",
-    "section": "Education",
-    "text": "Education\n\nBoston University\nBoston, MA\nPhD in Biomedical Engineering\nAdvisor: David Boas\nThesis: Widefield optical imaging of neurovascular coupling during stroke recovery\nSeptember 2021\n\n\nCase Western Reserve University\nCleveland, OH\nBachelor of Science in Biomedical Engineering\nMinor in Electrical Engineering\nMay 2015"
+    "section": "",
+    "text": "PhD in Biomedical Engineering\nBoston University, Boston, MA\nSeptember 2021, GPA: 3.92/4.0\nAdvisor: David Boas\nThesis: Widefield optical imaging of neurovascular coupling during stroke recovery\nBachelor of Science in Biomedical Engineering\nMinor in Electrical Engineering\nCase Western Reserve University, Cleveland, OH\nMay 2015, GPA: 3.6/4.0"
   },
   {
     "objectID": "CV.html#research-experience",
@@ -180,5 +180,26 @@
     "title": "India In Data",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nData source: Census of India. Decadal Variation in Population 1901-2011.↩︎\nHannah Ritchie and Max Roser (2019) - “Gender Ratio” Published online at OurWorldInData.org. Retrieved from: ‘https://ourworldindata.org/gender-ratio’ [Online Resource]↩︎\nData source: Census of India. Population Projections for India and States 2011-2036.↩︎\nSmrithi’s Github↩︎"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "The roles of blood-derived macrophages and resident microglia in the neuroinflammatory response to implanted intracortical microelectrodes\n\n\n\n\n\n\n\nNeuroinflammation\n\n\n\n\nMadhumitha Ravikumar, Smrithi Sunil, James Black, Deborah S. Barkauskas, Alex Y. Haung, Robert H. Miller, Stephen M. Selkirk, Jeffrey R. Capadona\n\n\n\n\n\n\nJun 24, 2014\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/macrophageMicroglia/index.html",
+    "href": "research/macrophageMicroglia/index.html",
+    "title": "The roles of blood-derived macrophages and resident microglia in the neuroinflammatory response to implanted intracortical microelectrodes",
+    "section": "",
+    "text": "https://doi.org/10.1016/j.biomaterials.2014.05.084"
+  },
+  {
+    "objectID": "research/macrophageMicroglia/index.html#abstract",
+    "href": "research/macrophageMicroglia/index.html#abstract",
+    "title": "The roles of blood-derived macrophages and resident microglia in the neuroinflammatory response to implanted intracortical microelectrodes",
+    "section": "Abstract",
+    "text": "Abstract\nResident microglia and blood-borne macrophages have both been implicated to play a dominant role in mediating the neuroinflammatory response affecting implanted intracortical microelectrodes. However, the distinction between each cell type has not been demonstrated due to a lack of discriminating cellular markers. Understanding the subtle differences of each cell population in mediating neuroinflammation can aid in determining the appropriate therapeutic approaches to improve microelectrode performance. Therefore, the goal of this study is to characterize the role of infiltrating blood-derived cells, specifically macrophages, in mediating neuroinflammation following intracortical microelectrode implantation. Interestingly, we found no correlation between microglia and neuron populations at the microelectrode-tissue interface. On the other hand, blood-borne macrophages consistently dominated the infiltrating cell population following microelectrode implantation. Most importantly, we found a correlation between increased populations of blood-derived cells (including the total macrophage population) and neuron loss at the microelectrode-tissue interface. Specifically, the total macrophage population was greatest at two and sixteen weeks post implantation, at the same time points when we observed the lowest densities of neuronal survival in closest proximity to the implant. Together, our results suggest a dominant role of infiltrating macrophages, and not resident microglia, in mediating neurodegeneration following microelectrode implantation.\nDownload full article"
   }
 ]
