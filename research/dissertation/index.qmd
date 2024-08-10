@@ -1,6 +1,7 @@
 ---
 title: Wide-field optical imaging of neurovascular coupling during stroke recovery
-description: Smrithi Sunil
+description: Dissertation
+author: Smrithi Sunil
 date: 09-15-2021
 categories: [Stroke]
 image: image.png
