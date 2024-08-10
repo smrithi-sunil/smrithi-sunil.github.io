@@ -1,0 +1,50 @@
+---
+title: Wide-field optical imaging of neurovascular coupling during stroke recovery
+description: Smrithi Sunil
+date: 09-15-2021
+categories: [Stroke]
+image: image.png
+draft: false
+---
+
+## Abstract
+
+Functional neuroimaging, which measure vascular responses to brain activity, are
+invaluable tools for monitoring and treating stroke patients both in the acute and chronic
+phases of recovery. However, vascular responses after stroke are almost always altered
+relative to vascular responses in healthy subjects and it is still unclear if these alterations
+reflect the underlying brain physiology or if the alterations are purely due to vascular
+injury. In other words, we do not know the effect of stroke on neurovascular coupling and
+are therefore limited in our ability to use functional neuroimaging to accurately interpret
+stroke pathophysiology. There is a need for animal models to investigate the effect of stroke
+on neurovascular coupling to aid in better interpreting the results from functional
+neuroimaging.
+
+To that end, we first implemented a mouse photothrombotic stroke model that
+mimics the physiology of a human stroke and therefore has high clinical relevance. Mice
+were implanted with bilateral cranial windows to allow long term multimodal optical
+access. The occlusion procedure was performed in awake animals while simultaneously
+monitoring changes to cerebral blood flow. Our optimized photothrombotic stroke to the
+somatosensory forelimb region produced a sustained behavioral deficit in the contralateral
+forelimb that could be monitored longitudinally. Next, we implemented simultaneous
+imaging of neuronal activity, through fluorescent calcium imaging, and hemodynamics,
+through intrinsic optical signal imaging, to investigate neurovascular coupling during
+stroke recovery. Additionally, we identified a novel use for spatial frequency domain
+imaging to quantify the spatial extent of the stroke core.
+
+Finally, we combined the mouse stroke model and imaging platforms to investigate
+the effect of stroke on neurovascular coupling. We found that acute stroke led to the
+abolishment of both calcium and hemodynamic responses to sensory stimulation. This
+elimination of response was associated with a loss of correlation between calcium and
+hemodynamic activity in the acute phase. To quantify neurovascular coupling, we modeled
+spatiotemporal hemodynamics by convolving neural activity and hemodynamic response
+functions obtained from deconvolution. Hemodynamic response functions from healthy
+animals were unable to model hemodynamics in the acute phase, suggesting neurovascular
+uncoupling. However, hemodynamics could be modeled in the chronic phase, indicating
+chronic recoupling. Acute stroke also resulted in increased global brain oscillations, which
+showed distinct patterns in calcium and hemodynamics, and the increase in contralesional
+calcium activity was associated with increased functional connectivity. We also show that
+early return of responses, neurovascular recoupling, and global oscillations were predictors
+of improved behavioral outcomes.
+
+[Download full article](Sunil_Dissertation_2021.pdf)

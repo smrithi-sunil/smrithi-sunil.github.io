@@ -1,0 +1,16 @@
+---
+title: Stroke core revealed by tissue scattering using spatial frequency domain imaging
+description: Smrithi Sunil, Sefik Evren Erdener, Xiaojun Cheng, Sreekanth Kura, Jianbo Tang, John Jiang, Kavon Karrobi, Kivilcim Kilic, Darren Roblyer, David A Boas
+date: 12-20-2020
+categories: [Stroke]
+image: image.jpg
+draft: false
+---
+
+[https://doi.org/10.1016/j.nicl.2020.102539](https://doi.org/10.1016/j.nicl.2020.102539)
+
+## Abstract
+
+Ischemic stroke leads to a reduction or complete loss of blood supply causing injury to brain tissue, which ultimately leads to behavioral impairment. Optical techniques are widely used to study the structural and functional changes that result as a consequence of ischemic stroke both in the acute and chronic phases of stroke recovery. It is currently a challenge to accurately estimate the spatial extent of the infarct without the use of histological parameters however, and in order to follow recovery mechanisms longitudinally at the mesoscopic scale it is essential to know the spatial extent of the stroke core. In this paper we first establish optical coherence tomography (OCT) as a reliable indicator of the stroke core by analyzing signal attenuation and spatially correlating it with the infarct, determined by staining with triphenyl-tetrazolium chloride (TTC). We then introduce spatial frequency domain imaging (SFDI) as a mesoscopic optical technique that can be used to accurately measure the infarct spatial extent by exploiting changes in optical scattering that occur as a consequence of ischemic stroke. Additionally, we follow the progression of ischemia through the acute and sub-acute phases of stroke recovery using both OCT and SFDI and show a consistently high spatial overlap in estimating infarct location. The use of SFDI in assessing infarct location will allow longitudinal studies targeted at following functional recovery mechanisms on a mesoscopic level without having to sacrifice the mouse acutely.
+
+[Download full article](Sunil_2020.pdf)

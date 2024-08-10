@@ -1,0 +1,16 @@
+---
+title: Enhancer-AAVs allow genetic access to oligodendrocytes and diverse populations of astrocytes across species
+description: John K Mich, Smrithi Sunil, Nelson Johansen, Refugio A Martinez, Mckaila Leytze, Bryan B Gore, ..., Karel Svoboda, Kaspar Podgorski, Yoshiko Kojima, Greg D Horwitz, Hongkui Zeng, Tanya L Daigle, Ed S Lein, Bosiljka Tasic, Jonathan T Ting, Boaz P Levi
+date: 09-21-2023
+categories: [Neuro Tools]
+image: image.png
+draft: false
+---
+
+[https://doi.org/10.1101/2023.09.20.558718](https://doi.org/10.1101/2023.09.20.558718)
+
+## Abstract
+
+Proper brain function requires the assembly and function of diverse populations of neurons and glia. Single cell gene expression studies have mostly focused on characterization of neuronal cell diversity; however, recent studies have revealed substantial diversity of glial cells, particularly astrocytes. To better understand glial cell types and their roles in neurobiology, we built a new suite of adeno-associated viral (AAV)-based genetic tools to enable genetic access to astrocytes and oligodendrocytes. These oligodendrocyte and astrocyte enhancer-AAVs are highly specific (usually > 95% cell type specificity) with variable expression levels, and our astrocyte enhancer-AAVs show multiple distinct expression patterns reflecting the spatial distribution of astrocyte cell types. To provide the best glial-specific functional tools, several enhancer-AAVs were: optimized for higher expression levels, shown to be functional and specific in rat and macaque, shown to maintain specific activity in epilepsy where traditional promoters changed activity, and used to drive functional transgenes in astrocytes including Cre recombinase and acetylcholine-responsive sensor iAChSnFR. The astrocyte-specific iAChSnFR revealed a clear reward-dependent acetylcholine response in astrocytes of the nucleus accumbens during reinforcement learning. Together, this collection of glial enhancer-AAVs will enable characterization of astrocyte and oligodendrocyte populations and their roles across species, disease states, and behavioral epochs.
+
+[Download full article](Mich_2023.pdf)

@@ -1,0 +1,46 @@
+---
+title: Blue-shifted genetically encoded Ca^2+^ indicator with enhanced two-photon absorption
+description: Abhi Aggarwal, Smrithi Sunil, Imane Bendifallah, Michael Moon, Mikhail Drobizhev, Landon Zarowny, Jihong Zheng, Sheng-Yi Wu, Alexander W Lohman, Alison G Tebo, Valentina Emiliani, Kaspar Podgorski, Yi Shen, Robert E Campbell
+date: 04-04-2024
+categories: [Neuro Tools]
+image: image.png
+draft: false
+---
+
+[https://doi.org/10.1117/1.NPh.11.2.024207](https://doi.org/10.1117/1.NPh.11.2.024207)
+
+## Abstract
+
+**Significance:** Genetically encoded calcium ion (Ca^2+^) indicators (GECIs) are
+powerful tools for monitoring intracellular Ca^2+^ concentration changes in living cells
+and model organisms. In particular, GECIs have found particular utility for monitoring
+the transient increase of Ca^2+^ concentration that is associated with the neuronal
+action potential. However, the palette of highly optimized GECIs for imaging of neuronal
+activity remains relatively limited. Expanding the selection of available GECIs
+to include new colors and distinct photophysical properties could create new opportunities
+for in vitro and in vivo fluorescence imaging of neuronal activity. In particular,
+blue-shifted variants of GECIs are expected to have enhanced two-photon
+brightness, which would facilitate multiphoton microscopy.
+
+**Aim:** We describe the development and applications of T-GECO1 — a high-performance
+blue-shifted GECI based on the Clavularia sp.-derived mTFP1.
+
+**Approach:** We use protein engineering and extensive directed evolution to develop
+T-GECO1. We characterize the purified protein and assess its performance in vitro
+using one-photon excitation in cultured rat hippocampal neurons, in vivo using onephoton
+excitation fiber photometry in mice, and ex vivo using two-photon Ca^2+^
+imaging in hippocampal slices.
+
+**Results:** The Ca^2+^-bound state of T-GECO1 has an excitation peak maximum of
+468 nm, an emission peak maximum of 500 nm, an extinction coefficient of
+49,300 M^−1^ cm^−1^, a quantum yield of 0.83, and two-photon brightness approximately
+double that of EGFP. The Ca^2+^-dependent fluorescence increase is 15-fold,
+and the apparent K~d~ for Ca^2+^ is 82 nM. With two-photon excitation conditions at
+850 nm, T-GECO1 consistently enabled the detection of action potentials with higher
+signal-to-noise (SNR) than a late generation GCaMP variant.
+
+**Conclusions:** T-GECO1 is a high-performance blue-shifted GECI that, under
+two-photon excitation conditions, provides advantages relative to late generation
+GCaMP variants.
+
+[Download full article](Aggarwal_2024.pdf)

@@ -1,0 +1,16 @@
+---
+title: Neurovascular coupling is preserved in chronic stroke recovery after targeted photothrombosis
+description: Smrithi Sunil, John Jiang, Shashwat Shah, Sreekanth Kura, Kivilcim Kilic, Sefik Evren Erdener, Cenk Ayata, Anna Devor, David A Boas
+date: 03-15-2023
+categories: [Stroke]
+image: image.jpg
+draft: false
+---
+
+[https://doi.org/10.1016/j.nicl.2023.103377](https://doi.org/10.1016/j.nicl.2023.1033779)
+
+## Abstract
+
+Functional neuroimaging, which measures hemodynamic responses to brain activity, has great potential for monitoring recovery in stroke patients and guiding rehabilitation during recovery. However, hemodynamic responses after stroke are almost always altered relative to responses in healthy subjects and it is still unclear if these alterations reflect the underlying brain physiology or if the alterations are purely due to vascular injury. In other words, we do not know the effect of stroke on neurovascular coupling and are therefore limited in our ability to use functional neuroimaging to accurately interpret stroke pathophysiology. To address this challenge, we simultaneously captured neural activity, through fluorescence calcium imaging, and hemodynamics, through intrinsic optical signal imaging, during longitudinal stroke recovery. Our data suggest that neurovascular coupling was preserved in the chronic phase of recovery (2 weeks and 4 weeks post-stoke) and resembled pre-stroke neurovascular coupling. This indicates that functional neuroimaging faithfully represents the underlying neural activity in chronic stroke. Further, neurovascular coupling in the sub-acute phase of stroke recovery was predictive of long-term behavioral outcomes. Stroke also resulted in increases in global brain oscillations, which showed distinct patterns between neural activity and hemodynamics. Increased neural excitability in the contralesional hemisphere was associated with increased contralesional intrahemispheric connectivity. Additionally, sub-acute increases in hemodynamic oscillations were associated with improved sensorimotor outcomes. Collectively, these results support the use of hemodynamic measures of brain activity post-stroke for predicting functional and behavioral outcomes.
+
+[Download full article](Sunil_2023.pdf)
