@@ -2,7 +2,7 @@
 title: Stroke core revealed by tissue scattering using spatial frequency domain imaging
 description: Smrithi Sunil, Sefik Evren Erdener, Xiaojun Cheng, Sreekanth Kura, Jianbo Tang, John Jiang, Kavon Karrobi, Kivilcim Kilic, Darren Roblyer, David A Boas
 date: 12-20-2020
-categories: [Stroke]
+categories: [Stroke, Imaging]
 image: image.jpg
 draft: false
 ---

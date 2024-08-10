@@ -2,12 +2,12 @@
 title: Neurovascular coupling is preserved in chronic stroke recovery after targeted photothrombosis
 description: Smrithi Sunil, John Jiang, Shashwat Shah, Sreekanth Kura, Kivilcim Kilic, Sefik Evren Erdener, Cenk Ayata, Anna Devor, David A Boas
 date: 03-15-2023
-categories: [Stroke]
+categories: [Stroke, Imaging]
 image: image.jpg
 draft: false
 ---
 
-[https://doi.org/10.1016/j.nicl.2023.103377](https://doi.org/10.1016/j.nicl.2023.1033779)
+[https://doi.org/10.1016/j.nicl.2023.103377](https://doi.org/10.1016/j.nicl.2023.103377)
 
 ## Abstract
 

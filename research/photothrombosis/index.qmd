@@ -2,7 +2,7 @@
 title: Awake chronic mouse model of targeted pial vessel occlusion via photothrombosis
 description: Smrithi Sunil, Sefik Evren Erdener, Blaire S. Lee, Dmitry Postnov, Jianbo Tang, Sreekanth Kura, Xiaojun Cheng, Ichun Anderson Chen, David A. Boas, Kivilcim Kilic
 date: 01-30-2020
-categories: [Stroke]
+categories: [Stroke, Imaging]
 image: image.png
 draft: false
 ---
