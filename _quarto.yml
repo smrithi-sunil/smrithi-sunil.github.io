@@ -12,7 +12,7 @@ website:
         text: Research
       - href: posts.qmd
         text: Blog
-      - href: CV.qmd
+      - href: /images/SmrithiSunil_CV.pdf
         text: CV
       - contact.qmd
 
