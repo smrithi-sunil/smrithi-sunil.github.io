@@ -137,7 +137,7 @@
     "href": "posts.html",
     "title": "Blog",
     "section": "",
-    "text": "India In Data\n\n\n\nIndia In Data\n\n\n\nWelcome and some starter population statistics\n\n\n\nSmrithi Sunil\n\n\nMay 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCutting Boards and Paul Sellers\n\n\n\nWoodworking\n\n\n\nI can’t start a woodworking blog without talking about Paul Sellers\n\n\n\nSmrithi Sunil\n\n\nSep 29, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy introduction to woodworking\n\n\n\nWoodworking\n\n\n\nStarting to capture my woodworking journey through writing\n\n\n\nSmrithi Sunil\n\n\nSep 14, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Laminated Coasters\n\n\n\nWoodworking\n\n\n\n\n\n\n\nSmrithi Sunil\n\n\nAug 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndia In Data\n\n\n\nIndia In Data\n\n\n\nWelcome and some starter population statistics\n\n\n\nSmrithi Sunil\n\n\nMay 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCutting Boards and Paul Sellers\n\n\n\nWoodworking\n\n\n\nI can’t start a woodworking blog without talking about Paul Sellers\n\n\n\nSmrithi Sunil\n\n\nSep 29, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy introduction to woodworking\n\n\n\nWoodworking\n\n\n\nStarting to capture my woodworking journey through writing\n\n\n\nSmrithi Sunil\n\n\nSep 14, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-09-14-first-post/index.html",
@@ -299,5 +299,12 @@
     "title": "Hyperspectral fiber photometry for dissecting neural circuit dynamics",
     "section": "",
     "text": "(Conference abstract submission)\nThe brain is made up of many cell types that communicate through cell firing and the release of a variety of neurotransmitters to control brain function and behavior. Genetically encoded fluorescent indicators are widely used to measure cellular activity and neurotransmitter release on specific locations and cell types to dissect neural circuits. However, due to technical challenges, prior work has largely been limited to studying at most two signals at once in a given brain region. To enable multiplexed fluorescent measurements across many brain areas in vivo, we developed a hyperspectral fiber photometry system. The system records spectrally resolved emission at five excitation wavelengths from optical fibers implanted into the brain. Excitation lasers are combined and shaped to illuminate a linear array of optical fibers that are coupled to different brain areas. Emitted light is dispersed perpendicular to the fiber array using a prism. The emitted spectra are captured on a sCMOS camera. Image pixels are calibrated to wavelengths and images are interleaved according to the excitation laser. These hyperspectral measurements are then unmixed using a custom constrained non-negative matrix factorization algorithm that accounts for bound and unbound indicator states, autofluorescence, hemodynamics, and brain movement. In preliminary experiments, we have performed simultaneous measurements of dopamine, acetylcholine, and calcium in the ventral striatum of mice performing a reward-based decision-making task. Preliminary analysis reveals distinct dynamics of each of these signals modulated by behavioral states and outcomes."
+  },
+  {
+    "objectID": "posts/2023-08-17-coasters/index.html",
+    "href": "posts/2023-08-17-coasters/index.html",
+    "title": "Laminated Coasters",
+    "section": "",
+    "text": "Laminated Coasters\nMade in May 2023.\nI really like laminated wood. The light and dark contrast with sharp lines is very pleasing to me. I made these coasters as a gift for family. I also like the idea of tailoring the project to the receiver and I think the simple modern look of these coasters was perfect for said family members who received them.\n\n\n\n\n\nI generally followed Paul Seller’s masterclass on coasters. I added my own twist to the project by incorporating some asymmetry to the lamination and making the coasters square to create a more modern look. The wood used here is cherry and maple. While it does not take too long to make the coasters themself, the project did require me to also make a thickness planning jig. However, now that I already have the jig, future coasters will be much quicker to make."
   }
 ]

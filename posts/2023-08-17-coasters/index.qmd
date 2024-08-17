@@ -1,0 +1,18 @@
+---
+title: Laminated Coasters
+author: Smrithi Sunil
+date: 08-17-2024
+categories: [Woodworking]
+image: Coasters1.jpg
+draft: false
+---
+
+### Laminated Coasters
+
+Made in May 2023.
+
+I really like laminated wood. The light and dark contrast with sharp lines is very pleasing to me. I made these coasters as a gift for family. I also like the idea of tailoring the project to the receiver and I think the simple modern look of these coasters was perfect for said family members who received them. 
+
+![](Coasters3.jpg){fig-align="center" width=100%}
+
+I generally followed [Paul Seller's masterclass](https://woodworkingmasterclasses.com/videos/coasters-project-info/) on coasters. I added my own twist to the project by incorporating some asymmetry to the lamination and making the coasters square to create a more modern look. The wood used here is cherry and maple. While it does not take too long to make the coasters themself, the project did require me to also make a thickness planning jig. However, now that I already have the jig, future coasters will be much quicker to make.
