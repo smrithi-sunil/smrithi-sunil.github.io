@@ -1,0 +1,601 @@
+NAME_1,Year,Group,Rate
+Jammu and Kashmir,1992-1993,Neonatal mortality,3.19
+Jammu and Kashmir,1992-1993,Postneonatal mortality,1.35
+Jammu and Kashmir,1992-1993,Child mortality,1.43
+Jammu and Kashmir,1992-1993,Under five mortality,5.91
+Jammu and Kashmir,1998-1999,Neonatal mortality,4.03
+Jammu and Kashmir,1998-1999,Postneonatal mortality,2.47
+Jammu and Kashmir,1998-1999,Child mortality,1.61
+Jammu and Kashmir,1998-1999,Under five mortality,8.01
+Jammu and Kashmir,2005-2006,Neonatal mortality,2.98
+Jammu and Kashmir,2005-2006,Postneonatal mortality,1.49
+Jammu and Kashmir,2005-2006,Child mortality,0.68
+Jammu and Kashmir,2005-2006,Under five mortality,5.12
+Jammu and Kashmir,2015-2016,Neonatal mortality,2.32
+Jammu and Kashmir,2015-2016,Postneonatal mortality,0.93
+Jammu and Kashmir,2015-2016,Child mortality,0.54
+Jammu and Kashmir,2015-2016,Under five mortality,3.76
+Jammu and Kashmir,2019-2021,Neonatal mortality,0.98
+Jammu and Kashmir,2019-2021,Postneonatal mortality,0.65
+Jammu and Kashmir,2019-2021,Child mortality,0.23
+Jammu and Kashmir,2019-2021,Under five mortality,1.85
+Himachal Pradesh,1992-1993,Neonatal mortality,3.42
+Himachal Pradesh,1992-1993,Postneonatal mortality,2.17
+Himachal Pradesh,1992-1993,Child mortality,1.41
+Himachal Pradesh,1992-1993,Under five mortality,6.91
+Himachal Pradesh,1998-1999,Neonatal mortality,2.21
+Himachal Pradesh,1998-1999,Postneonatal mortality,1.23
+Himachal Pradesh,1998-1999,Child mortality,0.83
+Himachal Pradesh,1998-1999,Under five mortality,4.24
+Himachal Pradesh,2005-2006,Neonatal mortality,2.73
+Himachal Pradesh,2005-2006,Postneonatal mortality,0.89
+Himachal Pradesh,2005-2006,Child mortality,0.56
+Himachal Pradesh,2005-2006,Under five mortality,4.15
+Himachal Pradesh,2015-2016,Neonatal mortality,2.55
+Himachal Pradesh,2015-2016,Postneonatal mortality,0.88
+Himachal Pradesh,2015-2016,Child mortality,0.35
+Himachal Pradesh,2015-2016,Under five mortality,3.76
+Himachal Pradesh,2019-2021,Neonatal mortality,2.05
+Himachal Pradesh,2019-2021,Postneonatal mortality,0.51
+Himachal Pradesh,2019-2021,Child mortality,0.34
+Himachal Pradesh,2019-2021,Under five mortality,2.89
+Punjab,1992-1993,Neonatal mortality,3.12
+Punjab,1992-1993,Postneonatal mortality,2.25
+Punjab,1992-1993,Child mortality,1.5
+Punjab,1992-1993,Under five mortality,6.8
+Punjab,1998-1999,Neonatal mortality,3.43
+Punjab,1998-1999,Postneonatal mortality,2.28
+Punjab,1998-1999,Child mortality,1.59
+Punjab,1998-1999,Under five mortality,7.21
+Punjab,2005-2006,Neonatal mortality,2.8
+Punjab,2005-2006,Postneonatal mortality,1.37
+Punjab,2005-2006,Child mortality,1.08
+Punjab,2005-2006,Under five mortality,5.2
+Punjab,2015-2016,Neonatal mortality,2.12
+Punjab,2015-2016,Postneonatal mortality,0.8
+Punjab,2015-2016,Child mortality,0.41
+Punjab,2015-2016,Under five mortality,3.32
+Punjab,2019-2021,Neonatal mortality,2.18
+Punjab,2019-2021,Postneonatal mortality,0.63
+Punjab,2019-2021,Child mortality,0.48
+Punjab,2019-2021,Under five mortality,3.27
+Chandigarh,1992-1993,Neonatal mortality,0
+Chandigarh,1992-1993,Postneonatal mortality,0
+Chandigarh,1992-1993,Child mortality,0
+Chandigarh,1992-1993,Under five mortality,0
+Chandigarh,1998-1999,Neonatal mortality,0
+Chandigarh,1998-1999,Postneonatal mortality,0
+Chandigarh,1998-1999,Child mortality,0
+Chandigarh,1998-1999,Under five mortality,0
+Chandigarh,2005-2006,Neonatal mortality,0
+Chandigarh,2005-2006,Postneonatal mortality,0
+Chandigarh,2005-2006,Child mortality,0
+Chandigarh,2005-2006,Under five mortality,0
+Chandigarh,2015-2016,Neonatal mortality,3.03
+Chandigarh,2015-2016,Postneonatal mortality,0.81
+Chandigarh,2015-2016,Child mortality,0
+Chandigarh,2015-2016,Under five mortality,3.83
+Chandigarh,2019-2021,Neonatal mortality,0.16
+Chandigarh,2019-2021,Postneonatal mortality,1.4
+Chandigarh,2019-2021,Child mortality,0.42
+Chandigarh,2019-2021,Under five mortality,1.91
+Uttarakhand,1992-1993,Neonatal mortality,5.99
+Uttarakhand,1992-1993,Postneonatal mortality,4
+Uttarakhand,1992-1993,Child mortality,4.6
+Uttarakhand,1992-1993,Under five mortality,14.13
+Uttarakhand,1998-1999,Neonatal mortality,5.36
+Uttarakhand,1998-1999,Postneonatal mortality,3.31
+Uttarakhand,1998-1999,Child mortality,3.92
+Uttarakhand,1998-1999,Under five mortality,12.25
+Uttarakhand,2005-2006,Neonatal mortality,2.76
+Uttarakhand,2005-2006,Postneonatal mortality,1.43
+Uttarakhand,2005-2006,Child mortality,1.55
+Uttarakhand,2005-2006,Under five mortality,5.68
+Uttarakhand,2015-2016,Neonatal mortality,2.79
+Uttarakhand,2015-2016,Postneonatal mortality,1.18
+Uttarakhand,2015-2016,Child mortality,0.71
+Uttarakhand,2015-2016,Under five mortality,4.65
+Uttarakhand,2019-2021,Neonatal mortality,3.24
+Uttarakhand,2019-2021,Postneonatal mortality,0.67
+Uttarakhand,2019-2021,Child mortality,0.67
+Uttarakhand,2019-2021,Under five mortality,4.55
+Haryana,1992-1993,Neonatal mortality,3.84
+Haryana,1992-1993,Postneonatal mortality,3.49
+Haryana,1992-1993,Child mortality,2.74
+Haryana,1992-1993,Under five mortality,9.87
+Haryana,1998-1999,Neonatal mortality,3.49
+Haryana,1998-1999,Postneonatal mortality,2.19
+Haryana,1998-1999,Child mortality,2.12
+Haryana,1998-1999,Under five mortality,7.68
+Haryana,2005-2006,Neonatal mortality,2.36
+Haryana,2005-2006,Postneonatal mortality,1.81
+Haryana,2005-2006,Child mortality,1.11
+Haryana,2005-2006,Under five mortality,5.23
+Haryana,2015-2016,Neonatal mortality,2.21
+Haryana,2015-2016,Postneonatal mortality,1.07
+Haryana,2015-2016,Child mortality,0.86
+Haryana,2015-2016,Under five mortality,4.11
+Haryana,2019-2021,Neonatal mortality,2.16
+Haryana,2019-2021,Postneonatal mortality,1.17
+Haryana,2019-2021,Child mortality,0.56
+Haryana,2019-2021,Under five mortality,3.87
+NCT of Delhi,1992-1993,Neonatal mortality,3.49
+NCT of Delhi,1992-1993,Postneonatal mortality,3.05
+NCT of Delhi,1992-1993,Child mortality,1.9
+NCT of Delhi,1992-1993,Under five mortality,8.31
+NCT of Delhi,1998-1999,Neonatal mortality,2.95
+NCT of Delhi,1998-1999,Postneonatal mortality,1.74
+NCT of Delhi,1998-1999,Child mortality,0.9
+NCT of Delhi,1998-1999,Under five mortality,5.54
+NCT of Delhi,2005-2006,Neonatal mortality,2.93
+NCT of Delhi,2005-2006,Postneonatal mortality,1.05
+NCT of Delhi,2005-2006,Child mortality,0.73
+NCT of Delhi,2005-2006,Under five mortality,4.67
+NCT of Delhi,2015-2016,Neonatal mortality,1.78
+NCT of Delhi,2015-2016,Postneonatal mortality,1.34
+NCT of Delhi,2015-2016,Child mortality,1.13
+NCT of Delhi,2015-2016,Under five mortality,4.22
+NCT of Delhi,2019-2021,Neonatal mortality,1.74
+NCT of Delhi,2019-2021,Postneonatal mortality,0.7
+NCT of Delhi,2019-2021,Child mortality,0.63
+NCT of Delhi,2019-2021,Under five mortality,3.06
+Rajasthan,1992-1993,Neonatal mortality,3.72
+Rajasthan,1992-1993,Postneonatal mortality,3.54
+Rajasthan,1992-1993,Child mortality,3.23
+Rajasthan,1992-1993,Under five mortality,10.26
+Rajasthan,1998-1999,Neonatal mortality,4.95
+Rajasthan,1998-1999,Postneonatal mortality,3.09
+Rajasthan,1998-1999,Child mortality,3.76
+Rajasthan,1998-1999,Under five mortality,11.49
+Rajasthan,2005-2006,Neonatal mortality,4.39
+Rajasthan,2005-2006,Postneonatal mortality,2.14
+Rajasthan,2005-2006,Child mortality,2.15
+Rajasthan,2005-2006,Under five mortality,8.54
+Rajasthan,2015-2016,Neonatal mortality,2.98
+Rajasthan,2015-2016,Postneonatal mortality,1.15
+Rajasthan,2015-2016,Child mortality,0.97
+Rajasthan,2015-2016,Under five mortality,5.07
+Rajasthan,2019-2021,Neonatal mortality,2.02
+Rajasthan,2019-2021,Postneonatal mortality,1
+Rajasthan,2019-2021,Child mortality,0.75
+Rajasthan,2019-2021,Under five mortality,3.75
+Uttar Pradesh,1992-1993,Neonatal mortality,5.99
+Uttar Pradesh,1992-1993,Postneonatal mortality,4
+Uttar Pradesh,1992-1993,Child mortality,4.6
+Uttar Pradesh,1992-1993,Under five mortality,14.13
+Uttar Pradesh,1998-1999,Neonatal mortality,5.36
+Uttar Pradesh,1998-1999,Postneonatal mortality,3.31
+Uttar Pradesh,1998-1999,Child mortality,3.92
+Uttar Pradesh,1998-1999,Under five mortality,12.25
+Uttar Pradesh,2005-2006,Neonatal mortality,4.76
+Uttar Pradesh,2005-2006,Postneonatal mortality,2.5
+Uttar Pradesh,2005-2006,Child mortality,2.56
+Uttar Pradesh,2005-2006,Under five mortality,9.64
+Uttar Pradesh,2015-2016,Neonatal mortality,4.51
+Uttar Pradesh,2015-2016,Postneonatal mortality,1.84
+Uttar Pradesh,2015-2016,Child mortality,1.56
+Uttar Pradesh,2015-2016,Under five mortality,7.81
+Uttar Pradesh,2019-2021,Neonatal mortality,3.57
+Uttar Pradesh,2019-2021,Postneonatal mortality,1.47
+Uttar Pradesh,2019-2021,Child mortality,1
+Uttar Pradesh,2019-2021,Under five mortality,5.98
+Bihar,1992-1993,Neonatal mortality,5.48
+Bihar,1992-1993,Postneonatal mortality,3.44
+Bihar,1992-1993,Child mortality,4.2
+Bihar,1992-1993,Under five mortality,12.75
+Bihar,1998-1999,Neonatal mortality,4.65
+Bihar,1998-1999,Postneonatal mortality,2.64
+Bihar,1998-1999,Child mortality,3.47
+Bihar,1998-1999,Under five mortality,10.51
+Bihar,2005-2006,Neonatal mortality,3.98
+Bihar,2005-2006,Postneonatal mortality,2.19
+Bihar,2005-2006,Child mortality,2.47
+Bihar,2005-2006,Under five mortality,8.48
+Bihar,2015-2016,Neonatal mortality,3.67
+Bihar,2015-2016,Postneonatal mortality,1.14
+Bihar,2015-2016,Child mortality,1.05
+Bihar,2015-2016,Under five mortality,5.81
+Bihar,2019-2021,Neonatal mortality,3.45
+Bihar,2019-2021,Postneonatal mortality,1.23
+Bihar,2019-2021,Child mortality,1.02
+Bihar,2019-2021,Under five mortality,5.64
+Sikkim,1992-1993,Neonatal mortality,0
+Sikkim,1992-1993,Postneonatal mortality,0
+Sikkim,1992-1993,Child mortality,0
+Sikkim,1992-1993,Under five mortality,0
+Sikkim,1998-1999,Neonatal mortality,2.63
+Sikkim,1998-1999,Postneonatal mortality,1.76
+Sikkim,1998-1999,Child mortality,2.84
+Sikkim,1998-1999,Under five mortality,7.1
+Sikkim,2005-2006,Neonatal mortality,1.94
+Sikkim,2005-2006,Postneonatal mortality,1.43
+Sikkim,2005-2006,Child mortality,0.67
+Sikkim,2005-2006,Under five mortality,4.01
+Sikkim,2015-2016,Neonatal mortality,2.08
+Sikkim,2015-2016,Postneonatal mortality,0.87
+Sikkim,2015-2016,Child mortality,0.28
+Sikkim,2015-2016,Under five mortality,3.22
+Sikkim,2019-2021,Neonatal mortality,0.5
+Sikkim,2019-2021,Postneonatal mortality,0.62
+Sikkim,2019-2021,Child mortality,0
+Sikkim,2019-2021,Under five mortality,1.12
+Arunachal Pradesh,1992-1993,Neonatal mortality,1.75
+Arunachal Pradesh,1992-1993,Postneonatal mortality,2.25
+Arunachal Pradesh,1992-1993,Child mortality,3.33
+Arunachal Pradesh,1992-1993,Under five mortality,7.2
+Arunachal Pradesh,1998-1999,Neonatal mortality,4.18
+Arunachal Pradesh,1998-1999,Postneonatal mortality,2.13
+Arunachal Pradesh,1998-1999,Child mortality,3.74
+Arunachal Pradesh,1998-1999,Under five mortality,9.81
+Arunachal Pradesh,2005-2006,Neonatal mortality,3.4
+Arunachal Pradesh,2005-2006,Postneonatal mortality,2.67
+Arunachal Pradesh,2005-2006,Child mortality,2.88
+Arunachal Pradesh,2005-2006,Under five mortality,8.77
+Arunachal Pradesh,2015-2016,Neonatal mortality,1.18
+Arunachal Pradesh,2015-2016,Postneonatal mortality,1.11
+Arunachal Pradesh,2015-2016,Child mortality,1.02
+Arunachal Pradesh,2015-2016,Under five mortality,3.29
+Arunachal Pradesh,2019-2021,Neonatal mortality,0.77
+Arunachal Pradesh,2019-2021,Postneonatal mortality,0.52
+Arunachal Pradesh,2019-2021,Child mortality,0.6
+Arunachal Pradesh,2019-2021,Under five mortality,1.88
+Nagaland,1992-1993,Neonatal mortality,1
+Nagaland,1992-1993,Postneonatal mortality,0.72
+Nagaland,1992-1993,Child mortality,0.36
+Nagaland,1992-1993,Under five mortality,2.07
+Nagaland,1998-1999,Neonatal mortality,2.01
+Nagaland,1998-1999,Postneonatal mortality,2.2
+Nagaland,1998-1999,Child mortality,2.27
+Nagaland,1998-1999,Under five mortality,6.38
+Nagaland,2005-2006,Neonatal mortality,1.98
+Nagaland,2005-2006,Postneonatal mortality,1.85
+Nagaland,2005-2006,Child mortality,2.75
+Nagaland,2005-2006,Under five mortality,6.47
+Nagaland,2015-2016,Neonatal mortality,1.65
+Nagaland,2015-2016,Postneonatal mortality,1.31
+Nagaland,2015-2016,Child mortality,0.82
+Nagaland,2015-2016,Under five mortality,3.74
+Nagaland,2019-2021,Neonatal mortality,1.02
+Nagaland,2019-2021,Postneonatal mortality,1.32
+Nagaland,2019-2021,Child mortality,0.98
+Nagaland,2019-2021,Under five mortality,3.3
+Manipur,1992-1993,Neonatal mortality,2.51
+Manipur,1992-1993,Postneonatal mortality,1.73
+Manipur,1992-1993,Child mortality,2.02
+Manipur,1992-1993,Under five mortality,6.17
+Manipur,1998-1999,Neonatal mortality,1.86
+Manipur,1998-1999,Postneonatal mortality,1.84
+Manipur,1998-1999,Child mortality,1.99
+Manipur,1998-1999,Under five mortality,5.61
+Manipur,2005-2006,Neonatal mortality,1.87
+Manipur,2005-2006,Postneonatal mortality,1.11
+Manipur,2005-2006,Child mortality,1.26
+Manipur,2005-2006,Under five mortality,4.19
+Manipur,2015-2016,Neonatal mortality,1.56
+Manipur,2015-2016,Postneonatal mortality,0.62
+Manipur,2015-2016,Child mortality,0.43
+Manipur,2015-2016,Under five mortality,2.59
+Manipur,2019-2021,Neonatal mortality,1.72
+Manipur,2019-2021,Postneonatal mortality,0.78
+Manipur,2019-2021,Child mortality,0.52
+Manipur,2019-2021,Under five mortality,3
+Mizoram,1992-1993,Neonatal mortality,0.83
+Mizoram,1992-1993,Postneonatal mortality,0.63
+Mizoram,1992-1993,Child mortality,1.49
+Mizoram,1992-1993,Under five mortality,2.93
+Mizoram,1998-1999,Neonatal mortality,1.88
+Mizoram,1998-1999,Postneonatal mortality,1.82
+Mizoram,1998-1999,Child mortality,1.84
+Mizoram,1998-1999,Under five mortality,5.47
+Mizoram,2005-2006,Neonatal mortality,1.63
+Mizoram,2005-2006,Postneonatal mortality,1.77
+Mizoram,2005-2006,Child mortality,1.95
+Mizoram,2005-2006,Under five mortality,5.29
+Mizoram,2015-2016,Neonatal mortality,1.12
+Mizoram,2015-2016,Postneonatal mortality,2.89
+Mizoram,2015-2016,Child mortality,0.61
+Mizoram,2015-2016,Under five mortality,4.6
+Mizoram,2019-2021,Neonatal mortality,1.14
+Mizoram,2019-2021,Postneonatal mortality,0.99
+Mizoram,2019-2021,Child mortality,0.28
+Mizoram,2019-2021,Under five mortality,2.4
+Tripura,1992-1993,Neonatal mortality,4.36
+Tripura,1992-1993,Postneonatal mortality,3.23
+Tripura,1992-1993,Child mortality,3.12
+Tripura,1992-1993,Under five mortality,10.46
+Tripura,1998-1999,Neonatal mortality,0
+Tripura,1998-1999,Postneonatal mortality,0
+Tripura,1998-1999,Child mortality,0
+Tripura,1998-1999,Under five mortality,0
+Tripura,2005-2006,Neonatal mortality,3.31
+Tripura,2005-2006,Postneonatal mortality,1.83
+Tripura,2005-2006,Child mortality,0.82
+Tripura,2005-2006,Under five mortality,5.92
+Tripura,2015-2016,Neonatal mortality,1.32
+Tripura,2015-2016,Postneonatal mortality,1.34
+Tripura,2015-2016,Child mortality,0.61
+Tripura,2015-2016,Under five mortality,3.27
+Tripura,2019-2021,Neonatal mortality,2.29
+Tripura,2019-2021,Postneonatal mortality,1.47
+Tripura,2019-2021,Child mortality,0.59
+Tripura,2019-2021,Under five mortality,4.33
+Meghalaya,1992-1993,Neonatal mortality,3.78
+Meghalaya,1992-1993,Postneonatal mortality,2.63
+Meghalaya,1992-1993,Child mortality,2.43
+Meghalaya,1992-1993,Under five mortality,8.69
+Meghalaya,1998-1999,Neonatal mortality,5.07
+Meghalaya,1998-1999,Postneonatal mortality,3.83
+Meghalaya,1998-1999,Child mortality,3.62
+Meghalaya,1998-1999,Under five mortality,12.2
+Meghalaya,2005-2006,Neonatal mortality,2.36
+Meghalaya,2005-2006,Postneonatal mortality,2.1
+Meghalaya,2005-2006,Child mortality,2.71
+Meghalaya,2005-2006,Under five mortality,7.05
+Meghalaya,2015-2016,Neonatal mortality,1.83
+Meghalaya,2015-2016,Postneonatal mortality,1.16
+Meghalaya,2015-2016,Child mortality,1.01
+Meghalaya,2015-2016,Under five mortality,3.96
+Meghalaya,2019-2021,Neonatal mortality,1.98
+Meghalaya,2019-2021,Postneonatal mortality,1.25
+Meghalaya,2019-2021,Child mortality,0.8
+Meghalaya,2019-2021,Under five mortality,4
+Assam,1992-1993,Neonatal mortality,5.09
+Assam,1992-1993,Postneonatal mortality,3.78
+Assam,1992-1993,Child mortality,5.87
+Assam,1992-1993,Under five mortality,14.22
+Assam,1998-1999,Neonatal mortality,4.46
+Assam,1998-1999,Postneonatal mortality,2.49
+Assam,1998-1999,Child mortality,2.14
+Assam,1998-1999,Under five mortality,8.95
+Assam,2005-2006,Neonatal mortality,4.55
+Assam,2005-2006,Postneonatal mortality,2.06
+Assam,2005-2006,Child mortality,2.02
+Assam,2005-2006,Under five mortality,8.5
+Assam,2015-2016,Neonatal mortality,3.28
+Assam,2015-2016,Postneonatal mortality,1.48
+Assam,2015-2016,Child mortality,0.93
+Assam,2015-2016,Under five mortality,5.65
+Assam,2019-2021,Neonatal mortality,2.25
+Assam,2019-2021,Postneonatal mortality,0.95
+Assam,2019-2021,Child mortality,0.74
+Assam,2019-2021,Under five mortality,3.91
+West Bengal,1992-1993,Neonatal mortality,5.18
+West Bengal,1992-1993,Postneonatal mortality,2.35
+West Bengal,1992-1993,Child mortality,2.6
+West Bengal,1992-1993,Under five mortality,9.93
+West Bengal,1998-1999,Neonatal mortality,3.19
+West Bengal,1998-1999,Postneonatal mortality,1.68
+West Bengal,1998-1999,Child mortality,1.99
+West Bengal,1998-1999,Under five mortality,6.76
+West Bengal,2005-2006,Neonatal mortality,3.76
+West Bengal,2005-2006,Postneonatal mortality,1.04
+West Bengal,2005-2006,Child mortality,1.22
+West Bengal,2005-2006,Under five mortality,5.96
+West Bengal,2015-2016,Neonatal mortality,2.2
+West Bengal,2015-2016,Postneonatal mortality,0.55
+West Bengal,2015-2016,Child mortality,0.44
+West Bengal,2015-2016,Under five mortality,3.18
+West Bengal,2019-2021,Neonatal mortality,1.55
+West Bengal,2019-2021,Postneonatal mortality,0.65
+West Bengal,2019-2021,Child mortality,0.34
+West Bengal,2019-2021,Under five mortality,2.53
+Jharkhand,1992-1993,Neonatal mortality,5.48
+Jharkhand,1992-1993,Postneonatal mortality,3.44
+Jharkhand,1992-1993,Child mortality,4.2
+Jharkhand,1992-1993,Under five mortality,12.75
+Jharkhand,1998-1999,Neonatal mortality,4.65
+Jharkhand,1998-1999,Postneonatal mortality,2.64
+Jharkhand,1998-1999,Child mortality,3.47
+Jharkhand,1998-1999,Under five mortality,10.51
+Jharkhand,2005-2006,Neonatal mortality,4.86
+Jharkhand,2005-2006,Postneonatal mortality,2.02
+Jharkhand,2005-2006,Child mortality,2.61
+Jharkhand,2005-2006,Under five mortality,9.3
+Jharkhand,2015-2016,Neonatal mortality,3.3
+Jharkhand,2015-2016,Postneonatal mortality,1.08
+Jharkhand,2015-2016,Child mortality,1.11
+Jharkhand,2015-2016,Under five mortality,5.43
+Jharkhand,2019-2021,Neonatal mortality,2.82
+Jharkhand,2019-2021,Postneonatal mortality,0.97
+Jharkhand,2019-2021,Child mortality,0.79
+Jharkhand,2019-2021,Under five mortality,4.54
+Odisha,1992-1993,Neonatal mortality,6.47
+Odisha,1992-1993,Postneonatal mortality,4.74
+Odisha,1992-1993,Child mortality,2.13
+Odisha,1992-1993,Under five mortality,13.1
+Odisha,1998-1999,Neonatal mortality,4.86
+Odisha,1998-1999,Postneonatal mortality,3.23
+Odisha,1998-1999,Child mortality,2.55
+Odisha,1998-1999,Under five mortality,10.44
+Odisha,2005-2006,Neonatal mortality,4.54
+Odisha,2005-2006,Postneonatal mortality,1.93
+Odisha,2005-2006,Child mortality,2.76
+Odisha,2005-2006,Under five mortality,9.06
+Odisha,2015-2016,Neonatal mortality,2.82
+Odisha,2015-2016,Postneonatal mortality,1.15
+Odisha,2015-2016,Child mortality,0.88
+Odisha,2015-2016,Under five mortality,4.81
+Odisha,2019-2021,Neonatal mortality,2.7
+Odisha,2019-2021,Postneonatal mortality,0.93
+Odisha,2019-2021,Child mortality,0.5
+Odisha,2019-2021,Under five mortality,4.11
+Chhattisgarh,1992-1993,Neonatal mortality,5.32
+Chhattisgarh,1992-1993,Postneonatal mortality,3.2
+Chhattisgarh,1992-1993,Child mortality,4.93
+Chhattisgarh,1992-1993,Under five mortality,13.03
+Chhattisgarh,1998-1999,Neonatal mortality,5.49
+Chhattisgarh,1998-1999,Postneonatal mortality,3.12
+Chhattisgarh,1998-1999,Child mortality,5.64
+Chhattisgarh,1998-1999,Under five mortality,13.76
+Chhattisgarh,2005-2006,Neonatal mortality,5.11
+Chhattisgarh,2005-2006,Postneonatal mortality,1.97
+Chhattisgarh,2005-2006,Child mortality,2.1
+Chhattisgarh,2005-2006,Under five mortality,9.03
+Chhattisgarh,2015-2016,Neonatal mortality,4.21
+Chhattisgarh,2015-2016,Postneonatal mortality,1.19
+Chhattisgarh,2015-2016,Child mortality,1.09
+Chhattisgarh,2015-2016,Under five mortality,6.43
+Chhattisgarh,2019-2021,Neonatal mortality,3.24
+Chhattisgarh,2019-2021,Postneonatal mortality,1.19
+Chhattisgarh,2019-2021,Child mortality,0.64
+Chhattisgarh,2019-2021,Under five mortality,5.04
+Madhya Pradesh,1992-1993,Neonatal mortality,5.32
+Madhya Pradesh,1992-1993,Postneonatal mortality,3.2
+Madhya Pradesh,1992-1993,Child mortality,4.93
+Madhya Pradesh,1992-1993,Under five mortality,13.03
+Madhya Pradesh,1998-1999,Neonatal mortality,5.49
+Madhya Pradesh,1998-1999,Postneonatal mortality,3.12
+Madhya Pradesh,1998-1999,Child mortality,5.64
+Madhya Pradesh,1998-1999,Under five mortality,13.76
+Madhya Pradesh,2005-2006,Neonatal mortality,4.49
+Madhya Pradesh,2005-2006,Postneonatal mortality,2.47
+Madhya Pradesh,2005-2006,Child mortality,2.65
+Madhya Pradesh,2005-2006,Under five mortality,9.42
+Madhya Pradesh,2015-2016,Neonatal mortality,3.69
+Madhya Pradesh,2015-2016,Postneonatal mortality,1.43
+Madhya Pradesh,2015-2016,Child mortality,1.42
+Madhya Pradesh,2015-2016,Under five mortality,6.46
+Madhya Pradesh,2019-2021,Neonatal mortality,2.9
+Madhya Pradesh,2019-2021,Postneonatal mortality,1.23
+Madhya Pradesh,2019-2021,Child mortality,0.82
+Madhya Pradesh,2019-2021,Under five mortality,4.92
+Gujarat,1992-1993,Neonatal mortality,4.23
+Gujarat,1992-1993,Postneonatal mortality,2.64
+Gujarat,1992-1993,Child mortality,3.79
+Gujarat,1992-1993,Under five mortality,10.4
+Gujarat,1998-1999,Neonatal mortality,3.96
+Gujarat,1998-1999,Postneonatal mortality,2.3
+Gujarat,1998-1999,Child mortality,2.4
+Gujarat,1998-1999,Under five mortality,8.51
+Gujarat,2005-2006,Neonatal mortality,3.35
+Gujarat,2005-2006,Postneonatal mortality,1.62
+Gujarat,2005-2006,Child mortality,1.19
+Gujarat,2005-2006,Under five mortality,6.09
+Gujarat,2015-2016,Neonatal mortality,2.68
+Gujarat,2015-2016,Postneonatal mortality,0.74
+Gujarat,2015-2016,Child mortality,0.96
+Gujarat,2015-2016,Under five mortality,4.35
+Gujarat,2019-2021,Neonatal mortality,2.18
+Gujarat,2019-2021,Postneonatal mortality,0.94
+Gujarat,2019-2021,Child mortality,0.66
+Gujarat,2019-2021,Under five mortality,3.76
+Maharashtra,1992-1993,Neonatal mortality,3.64
+Maharashtra,1992-1993,Postneonatal mortality,1.4
+Maharashtra,1992-1993,Child mortality,2.09
+Maharashtra,1992-1993,Under five mortality,7.03
+Maharashtra,1998-1999,Neonatal mortality,3.2
+Maharashtra,1998-1999,Postneonatal mortality,1.17
+Maharashtra,1998-1999,Child mortality,1.5
+Maharashtra,1998-1999,Under five mortality,5.81
+Maharashtra,2005-2006,Neonatal mortality,3.18
+Maharashtra,2005-2006,Postneonatal mortality,0.57
+Maharashtra,2005-2006,Child mortality,0.95
+Maharashtra,2005-2006,Under five mortality,4.67
+Maharashtra,2015-2016,Neonatal mortality,1.62
+Maharashtra,2015-2016,Postneonatal mortality,0.75
+Maharashtra,2015-2016,Child mortality,0.52
+Maharashtra,2015-2016,Under five mortality,2.87
+Maharashtra,2019-2021,Neonatal mortality,1.65
+Maharashtra,2019-2021,Postneonatal mortality,0.67
+Maharashtra,2019-2021,Child mortality,0.49
+Maharashtra,2019-2021,Under five mortality,2.8
+Andhra Pradesh,1992-1993,Neonatal mortality,4.53
+Andhra Pradesh,1992-1993,Postneonatal mortality,2.5
+Andhra Pradesh,1992-1993,Child mortality,2.24
+Andhra Pradesh,1992-1993,Under five mortality,9.12
+Andhra Pradesh,1998-1999,Neonatal mortality,4.38
+Andhra Pradesh,1998-1999,Postneonatal mortality,2.21
+Andhra Pradesh,1998-1999,Child mortality,2.1
+Andhra Pradesh,1998-1999,Under five mortality,8.55
+Andhra Pradesh,2005-2006,Neonatal mortality,4.03
+Andhra Pradesh,2005-2006,Postneonatal mortality,1.32
+Andhra Pradesh,2005-2006,Child mortality,1.02
+Andhra Pradesh,2005-2006,Under five mortality,6.32
+Andhra Pradesh,2015-2016,Neonatal mortality,2.36
+Andhra Pradesh,2015-2016,Postneonatal mortality,1.13
+Andhra Pradesh,2015-2016,Child mortality,0.61
+Andhra Pradesh,2015-2016,Under five mortality,4.08
+Andhra Pradesh,2019-2021,Neonatal mortality,1.99
+Andhra Pradesh,2019-2021,Postneonatal mortality,1.03
+Andhra Pradesh,2019-2021,Child mortality,0.51
+Andhra Pradesh,2019-2021,Under five mortality,5.32
+Karnataka,1992-1993,Neonatal mortality,4.53
+Karnataka,1992-1993,Postneonatal mortality,2.02
+Karnataka,1992-1993,Child mortality,2.35
+Karnataka,1992-1993,Under five mortality,8.73
+Karnataka,1998-1999,Neonatal mortality,3.71
+Karnataka,1998-1999,Postneonatal mortality,1.44
+Karnataka,1998-1999,Child mortality,1.93
+Karnataka,1998-1999,Under five mortality,6.98
+Karnataka,2005-2006,Neonatal mortality,2.89
+Karnataka,2005-2006,Postneonatal mortality,1.43
+Karnataka,2005-2006,Child mortality,1.21
+Karnataka,2005-2006,Under five mortality,5.47
+Karnataka,2015-2016,Neonatal mortality,1.85
+Karnataka,2015-2016,Postneonatal mortality,0.84
+Karnataka,2015-2016,Child mortality,0.47
+Karnataka,2015-2016,Under five mortality,3.15
+Karnataka,2019-2021,Neonatal mortality,1.58
+Karnataka,2019-2021,Postneonatal mortality,0.96
+Karnataka,2019-2021,Child mortality,0.42
+Karnataka,2019-2021,Under five mortality,2.95
+Goa,1992-1993,Neonatal mortality,2.06
+Goa,1992-1993,Postneonatal mortality,1.13
+Goa,1992-1993,Child mortality,0.72
+Goa,1992-1993,Under five mortality,3.89
+Goa,1998-1999,Neonatal mortality,3.12
+Goa,1998-1999,Postneonatal mortality,0.55
+Goa,1998-1999,Child mortality,1.05
+Goa,1998-1999,Under five mortality,4.68
+Goa,2005-2006,Neonatal mortality,0.88
+Goa,2005-2006,Postneonatal mortality,0.65
+Goa,2005-2006,Child mortality,0.5
+Goa,2005-2006,Under five mortality,2.03
+Goa,2015-2016,Neonatal mortality,1.29
+Goa,2015-2016,Postneonatal mortality,0
+Goa,2015-2016,Child mortality,0
+Goa,2015-2016,Under five mortality,1.29
+Goa,2019-2021,Neonatal mortality,0.56
+Goa,2019-2021,Postneonatal mortality,0
+Goa,2019-2021,Child mortality,0.5
+Goa,2019-2021,Under five mortality,1.06
+Kerala,1992-1993,Neonatal mortality,1.55
+Kerala,1992-1993,Postneonatal mortality,0.82
+Kerala,1992-1993,Child mortality,0.84
+Kerala,1992-1993,Under five mortality,3.2
+Kerala,1998-1999,Neonatal mortality,1.38
+Kerala,1998-1999,Postneonatal mortality,0.25
+Kerala,1998-1999,Child mortality,0.26
+Kerala,1998-1999,Under five mortality,1.88
+Kerala,2005-2006,Neonatal mortality,1.15
+Kerala,2005-2006,Postneonatal mortality,0.38
+Kerala,2005-2006,Child mortality,0.1
+Kerala,2005-2006,Under five mortality,1.63
+Kerala,2015-2016,Neonatal mortality,0.44
+Kerala,2015-2016,Postneonatal mortality,0.12
+Kerala,2015-2016,Child mortality,0.15
+Kerala,2015-2016,Under five mortality,0.71
+Kerala,2019-2021,Neonatal mortality,0.34
+Kerala,2019-2021,Postneonatal mortality,0.1
+Kerala,2019-2021,Child mortality,0.08
+Kerala,2019-2021,Under five mortality,0.52
+Tamil Nadu,1992-1993,Neonatal mortality,4.62
+Tamil Nadu,1992-1993,Postneonatal mortality,2.15
+Tamil Nadu,1992-1993,Child mortality,2.01
+Tamil Nadu,1992-1993,Under five mortality,8.65
+Tamil Nadu,1998-1999,Neonatal mortality,3.48
+Tamil Nadu,1998-1999,Postneonatal mortality,1.33
+Tamil Nadu,1998-1999,Child mortality,1.59
+Tamil Nadu,1998-1999,Under five mortality,6.33
+Tamil Nadu,2005-2006,Neonatal mortality,1.91
+Tamil Nadu,2005-2006,Postneonatal mortality,1.12
+Tamil Nadu,2005-2006,Child mortality,0.53
+Tamil Nadu,2005-2006,Under five mortality,3.55
+Tamil Nadu,2015-2016,Neonatal mortality,1.4
+Tamil Nadu,2015-2016,Postneonatal mortality,0.62
+Tamil Nadu,2015-2016,Child mortality,0.67
+Tamil Nadu,2015-2016,Under five mortality,2.68
+Tamil Nadu,2019-2021,Neonatal mortality,1.27
+Tamil Nadu,2019-2021,Postneonatal mortality,0.6
+Tamil Nadu,2019-2021,Child mortality,0.37
+Tamil Nadu,2019-2021,Under five mortality,2.23

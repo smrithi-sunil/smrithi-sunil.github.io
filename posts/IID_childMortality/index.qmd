@@ -1,0 +1,427 @@
+---
+title: Infant and Child Mortality in India - Part I
+description: It's not as grim as it sounds. Things are getting better over time! But still pretty grim.
+author: Smrithi Sunil
+date: 08-27-2024
+categories: [India In Data]
+image: image.jpg
+execute:
+  echo: false
+draft: false
+---
+
+```{python}
+import pandas as pd
+import geopandas as gpd
+import plotly.express as px
+import plotly.graph_objects as go
+import numpy as np
+import json
+```
+
+Most of us are familiar with Hans Rosling and his infamous bubble charts. Rosling and the people at Gapminder brought to the public eye the fact that the world is much better than we think it is and that things have been getting better over time. This idea has also been popularized by many others, including, famously, Steven Pinker. 
+
+All of this is great! What about in India? I want to understand how India and its states have changed over time. To get started, I picked probably the worst thing in the world - the deaths of children. In this post, I will dive into the data on infant and child mortality in India, specifically focusing on how it has changed over time and across demographic factors. The data for this post is obtained from The National Family Health Survey (NFHS) conducted by the Ministry of Health and Family Welfare in the Government of India [^1]. Unlike the census, which aims to collect data from all households, the NFHS survey is conducted in a representative sample of households throughout India. 
+
+There are too many interesting factors to talk about in one post, so this will be the first of two posts on this topic. In this post, I will focus on overall trends in child mortality rates, urban versus rural trends, mortality rates by sex, and mortality rates by state. In the second post, I will dive into some demographic factors such as the birth size, timing of births, and maternal education.
+
+### Childhood mortality rates
+
+Mortality rates were reported as the number of deaths per 1000 live births in the five years preceding each survey. I have converted these numbers to rates per 100 live births for easier interpretation. They can now be interpreted as the probability of dying as a percentage of live births.
+
+The age of the child matters when thinking about causes of death and possible interventions. Therefore, childhood mortality rates are reported in five age brackets:
+
+- **Neonatal mortality**: The probability of dying within the first month of life.
+- **Postneonatal mortality**: The probability of dying between the first month and the first year of life.
+- **Infant mortality**: The probability of dying between birth and the first birthday. This is the sum of neonatal and postneonatal mortality.
+- **Child mortality**: The probability of dying between the first and fifth birthday.
+- **Under five mortality**: The probability of dying between birth and the fifth birthday.
+
+The first bar plot below shows the total mortality rates across India for each of these age brackets. The surveys were conducted in 1992-93, 1998-99, 2005-06, 2015-16, and 2019-21. 
+
+```{python}
+pop_data = pd.read_csv('UrbanRural.csv')
+# Total population
+total = pop_data[pop_data['Area'] == 'Total']
+fig = px.bar(total, x='Group', y='Total Rate',
+             color='Year', barmode='group', width=750, title='Childhood mortality rates',
+             color_discrete_sequence=['#006400', '#228B22', '#32CD32', '#66CDAA','#8FBC8F']
+             )
+fig.update_layout(
+    yaxis_title='Deaths per 100 live births',
+    xaxis_title=None
+)
+fig.show()
+```
+
+Overall, the mortality rates have been decreasing over time. For example, for the five-year period preceding the 1992-93 survey, the probability of dying before the fifth birthday was 10.9%. In the 2019-2021 survey, this has decreased to 4.2%. A child born in India today is less than half as likely to die before their fifth birthday compared to a child born in the early 1990s. For 2021 alone, the child mortality rate in India was 3.1%, compared to the world average of 3.8% [^2]. So, India is sitting just below the world average. For comparison, the child mortality rate in the US was 0.6% in 2021 and countries such as Sweden and Japan have a rate of 0.2%. 
+
+### Urban and rural trends
+
+Various definitions are used to classify India into urban and rural areas. Even across definitions, about 60-70% of India's population is rural. The NFHS uses the Census of India's definition, which is based on population density and occupation. A habitation is considered urban if: (1) if it has a minimum population of 5000, (2) at least 75% of the male working population is involved in non-agricultural activities, and (3) the population density is at least 400 persons per square kilometer.
+
+The next set of plots below show the mortality rates for urban versus rural areas over time. Again, mortality rates trend downwards over time for both urban and rural populations. However, the rates are consistently higher in rural areas compared to urban areas. This is not surprising given the differences in access to healthcare as well as other factors such as socioeconomics and education, which are lower in rural areas.
+
+```{python}
+
+#| layout-ncol: 2
+#| layout-nrow: 2
+
+# Urban vs rural
+UR = pop_data[pop_data['Area'] != 'Total']
+# Neonatal mortality
+UR_neonatal = UR[UR['Group'] == 'Neonatal mortality']
+fig = px.bar(UR_neonatal, x='Year', y='Total Rate',
+             color='Area', barmode='group',
+             width=400, height=400,
+             title='Neonatal mortality rates',
+             color_discrete_sequence=['#CC6600', '#FFB266']
+             )
+# Update layout
+fig.update_layout(
+    yaxis_title='Deaths per 100 live births',
+    legend_title_text=None,
+)
+fig.show()
+# Postneonatal mortality
+UR_postnatal = UR[UR['Group'] == 'Postneonatal mortality']
+fig = px.bar(UR_postnatal, x='Year', y='Total Rate',
+             color='Area', barmode='group', 
+             width=400, height=400,
+             title='Postneonatal mortality rates',
+             color_discrete_sequence=['#CC6600', '#FFB266']
+             )
+# Update layout
+fig.update_layout(
+    yaxis_title='Deaths per 100 live births',
+    legend_title_text=None
+)
+fig.show()
+# Child mortality
+UR_child = UR[UR['Group'] == 'Child mortality']
+fig = px.bar(UR_child, x='Year', y='Total Rate',
+             color='Area', barmode='group', 
+             width=400, height=400,
+             title='Child mortality rates',
+             color_discrete_sequence=['#CC6600', '#FFB266']
+             )
+# Update layout
+fig.update_layout(
+    yaxis_title='Deaths per 100 live births',
+    legend_title_text=None
+    )
+fig.show()
+
+# Under five mortality
+UR_underfive = UR[UR['Group'] == 'Under five mortality']
+fig = px.bar(UR_underfive, x='Year', y='Total Rate',
+             color='Area', barmode='group', 
+             width=400, height=400,
+             title='Under five mortality rates',
+             color_discrete_sequence=['#CC6600', '#FFB266']
+             )
+# Update layout
+fig.update_layout(
+    yaxis_title='Deaths per 100 live births'
+    )
+fig.show()
+```
+
+Next, I was interested in seeing if the gap between urban and rural mortality rates has been closing over time. I was also interested in seeing if the gap was larger for certain age brackets. For example, we might expect the gap to be larger for neonatal mortality rates since the neonatal period is the most critical time for a child's survival and interventions need to be quick and intense. So, one might imagine that neonatal mortality rates are more sensitive to differences in access to healthcare.
+
+The data here is a little surprising. The plot below shows the ratio of rural to urban mortality rates over time for each age bracket. You can read this as, in the neonatal period for example, a child born in a rural area is 1.5 times more likely to die compared to a child born in an urban area. The first point to note is that the ratio of rural to urban mortality rates has been fairly consistent over time. There is perhaps a downward trend just in the last survey (2019-21) for postneonatal, child, and under five categories. The second point to note is that the gap is widest for child mortality rates. A child in a rural area is almost twice as likely to die between their first and fifth birthday compared to a child in an urban area.
+
+Why is the rural to urban gap not closing faster? While I don't expect the ratio to be 1 (i.e., no difference between urban and rural mortality rates) anytime soon, I had expected to see a downward slope over time. It is possible that due to the urgency and intensity of neonatal interventions needed, that access to the proper care would prevent the neonatal gap to close. And maybe we are seeing some evidence for a closing gap in the other categories in the most recent survey. Other factors like education on when to take the child to the hospital likely also play a role. One speculation is that education around diseases might explain the larger gap in child mortality rates. But I would need to look into causes of death for different age groups to understand this better.
+
+```{python}
+# Proportion of rural to urban mortality rates
+def proportion(data):
+    temp = data.pivot(index='Year', columns='Area', values='Total Rate')
+    temp['Proportion'] = temp['Rural'] / temp['Urban']
+    data_p = temp.reset_index()
+    return data_p
+
+UR_neonatal_p = proportion(UR_neonatal)
+UR_postnatal_p = proportion(UR_postnatal)
+UR_child_p = proportion(UR_child)
+UR_underfive_p = proportion(UR_underfive)
+
+# Join into one dataframe
+UR_neonatal_p['Group'] = 'Neonatal mortality'
+UR_postnatal_p['Group'] = 'Postneonatal mortality'
+UR_child_p['Group'] = 'Child mortality'
+UR_underfive_p['Group'] = 'Under five mortality'
+UR_p = pd.concat([UR_neonatal_p, UR_postnatal_p, UR_child_p, UR_underfive_p])
+
+# Plot proportion
+fig = px.bar(UR_p, x='Group', y='Proportion',
+             color='Year', barmode='group', width=750,
+             color_discrete_sequence=['#996515', '#B38600', '#CC9900', '#E5BF33', '#F2D666']
+             )
+# Update layout
+fig.update_layout(
+    yaxis_title='Ratio of rural to urban mortality rates',
+    xaxis_title=None,
+    yaxis=dict(range=[1, 2])  # Set y-axis range
+)
+fig.show()
+```
+
+### Excess female mortality
+
+India has a long history of son preference. Amartya Sen was one of the first people to introduce the idea of "missing women", which brought attention to the skewed sex ratio in some Asian countries compared to the rest of the world. He estimated that roughly 100 million women were missing from the world due to sex-selective abortion, infanticide, and neglect [^3]. This [gender ratio article](https://ourworldindata.org/gender-ratio) published by Our World in Data touches on sex selective practices in India [^4]. Sex preference practices can occur both before, in terms of sex selective abortion or choosing to stop or have more children based on the sex of the previous child, and after birth, as sex selective infanticide or neglect. The child mortality by sex plot in OWID shows that in every country, except India, child mortality is higher in boys than girls. It has been known for a long time that mortality in males exceeds that of females in almost all stages of life. So what's up with India?
+
+Using the NFHS data, I looked at the mortality rates between male and female children. Overall, the under five mortality rate shows a slightly higher rate for girls than boys in the first three surveys. In the last two surveys, the female mortality rate is ever so slightly lower than that of males. So, at least on the surface, it seems like we're moving in the right direction.
+
+```{python}
+total = pop_data[pop_data['Area'] == 'Total']
+df = total[total['Group'] == 'Under five mortality']
+fig = go.Figure()
+fig.add_trace(go.Bar(
+    x=df['Year'],
+    y=df['Male'],
+    name='Male',
+    marker_color='#CC79A7'
+))
+fig.add_trace(go.Bar(
+    x=df['Year'],
+    y=df['Female'],
+    name='Female',
+    marker_color='#009E73'
+))
+fig.update_layout(
+    yaxis_title='Deaths per 100 live births',
+    title='Under five mortality rates by sex'
+    )
+fig.show()
+```
+
+We can break this data down further and look at specific age groups as well as rural versus urban trends. Interestingly, in the neonatal period, we see an expected skew in mortality rates towards higher in boys in both rural and urban areas, like that of the rest of the world. However, in the postneonatal and child age groups, the mortality rates for girls are higher. We do seem to be getting better over time, the most recent survey (2019-21) shows a much smaller gap. I would like to stress on the fact that in the neonatal period boys have a higher mortality rate (as expected), but in the post-neonatal period girls have a higher mortality rate (this is not biological!). The higher mortality rate in girls is attributed to gender discriminating practices such as sex-selective infanticide or neglect. 
+
+```{python}
+df = UR[UR['Group'] == 'Neonatal mortality']
+marker = ['solid', 'dot']
+fig = go.Figure()
+count = 0
+for area in df['Area'].unique():
+    temp = df[df['Area'] == area]
+    fig.add_trace(go.Scatter(x=temp['Year'], y=temp['Male'],
+                             marker=dict(size=10),
+                             line=dict(color='#CC79A7', width=2, dash=marker[count]),
+                             name=f"{area} - Male"))
+
+    fig.add_trace(go.Scatter(x=temp['Year'], y=temp['Female'],
+                             marker=dict(size=10),
+                             line=dict(color='#009E73', width=2, dash=marker[count]),
+                             name=f"{area} - Female"))
+    count += 1
+
+fig.update_layout(
+    title='Neonatal mortality rates',
+    xaxis_title=None,
+    yaxis_title='Deaths per 100 live births',
+)
+fig.show()
+
+df = UR[UR['Group'] == 'Postneonatal mortality']
+fig = go.Figure()
+count = 0
+for area in df['Area'].unique():
+    temp = df[df['Area'] == area]
+    fig.add_trace(go.Scatter(x=temp['Year'], y=temp['Male'],
+                             marker=dict(size=10),
+                             line=dict(color='#CC79A7', width=2, dash=marker[count]),
+                             name=f"{area} - Male"))
+
+    fig.add_trace(go.Scatter(x=temp['Year'], y=temp['Female'],
+                             marker=dict(size=10),
+                             line=dict(color='#009E73', width=2, dash=marker[count]),
+                             name=f"{area} - Female"))
+    count += 1
+
+fig.update_layout(
+    title='Postneonatal mortality rates',
+    xaxis_title=None,
+    yaxis_title='Deaths per 100 live births',
+)
+fig.show()
+
+
+df = UR[UR['Group'] == 'Child mortality']
+fig = go.Figure()
+count = 0
+for area in df['Area'].unique():
+    temp = df[df['Area'] == area]
+    fig.add_trace(go.Scatter(x=temp['Year'], y=temp['Male'],
+                             marker=dict(size=10),
+                             line=dict(color='#CC79A7', width=2, dash=marker[count]),
+                             name=f"{area} - Male"))
+
+    fig.add_trace(go.Scatter(x=temp['Year'], y=temp['Female'],
+                             marker=dict(size=10),
+                             line=dict(color='#009E73', width=2, dash=marker[count]),
+                             name=f"{area} - Female"))
+    count += 1
+
+fig.update_layout(
+    title='Child mortality rates',
+    xaxis_title=None,
+    yaxis_title='Deaths per 100 live births',
+)
+fig.show()
+```
+
+Something interesting seems to be happening in the postneonatal period in urban areas. We don't really see a difference in male and female mortality rates in the 92-93 and 98-99 surveys. However, 05-06 and 15-16 surveys show a higher mortality rate in females. Perhaps a wild speculation, but does this have to do with the introduction of the law banning prenatal sex determination? The data represented in the 98-99 survey and prior would primarily reflect births that occurred before the law took effect. Prior to the law, urban populations had easy access to ultrasound technology and could therefore participate in sex-selective abortion at a higher rate than rural populations. So, the lack of sex differences in postneonatal mortality rates in the earlier surveys could be due to higher female feticide rates, which would negate the need for female infanticide. I am assuming here that a significant contributor for higher female mortality rates is female infanticide and neglect. So, a conclusion from this speculation, is that the law banning prenatal sex determination led to an unintended increase (albeit temporarily) in female infanticide (yikes!).
+
+There is some evidence in the literature for the above speculation. Goodkind 1996 introduces the *substitution* hypothesis and discusses the interaction between prenatal and postnatal sex-selective practices [^5]. The substitution hypothesis posits that prenatal sex-selective abortion may represent the *substitution* for postnatal discrimination, as opposed to solely an additive effect for further discrimination. They suggest that sex-selective abortion might result in a decline in postnatal discrimination and provide evidence for this in East Asian countries. It is therefore a plausible explanation for the postneonatal data observed in urban India. The roughly similar mortality rates in males and females seen in the 92-93 and 98-99 survey could be due to higher sex-selective abortion rates in urban India with the availability of ultrasound technology. The subsequent increase in female mortality rates in the 05-06 and 15-16 surveys could indicate the revert back to postnatal discrimination after the introduction of the ban on sex-determination during pregnancy.
+
+Moreover, what is very surprising is the higher female mortality rates in the child age group (1-5 years), both in rural and urban areas. Was female infanticide happening even after age one? Is there something else going on? Do hospitals treat girls differently than boys? At least it is promising to see the gap narrowing in the most recent survey.
+
+### Mortality rates by state
+
+Now for some fun maps! I have created an interactive map of mortality rates broken down by state. The widget allows you to select the mortality type as well as the year. Nothing too surprising here, Kerala is doing great, UP not so much. 
+
+```{python}
+
+# Load the CSV with GeoJSON geometries
+gdf = gpd.read_file('geojson_filtered.geojson')
+geojson_data = gdf.to_json()
+
+# Load the CSV with population data
+data = pd.read_csv('ICM_State.csv')
+
+neonatal = data[data['Group'] == 'Neonatal mortality'].reset_index(drop=True)
+postneonatal = data[data['Group'] == 'Postneonatal mortality'].reset_index(drop=True)
+child = data[data['Group'] == 'Child mortality'].reset_index(drop=True)
+underFive = data[data['Group'] == 'Under five mortality'].reset_index(drop=True)
+
+# Merge data back to one dataframe
+data_all = {
+    'NAME_1': neonatal['NAME_1'],
+    'Year': neonatal['Year'],
+    'Neonatal': neonatal['Rate'],
+    'Postneonatal': postneonatal['Rate'],
+    'Child': child['Rate'],
+    'Under five': underFive['Rate']
+}
+data_all = pd.DataFrame(data_all)
+
+merged_data = pd.merge(gdf, data_all, on='NAME_1')
+merged_data.rename(columns={'NAME_1': 'State'}, inplace=True)
+
+data = merged_data
+
+current_year = '1992-1993'
+current_mortality_rate = 'Neonatal'
+years = sorted(data['Year'].unique())
+
+fig = go.Figure()
+# Add traces for each combination of year and mortality rate type
+for year in years:
+    visible = (year == current_year)
+    fig.add_trace(go.Choropleth(
+        locationmode='geojson-id',
+        geojson=json.loads(geojson_data),
+        featureidkey="properties.NAME_1",
+        locations=data[data['Year'] == year]['State'].reset_index(drop=True),
+        z=data[data['Year'] == year][current_mortality_rate].reset_index(drop=True),
+        colorscale='Blues',
+        colorbar_title="Rate /100",
+        visible=visible,
+        #name=f"{current_mortality_rate}, {year}"
+    ))
+
+# Dropdown menus to select the year and mortality rate
+fig.update_layout(
+    updatemenus=[
+        dict(
+            buttons=list([
+                dict(label="1992-1993",
+                        method="update",
+                        args=[
+                            {"visible": [year == '1992-1993' for year in years]}]),
+                dict(label="1998-1999",
+                        method="update",
+                        args=[
+                            {"visible": [year == '1998-1999' for year in years]}]),
+                dict(label="2005-2006",
+                        method="update",
+                        args=[
+                            {"visible": [year == '2005-2006' for year in years]}]),
+                dict(label="2015-2016",
+                        method="update",
+                        args=[{"visible": [year == '2015-2016' for year in years]},]),
+                dict(label="2019-2021",
+                        method="update",
+                        args=[{"visible": [year == '2019-2021' for year in years]},])
+            ]),
+            type="buttons",
+            direction="right",
+            x=0.08,
+            xanchor="left",
+            y=1.15,
+            yanchor="top"
+        ),
+        dict(
+            buttons=[
+                dict(label="Neonatal Mortality",
+                        method="update",
+                        args=[
+                            {"z": [data[data['Year'] == year]['Neonatal'] for year in data['Year'].unique()]}]),
+                dict(label="Postneonatal Mortality",
+                        method="update",
+                        args=[
+                            {"z": [data[data['Year'] == year]['Postneonatal'] for year in data['Year'].unique()]}]),
+                dict(label="Child Mortality",
+                        method="update",
+                        args=[
+                            {"z": [data[data['Year'] == year]['Child'] for year in data['Year'].unique()]}]),
+                dict(label="Under five Mortality",
+                        method="update",
+                        args=[
+                            {"z": [data[data['Year'] == year]['Under five'] for year in data['Year'].unique()]}])
+            ],
+            direction="down",
+            x=0.32,
+            xanchor="left",
+            y=1.3,
+            yanchor="top"
+        )
+    ],
+)
+
+fig.update_geos(fitbounds="locations", 
+                visible=True)
+fig.show(config={
+    'staticPlot': False,
+    'scrollZoom': False,
+    'doubleClick': False
+})
+
+```
+
+*Notes about the map:*
+
+- *Andhra Pradesh and Telangana are combined in this data.*
+- *The 92-93 and 98-99 surveys were prior to the creation of Chhattisgarh, Jharkhand, and Uttarakhand. So for these surveys, the data for these states is included in the data for Madhya Pradesh, Bihar, and Uttar Pradesh respectively.*
+
+### Part II
+
+In the next post, I will dive into some demographic factors that are correlated with childhood mortality such as birth size, timing of births, and maternal education. Stay tuned!
+
+### Conclusion
+
+On the bright side, childhood mortality rates have been decreasing over time in India.
+
+Both rural and urban mortality rates have been coming down. However, mortality rates are still higher in rural areas.
+
+Sex differences in mortality rates have been highly skewed in India. However, the most recent survey indicates that the son preference related practices are possibly decreasing.
+
+Kerala has the lowest mortality rates, while Uttar Pradesh has the highest.
+
+
+[^1]: Data source: National Family Health Survey (NFHS), Ministry of Health and Family Welfare, Government of India. [http://rchiips.org/nfhsnew/nfhsuser/index.php](http://rchiips.org/nfhsnew/nfhsuser/index.php)
+[^2]: Saloni Dattani, Fiona Spooner, Hannah Ritchie and Max Roser (2023) - “Child and Infant Mortality” Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/child-mortality' [Online Resource]
+[^3]: Sen, Amartya (20 December 1990). More Than 100 Million Women Are Missing. New York Review of Books. 37 (20).
+[^4]: Hannah Ritchie and Max Roser (2019) - “Gender Ratio” Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/gender-ratio' [Online Resource]
+[^5]: Goodkind, D. (1996). On substituting sex preference strategies in East Asia: Does prenatal sex selection reduce postnatal discrimination?. Population and Development Review, 111-125.
