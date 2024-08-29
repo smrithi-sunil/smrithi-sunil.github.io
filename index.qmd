@@ -1,19 +1,26 @@
 ---
-title: "Biography"
+title: ""
 ---
 
-:::: {.columns}
-
-::: {.column}
-![Smrithi Sunil, PhD](images/SmrithiSunil.jpg)
+:::{.column-screen}
+![](images/hawaii.jpg)
 :::
 
-::: {.column}
-Hi, I'm Smrithi. I am a Scientist at the [Allen Institute for Neural Dynamics](https://alleninstitute.org/what-we-do/brain-science/research/allen-institute-neural-dynamics/). As part of the Optical Physiology team in Neural Dynamics, I develop and use imaging techniques to study the dynamics of neuromodulators and neurotransmitters across different brain regions during decision making behaviors in mice. 
+Hi, I'm Smrithi. I am a neuroscientist and engineer living in Seattle, Washington with my amazing daughter and husband. I grew up in Bangalore, India and moved to the United States for college. I studied Biomedical Engineering at Case Western Reserve University in Cleveland, Ohio. I then moved to Boston to pursue a PhD, also in Biomedical Engineering, at Boston University. I am now a Scientist at the Allen Institute for Neural Dynamics in Seattle. 
 
-Prior to joining the Allen Institute, I was a PhD student in the lab of [David Boas](https://sites.bu.edu/boas/) in the Biomedical Engineering Department at Boston University. For my PhD thesis, I used multimodal optical techniques to study the evolution of neurovascular coupling during stroke recovery. 
+How does the brain recovery from injury? And how can we use this knowledge to improve people's lives? These are the questions that drive my research.
 
-In my free time I enjoy woodworking - check out my blog posts capturing my woodworking projects.
-:::
+I fell in love with brain research as an undergraduate research assistant in [Jeffrey Capadona's lab](https://case.edu/bme/research/labs/capadona-lab) at Case Western. I spent my summers and most of my non-class hours in the lab, staining mouse brain slices and counting neurons. I studied how the brain responds to implanted electrodes with the goal of improving the longevity of neural implants. This is when my love-hate relationship with mice began.
 
-::::
+I then entered a PhD program in Biomedical Engineering at Boston University. My thesis work, in [David Boas's lab](https://sites.bu.edu/boas/), focused on understanding the evolution of neurovascular coupling during stroke recovery. I developed and applied multimodal imaging techniques to study the dynamics of blood flow and neural activity in the brain before and after stroke. 
+
+After the completion of my PhD, I moved to Seattle to join the [Allen Institute for Neural Dynamics](https://alleninstitute.org/what-we-do/brain-science/research/allen-institute-neural-dynamics/) as a postdoc. As part of the Optical Physiology team in Neural Dynamics, I develop and use imaging techniques to study the dynamics of neuromodulators and neurotransmitters (think dopamine, serotonin, acetylcholine) across different brain regions during decision making behaviors in mice. 
+
+Other fun things about me, I enjoy hand-tool woodworking and looking at data on India. I am trying to write more about these things on my blog. I also trained in Indian classical dance (Bharatanatyam) for 12 years. And if the picture above didn't give it away, I like hiking.
+
+<style>
+body, main {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+</style>
