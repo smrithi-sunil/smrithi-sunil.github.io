@@ -16,8 +16,9 @@ website:
         text: CV
       - contact.qmd
   body-footer: |
-    <script data-goatcounter="https://smrithisunil.goatcounter.com/count"
-            async src="//gc.zgo.at/count.js"></script>
+    <!-- Simple Analytics - 100% privacy-first analytics -->
+    <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+    <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
   twitter-card: true
   site-url: https://smrithisunil.com
 
