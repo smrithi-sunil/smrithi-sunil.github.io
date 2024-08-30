@@ -15,6 +15,10 @@ website:
       - href: /images/SmrithiSunil_CV.pdf
         text: CV
       - contact.qmd
+  body-footer: |
+    <!-- 100% privacy-first analytics -->
+    <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+    <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
 
 format:
   html:
