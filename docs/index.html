@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -68,7 +67,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -116,33 +115,62 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
-
-
-
-<div class="column-screen">
-<p><img src="images/hawaii.jpg" class="img-fluid"></p>
-</div>
+<div class="quarto-about-marquee">
+  <div class="about-image-container">
+    <img src="images/hawaii.jpg" class="about-image " style="width: 100%;">
+  </div>
+  <div class="about-contents">
+     <main class="content" id="quarto-document-content">
+<!-- :::{.column-screen}
+![](images/hawaii.jpg)
+::: -->
 <p>Hi, I’m Smrithi. I am a neuroscientist and engineer living in Seattle, Washington with my amazing daughter and husband. I grew up in Bangalore, India and moved to the United States for college. I studied Biomedical Engineering at Case Western Reserve University in Cleveland, Ohio. I then moved to Boston to pursue a PhD, also in Biomedical Engineering, at Boston University. I am now a Scientist at the Allen Institute for Neural Dynamics in Seattle.</p>
 <p>How does the brain recovery from injury? And how can we use this knowledge to improve people’s lives? These are the questions that drive my research.</p>
 <p>I fell in love with brain research as an undergraduate research assistant in <a href="https://case.edu/bme/research/labs/capadona-lab">Jeffrey Capadona’s lab</a> at Case Western. I spent my summers and most of my non-class hours in the lab, staining mouse brain slices and counting neurons. I studied how the brain responds to implanted electrodes with the goal of improving the longevity of neural implants. This is when my love-hate relationship with mice began.</p>
 <p>I then entered a PhD program in Biomedical Engineering at Boston University. My thesis work, in <a href="https://sites.bu.edu/boas/">David Boas’s lab</a>, focused on understanding the evolution of neurovascular coupling during stroke recovery. I developed and applied multimodal imaging techniques to study the dynamics of blood flow and neural activity in the brain before and after stroke.</p>
 <p>After the completion of my PhD, I moved to Seattle to join the <a href="https://alleninstitute.org/what-we-do/brain-science/research/allen-institute-neural-dynamics/">Allen Institute for Neural Dynamics</a> as a postdoc. As part of the Optical Physiology team in Neural Dynamics, I develop and use imaging techniques to study the dynamics of neuromodulators and neurotransmitters (think dopamine, serotonin, acetylcholine) across different brain regions during decision making behaviors in mice.</p>
 <p>Other fun things about me, I enjoy hand-tool woodworking and looking at data on India. I am trying to write more about these things on my blog. I also trained in Indian classical dance (Bharatanatyam) for 12 years. And if the picture above didn’t give it away, I like hiking.</p>
-<style>
+<!-- <style>
 body, main {
     margin: 0 !important;
     padding: 0 !important;
 }
-</style>
+</style> -->
 
 
-
-<script async="" defer="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script></main> <!-- /main -->
+<script data-collect-dnt="true" async="" defer="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script></main> 
+    <div class="about-footer"><div class="about-links">
+  <a href="https://scholar.google.com/citations?user=KKWokecAAAAJ&amp;hl=en&amp;oi=ao" class="about-link" rel="" target="">
+    <i class="bi bi-google scholar"></i>
+     <span class="about-link-text">Google Scholar</span>
+  </a>
+  <a href="https://github.com/smrithi-sunil" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitHub</span>
+  </a>
+  <a href="/images/SmrithiSunil_CV.pdf" class="about-link" rel="" target="">
+    <i class="bi bi-file-pdf"></i>
+     <span class="about-link-text">CV</span>
+  </a>
+  <a href="/research.html" class="about-link" rel="" target="">
+    <i class="bi bi-book"></i>
+     <span class="about-link-text">Research</span>
+  </a>
+  <a href="/posts.html" class="about-link" rel="" target="">
+    <i class="bi bi-pencil"></i>
+     <span class="about-link-text">Personal blog</span>
+  </a>
+  <a href="https://www.linkedin.com/in/smrithi-sunil-96a0b998/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+</div>
+</div>
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -163,13 +191,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

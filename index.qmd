@@ -1,10 +1,33 @@
 ---
 title: ""
+image: images/hawaii.jpg
+about:
+    template: marquee
+    links:
+      - icon: google scholar
+        text: Google Scholar
+        href: https://scholar.google.com/citations?user=KKWokecAAAAJ&hl=en&oi=ao
+      - icon: github
+        text: GitHub
+        href: https://github.com/smrithi-sunil
+      - icon: file-pdf
+        text: CV
+        href: /images/SmrithiSunil_CV.pdf
+      - icon: book
+        text: Research
+        href: research.qmd
+      - icon: pencil
+        text: Personal blog
+        href: posts.qmd
+      - icon: linkedin
+        text: LinkedIn
+        href: https://www.linkedin.com/in/smrithi-sunil-96a0b998/
+            
 ---
 
-:::{.column-screen}
+<!-- :::{.column-screen}
 ![](images/hawaii.jpg)
-:::
+::: -->
 
 Hi, I'm Smrithi. I am a neuroscientist and engineer living in Seattle, Washington with my amazing daughter and husband. I grew up in Bangalore, India and moved to the United States for college. I studied Biomedical Engineering at Case Western Reserve University in Cleveland, Ohio. I then moved to Boston to pursue a PhD, also in Biomedical Engineering, at Boston University. I am now a Scientist at the Allen Institute for Neural Dynamics in Seattle. 
 
@@ -18,9 +41,9 @@ After the completion of my PhD, I moved to Seattle to join the [Allen Institute 
 
 Other fun things about me, I enjoy hand-tool woodworking and looking at data on India. I am trying to write more about these things on my blog. I also trained in Indian classical dance (Bharatanatyam) for 12 years. And if the picture above didn't give it away, I like hiking.
 
-<style>
+<!-- <style>
 body, main {
     margin: 0 !important;
     padding: 0 !important;
 }
-</style>
+</style> -->
