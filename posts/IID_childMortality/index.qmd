@@ -25,6 +25,8 @@ All of this is great! What about in India? I want to understand how India and it
 
 There are too many interesting factors to talk about in one post, so this will be the first of two posts on this topic. In this post, I will focus on overall trends in child mortality rates, urban versus rural trends, mortality rates by sex, and mortality rates by state. In the second post, I will dive into some demographic factors such as the birth size, timing of births, and maternal education.
 
+(If you make it to the end, there are some cool interactive maps!)
+
 ### Childhood mortality rates
 
 Mortality rates were reported as the number of deaths per 1000 live births in the five years preceding each survey. I have converted these numbers to rates per 100 live births for easier interpretation. They can now be interpreted as the probability of dying as a percentage of live births.
