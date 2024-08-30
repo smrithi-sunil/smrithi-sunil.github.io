@@ -15,10 +15,12 @@ website:
       - href: /images/SmrithiSunil_CV.pdf
         text: CV
       - contact.qmd
-  body-footer: |
+  body-header: |
     <!-- 100% privacy-first analytics -->
     <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
     <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+  twitter-card: true
+  site-url: https://smrithisunil.com
 
 format:
   html:
