@@ -22,7 +22,8 @@ about:
       - icon: linkedin
         text: LinkedIn
         href: https://www.linkedin.com/in/smrithi-sunil-96a0b998/
-            
+twitter-card:
+  image: /images/site_photo.jpg     
 ---
 
 <!-- :::{.column-screen}

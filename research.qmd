@@ -8,4 +8,6 @@ listing:
 format: 
   html:
     page-layout: full
+twitter-card:
+  image: /images/site_photo.jpg
 ---

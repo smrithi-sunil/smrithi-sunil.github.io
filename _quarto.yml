@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  favicon: /images/site_photo.jpg
   title: "Smrithi Sunil"
   navbar:
     right:
