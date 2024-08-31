@@ -22,6 +22,7 @@ website:
     <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
   twitter-card: true
   site-url: https://smrithisunil.com
+  image: /images/site_photo.jpg
 
 format:
   html:

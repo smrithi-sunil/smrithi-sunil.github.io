@@ -10,4 +10,5 @@ format:
     page-layout: full
 twitter-card:
   image: /images/site_photo.jpg
+image: /images/site_photo.jpg
 ---

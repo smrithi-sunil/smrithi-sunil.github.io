@@ -7,4 +7,5 @@ listing:
   categories: true # allows you to sort posts by assigned categories 
 twitter-card:
   image: /images/site_photo.jpg
+image: /images/site_photo.jpg
 ---
