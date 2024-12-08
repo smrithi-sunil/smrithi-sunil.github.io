@@ -1,6 +1,6 @@
 ---
 title: My introduction to woodworking
-description: Starting to capture my woodworking journey through writing
+description: Starting to capture my woodworking journey through writing.
 author: Smrithi Sunil
 date: 09-14-2023
 categories: [Woodworking]

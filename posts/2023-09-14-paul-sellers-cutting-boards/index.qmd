@@ -1,6 +1,6 @@
 ---
 title: Cutting Boards and Paul Sellers
-description: I can't start a woodworking blog without talking about Paul Sellers
+description: I can't start a woodworking blog without talking about Paul Sellers.
 author: Smrithi Sunil
 date: 09-29-2023
 categories: [Woodworking]

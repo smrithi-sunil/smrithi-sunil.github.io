@@ -1,6 +1,6 @@
 ---
 title: India In Data
-description: Welcome and some starter population statistics
+description: Welcome and some starter population statistics.
 author: Smrithi Sunil
 date: 05-01-2024
 categories: [India In Data]

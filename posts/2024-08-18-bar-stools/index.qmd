@@ -1,6 +1,6 @@
 ---
 title: Three-Legged Bar Stools
-description: Our first real piece of home furniture
+description: Our first real piece of home furniture.
 author: Smrithi Sunil
 date: 08-18-2024
 categories: [Woodworking]

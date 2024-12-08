@@ -3,16 +3,25 @@ title: "Contact"
 image: images/SSlab.jpg
 about:
     template: marquee
-    links: 
-          - icon: google scholar
-            text: Google Scholar
-            href: https://scholar.google.com/citations?user=KKWokecAAAAJ&hl=en&oi=ao
-          - icon: linkedin
-            text: LinkedIn
-            href: https://www.linkedin.com/in/smrithi-sunil-96a0b998/
-          - icon: github
-            text: GitHub
-            href: https://github.com/smrithi-sunil      
+    links:
+      - icon: google scholar
+        text: Google Scholar
+        href: https://scholar.google.com/citations?user=KKWokecAAAAJ&hl=en&oi=ao
+      - icon: github
+        text: GitHub
+        href: https://github.com/smrithi-sunil
+      - icon: file-pdf
+        text: CV
+        href: /images/SmrithiSunil_CV.pdf
+      - icon: book
+        text: Research
+        href: research.qmd
+      - icon: pencil
+        text: Personal blog
+        href: posts.qmd
+      - icon: linkedin
+        text: LinkedIn
+        href: https://www.linkedin.com/in/smrithi-sunil-96a0b998/    
 ---
 
 E-mail: smrithi (dot) sunil (at) alleninstitute (dot) org

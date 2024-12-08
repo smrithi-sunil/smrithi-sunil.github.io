@@ -40,7 +40,7 @@ I then entered a PhD program in Biomedical Engineering at Boston University. My 
 
 After the completion of my PhD, I moved to Seattle to join the [Allen Institute for Neural Dynamics](https://alleninstitute.org/what-we-do/brain-science/research/allen-institute-neural-dynamics/) as a postdoc. As part of the Optical Physiology team in Neural Dynamics, I develop and use imaging techniques to study the dynamics of neuromodulators and neurotransmitters (think dopamine, serotonin, acetylcholine) across different brain regions during decision making behaviors in mice. 
 
-Other fun things about me, I enjoy hand-tool woodworking and looking at data on India. I am trying to write more about these things on my blog. I also trained in Indian classical dance (Bharatanatyam) for 12 years. And if the picture above didn't give it away, I like hiking.
+Other fun things about me, I enjoy hand-tool woodworking and looking at data on India. I am trying to write more about these things on my blog. I also trained in Indian classical dance (Bharatanatyam) for 12 years. 
 
 <!-- <style>
 body, main {
