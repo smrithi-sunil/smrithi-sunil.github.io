@@ -4,7 +4,7 @@ description: A connection of two essays.
 author: Smrithi Sunil
 date: 12-04-2024
 categories: [Musings]
-image: site_photo.jpg
+image: energetic_creative.jpg
 draft: false
 ---
 
