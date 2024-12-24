@@ -10,7 +10,7 @@ draft: true
 
 I've been thinking more recently about what makes science tick, both on an individual level and on the level of teams. What motivates us? How to do good science? How to align with people who have very different goals from you? In light of the recent 2024 election and the talks of NIH reform, thinking deeply about how to do good science with the goal of improving human lives and society is more important than ever.
 
-Through this search, I came across the Metascience 101 podcast series hosted by Tim Hwang and Caleb Watney from the Institute for Progress. This podcast series is essentially a "crash course in the debates, issues, and ideas driving the modern metascience movement." I found this series to be very enjoyable and thought-provoking. Here, I share a summary of each episode and some of my own thoughts on the topics discussed. For context, roots of Progress, founded by Caleb Watney and Alec Stapp, is a think tank focused on innovation policy in Washington D.C. 
+Through this search, I came across the Metascience 101 podcast series hosted by Tim Hwang and Caleb Watney from the Institute for Progress. This podcast series is essentially a "crash course in the debates, issues, and ideas driving the modern metascience movement." I found this series to be very enjoyable and thought-provoking. Here, I share a summary of each episode and some of my own thoughts on the topics discussed. For context, roots of Progress, founded by Caleb Watney and Alec Stapp, is a think tank focused on innovation policy in Washington D.C. Small change.
 
 
 ## 1. Introduction
