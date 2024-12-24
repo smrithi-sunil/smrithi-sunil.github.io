@@ -1,0 +1,2 @@
+Center Latitude: 40.63361951947767
+Center Longitude: -77.72345319289425
