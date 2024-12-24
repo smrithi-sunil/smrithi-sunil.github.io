@@ -245,7 +245,7 @@ fig.show()
 
 ## Iowa
 
-And Iowa, because Iowa is apparently super proficient. I wonder how different proficiency standards are across states.
+And Iowa, because Iowa is apparently super proficient. I wonder how proficiency standards vary across states.
 Percent of students proficient or above in 8th grade math in Iowa.
 ```{python}
 merged_df = gpd.read_file('statefiles/iowa-2024-merged.geojson')
