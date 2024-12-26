@@ -288,9 +288,9 @@ fig.show()
 
 #### Conclusion
 
-- Find the code for this visualization on [Smrithi's Github](https://github.com/smrithi-sunil). [^3] [^4]
+- Find the code for this visualization on [Smrithi's Github](https://github.com/smrithi-sunil/USA-testscores). [^3] [^4]
 
 [^1]: Brown University (Version 2.0). 2024. Zelma assessment data files, [Massachusetts]: (2024); [Ohio]: (2024); [Washington]: (2024). Accessed at [https://www.zelma.ai/data](https://www.zelma.ai/data) on December 18, 2024.
 [^2]: Third party website hosting [US Census Bureau](https://data.amerigeoss.org/gl/dataset/school-district-boundaries-current-75ed0) data for school district boundaries.
-[^3]: [Smrithi's Github](https://github.com/smrithi-sunil)
+[^3]: [Smrithi's Github](https://github.com/smrithi-sunil/USA-testscores)
 [^4]: This is all very plreliminary analysis. More details to be added soon.
