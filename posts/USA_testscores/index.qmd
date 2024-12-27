@@ -19,11 +19,11 @@ import warnings
 warnings.filterwarnings("ignore")
 ```
 
-State-wide test scores visualized using geospatial data. All figures below are 8th grade math scores for 2024 shown as the percentage of all students proficient or above, as defined by the state. All maps are interactive and can be zoomed in and out.
+State-wide test scores visualized using geospatial data. All figures below are 8th grade math scores for 2024 shown as the percentage of all students proficient or above, as defined by the state. Maps are interactive.
 
 ### Data Source
 
-- Zelma State Assessment Data Repository[^1]. *Brown University (Version 2.0). 2024. Zelma assessment data files, [Massachusetts]: (2024); [Ohio]: (2024); [Washington]: (2024); [California]: (2024); [Pennsylvania]: (2024); [Iowa]: (2024). Accessed at [https://www.zelma.ai/data](https://www.zelma.ai/data) on December 18, 2024.*
+- Zelma State Assessment Data Repository[^1]. Brown University (Version 2.0). 2024. Zelma assessment data files, [Massachusetts]: (2024); [Ohio]: (2024); [Washington]: (2024); [California]: (2024); [Pennsylvania]: (2024); [New York]: (2024); [Illinois]: (2024); [Georgia]: (2024); [Texas]: (2024); [Wisconsin]: (2024); [Iowa]: (2024). Accessed at [https://www.zelma.ai/data](https://www.zelma.ai/data) on December 18, 2024.
 
 - Geojson files for the school district boundaries were obtained from the US Census Bureau found [here](https://data.amerigeoss.org/gl/dataset/school-district-boundaries-current-75ed0).[^2]
 
@@ -207,6 +207,216 @@ Percent of students proficient or above in 8th grade math in Pennsylvania.
 ```{python}
 merged_df = gpd.read_file('statefiles/pennsylvania-2024-merged.geojson')
 with open('statefiles/pennsylvania-2024-coordinates.txt', 'r') as f:
+    lines = f.readlines()
+    center_lat = float(lines[0].split(': ')[1])
+    center_lon = float(lines[1].split(': ')[1])
+
+# Plot map
+fig = px.choropleth_map(merged_df,
+                            geojson=merged_df.geometry,
+                            locations=merged_df.index,
+                            color=merged_df.ProficientOrAbove_percent,
+                            color_continuous_scale="ylgnbu",
+                            range_color=(0, 1),
+                            hover_name="NAME",
+                            center={"lat": center_lat, "lon": center_lon},
+                            map_style="basic",
+                            opacity=0.9,
+                            zoom=6,
+                            labels={'ProficientOrAbove_percent': ''}
+                            )
+
+# Update colorbar properties
+fig.update_layout(
+    coloraxis_colorbar=dict(
+        titlefont=dict(size=18),
+        tickfont=dict(size=16),
+        len=0.75,
+        thickness=25
+    )
+)
+# Update district boundary color to white
+fig.update_traces(
+    marker_line_color="white",  # Set boundary color to white
+    marker_line_width=0.5      # Adjust the boundary thickness
+)
+fig.show()
+```
+
+## New York
+
+Percent of students proficient or above in 8th grade math in New York.
+```{python}
+merged_df = gpd.read_file('statefiles/new york-2024-merged.geojson')
+with open('statefiles/new york-2024-coordinates.txt', 'r') as f:
+    lines = f.readlines()
+    center_lat = float(lines[0].split(': ')[1])
+    center_lon = float(lines[1].split(': ')[1])
+
+# Plot map
+fig = px.choropleth_map(merged_df,
+                            geojson=merged_df.geometry,
+                            locations=merged_df.index,
+                            color=merged_df.ProficientOrAbove_percent,
+                            color_continuous_scale="ylgnbu",
+                            range_color=(0, 1),
+                            hover_name="NAME",
+                            center={"lat": center_lat, "lon": center_lon},
+                            map_style="basic",
+                            opacity=0.9,
+                            zoom=5.5,
+                            labels={'ProficientOrAbove_percent': ''}
+                            )
+
+# Update colorbar properties
+fig.update_layout(
+    coloraxis_colorbar=dict(
+        titlefont=dict(size=18),
+        tickfont=dict(size=16),
+        len=0.75,
+        thickness=25
+    )
+)
+# Update district boundary color to white
+fig.update_traces(
+    marker_line_color="white",  # Set boundary color to white
+    marker_line_width=0.5      # Adjust the boundary thickness
+)
+fig.show()
+```
+
+## Illinois
+
+Percent of students proficient or above in 8th grade math in Illinois.
+```{python}
+merged_df = gpd.read_file('statefiles/illinois-2024-merged.geojson')
+with open('statefiles/illinois-2024-coordinates.txt', 'r') as f:
+    lines = f.readlines()
+    center_lat = float(lines[0].split(': ')[1])
+    center_lon = float(lines[1].split(': ')[1])
+
+# Plot map
+fig = px.choropleth_map(merged_df,
+                            geojson=merged_df.geometry,
+                            locations=merged_df.index,
+                            color=merged_df.ProficientOrAbove_percent,
+                            color_continuous_scale="ylgnbu",
+                            range_color=(0, 1),
+                            hover_name="NAME",
+                            center={"lat": center_lat, "lon": center_lon},
+                            map_style="basic",
+                            opacity=0.9,
+                            zoom=5.5,
+                            labels={'ProficientOrAbove_percent': ''}
+                            )
+
+# Update colorbar properties
+fig.update_layout(
+    coloraxis_colorbar=dict(
+        titlefont=dict(size=18),
+        tickfont=dict(size=16),
+        len=0.75,
+        thickness=25
+    )
+)
+# Update district boundary color to white
+fig.update_traces(
+    marker_line_color="white",  # Set boundary color to white
+    marker_line_width=0.5      # Adjust the boundary thickness
+)
+fig.show()
+```
+
+## Georgia
+
+Percent of students proficient or above in 8th grade math in Georgia.
+```{python}
+merged_df = gpd.read_file('statefiles/georgia-2024-merged.geojson')
+with open('statefiles/georgia-2024-coordinates.txt', 'r') as f:
+    lines = f.readlines()
+    center_lat = float(lines[0].split(': ')[1])
+    center_lon = float(lines[1].split(': ')[1])
+
+# Plot map
+fig = px.choropleth_map(merged_df,
+                            geojson=merged_df.geometry,
+                            locations=merged_df.index,
+                            color=merged_df.ProficientOrAbove_percent,
+                            color_continuous_scale="ylgnbu",
+                            range_color=(0, 1),
+                            hover_name="NAME",
+                            center={"lat": center_lat, "lon": center_lon},
+                            map_style="basic",
+                            opacity=0.9,
+                            zoom=6,
+                            labels={'ProficientOrAbove_percent': ''}
+                            )
+
+# Update colorbar properties
+fig.update_layout(
+    coloraxis_colorbar=dict(
+        titlefont=dict(size=18),
+        tickfont=dict(size=16),
+        len=0.75,
+        thickness=25
+    )
+)
+# Update district boundary color to white
+fig.update_traces(
+    marker_line_color="white",  # Set boundary color to white
+    marker_line_width=0.5      # Adjust the boundary thickness
+)
+fig.show()
+```
+
+## Texas
+
+Percent of students proficient or above in 8th grade math in Texas.
+```{python}
+merged_df = gpd.read_file('statefiles/texas-2024-merged.geojson')
+with open('statefiles/texas-2024-coordinates.txt', 'r') as f:
+    lines = f.readlines()
+    center_lat = float(lines[0].split(': ')[1])
+    center_lon = float(lines[1].split(': ')[1])
+
+# Plot map
+fig = px.choropleth_map(merged_df,
+                            geojson=merged_df.geometry,
+                            locations=merged_df.index,
+                            color=merged_df.ProficientOrAbove_percent,
+                            color_continuous_scale="ylgnbu",
+                            range_color=(0, 1),
+                            hover_name="NAME",
+                            center={"lat": center_lat, "lon": center_lon},
+                            map_style="basic",
+                            opacity=0.9,
+                            zoom=5,
+                            labels={'ProficientOrAbove_percent': ''}
+                            )
+
+# Update colorbar properties
+fig.update_layout(
+    coloraxis_colorbar=dict(
+        titlefont=dict(size=18),
+        tickfont=dict(size=16),
+        len=0.75,
+        thickness=25
+    )
+)
+# Update district boundary color to white
+fig.update_traces(
+    marker_line_color="white",  # Set boundary color to white
+    marker_line_width=0.5      # Adjust the boundary thickness
+)
+fig.show()
+```
+
+## Wisconsin
+
+Percent of students proficient or above in 8th grade math in Wisconsin.
+```{python}
+merged_df = gpd.read_file('statefiles/wisconsin-2024-merged.geojson')
+with open('statefiles/wisconsin-2024-coordinates.txt', 'r') as f:
     lines = f.readlines()
     center_lat = float(lines[0].split(': ')[1])
     center_lon = float(lines[1].split(': ')[1])

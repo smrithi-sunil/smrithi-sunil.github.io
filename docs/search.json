@@ -347,7 +347,7 @@
     "href": "posts/USA_testscores/index.html",
     "title": "USA math scores by school district",
     "section": "",
-    "text": "State-wide test scores visualized using geospatial data. All figures below are 8th grade math scores for 2024 shown as the percentage of all students proficient or above, as defined by the state. All maps are interactive and can be zoomed in and out."
+    "text": "State-wide test scores visualized using geospatial data. All figures below are 8th grade math scores for 2024 shown as the percentage of all students proficient or above, as defined by the state. Maps are interactive."
   },
   {
     "objectID": "posts/USA_testscores/index.html#massachusetts",
@@ -467,5 +467,40 @@
     "title": "Summary of the Metascience 101 podcast series",
     "section": "9. How to Get Involved",
     "text": "9. How to Get Involved"
+  },
+  {
+    "objectID": "posts/USA_testscores/index.html#new-york",
+    "href": "posts/USA_testscores/index.html#new-york",
+    "title": "USA math scores by school district",
+    "section": "New York",
+    "text": "New York\nPercent of students proficient or above in 8th grade math in New York."
+  },
+  {
+    "objectID": "posts/USA_testscores/index.html#georgia",
+    "href": "posts/USA_testscores/index.html#georgia",
+    "title": "USA math scores by school district",
+    "section": "Georgia",
+    "text": "Georgia\nPercent of students proficient or above in 8th grade math in Georgia."
+  },
+  {
+    "objectID": "posts/USA_testscores/index.html#wisconsin",
+    "href": "posts/USA_testscores/index.html#wisconsin",
+    "title": "USA math scores by school district",
+    "section": "Wisconsin",
+    "text": "Wisconsin\nPercent of students proficient or above in 8th grade math in Wisconsin."
+  },
+  {
+    "objectID": "posts/USA_testscores/index.html#texas",
+    "href": "posts/USA_testscores/index.html#texas",
+    "title": "USA math scores by school district",
+    "section": "Texas",
+    "text": "Texas\nPercent of students proficient or above in 8th grade math in Texas."
+  },
+  {
+    "objectID": "posts/USA_testscores/index.html#illinois",
+    "href": "posts/USA_testscores/index.html#illinois",
+    "title": "USA math scores by school district",
+    "section": "Illinois",
+    "text": "Illinois\nPercent of students proficient or above in 8th grade math in Illinois."
   }
 ]
