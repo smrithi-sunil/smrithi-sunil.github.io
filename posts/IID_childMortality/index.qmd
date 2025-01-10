@@ -39,6 +39,8 @@ The age of the child matters when thinking about causes of death and possible in
 
 The first bar plot below shows the total mortality rates across India for each of these age brackets. The surveys were conducted in 1992-93, 1998-99, 2005-06, 2015-16, and 2019-21. 
 
+<br>
+
 ```{python}
 pop_data = pd.read_csv('UrbanRural.csv')
 # Total population
@@ -54,6 +56,7 @@ fig.update_layout(
 fig.show()
 ```
 
+<br>
 Overall, the mortality rates have been decreasing over time. For example, for the five-year period preceding the 1992-93 survey, the probability of dying before the fifth birthday was 10.9%. In the 2019-2021 survey, this has decreased to 4.2%. A child born in India today is less than half as likely to die before their fifth birthday compared to a child born in the early 1990s. For 2021 alone, the child mortality rate in India was 3.1%, compared to the world average of 3.8% [^2]. So, India is sitting just below the world average. For comparison, the child mortality rate in the US was 0.6% in 2021 and countries such as Sweden and Japan have a rate of 0.2%. 
 
 ### Urban and rural trends
@@ -61,6 +64,8 @@ Overall, the mortality rates have been decreasing over time. For example, for th
 Various definitions are used to classify India into urban and rural areas. Even across definitions, about 60-70% of India's population is rural. The NFHS uses the Census of India's definition, which is based on population density and occupation. A habitation is considered urban if: (1) if it has a minimum population of 5000, (2) at least 75% of the male working population is involved in non-agricultural activities, and (3) the population density is at least 400 persons per square kilometer.
 
 The next set of plots below show the mortality rates for urban versus rural areas over time. Again, mortality rates trend downwards over time for both urban and rural populations. However, the rates are consistently higher in rural areas compared to urban areas. This is not surprising given the differences in access to healthcare as well as other factors such as socioeconomics and education, which are lower in rural areas.
+
+<br>
 
 ```{python}
 
@@ -81,7 +86,9 @@ fig = px.bar(UR_neonatal, x='Year', y='Total Rate',
 fig.update_layout(
     yaxis_title='Deaths per 100 live births',
     legend_title_text=None,
+    margin=dict(b=100)
 )
+
 fig.show()
 # Postneonatal mortality
 UR_postnatal = UR[UR['Group'] == 'Postneonatal mortality']
@@ -94,9 +101,11 @@ fig = px.bar(UR_postnatal, x='Year', y='Total Rate',
 # Update layout
 fig.update_layout(
     yaxis_title='Deaths per 100 live births',
-    legend_title_text=None
+    legend_title_text=None,
+    margin=dict(b=100)
 )
 fig.show()
+
 # Child mortality
 UR_child = UR[UR['Group'] == 'Child mortality']
 fig = px.bar(UR_child, x='Year', y='Total Rate',
@@ -108,8 +117,8 @@ fig = px.bar(UR_child, x='Year', y='Total Rate',
 # Update layout
 fig.update_layout(
     yaxis_title='Deaths per 100 live births',
-    legend_title_text=None
-    )
+    legend_title_text=None,
+)
 fig.show()
 
 # Under five mortality
@@ -122,11 +131,13 @@ fig = px.bar(UR_underfive, x='Year', y='Total Rate',
              )
 # Update layout
 fig.update_layout(
-    yaxis_title='Deaths per 100 live births'
-    )
+    yaxis_title='Deaths per 100 live births',
+    legend_title_text=None,
+)
 fig.show()
 ```
 
+<br>
 Next, I was interested in seeing if the gap between urban and rural mortality rates has been closing over time. I was also interested in seeing if the gap was larger for certain age brackets. For example, we might expect the gap to be larger for neonatal mortality rates since the neonatal period is the most critical time for a child's survival and interventions need to be quick and intense. So, one might imagine that neonatal mortality rates are more sensitive to differences in access to healthcare.
 
 The data here is a little surprising. The plot below shows the ratio of rural to urban mortality rates over time for each age bracket. You can read this as, in the neonatal period for example, a child born in a rural area is 1.5 times more likely to die compared to a child born in an urban area. The first point to note is that the ratio of rural to urban mortality rates has been fairly consistent over time. There is perhaps a downward trend just in the last survey (2019-21) for postneonatal, child, and under five categories. The second point to note is that the gap is widest for child mortality rates. A child in a rural area is almost twice as likely to die between their first and fifth birthday compared to a child in an urban area.
@@ -167,11 +178,15 @@ fig.update_layout(
 fig.show()
 ```
 
+<br>
+
 ### Excess female mortality
 
 India has a long history of son preference. Amartya Sen was one of the first people to introduce the idea of "missing women", which brought attention to the skewed sex ratio in some Asian countries compared to the rest of the world. He estimated that roughly 100 million women were missing from the world due to sex-selective abortion, infanticide, and neglect [^3]. This [gender ratio article](https://ourworldindata.org/gender-ratio) published by Our World in Data touches on sex selective practices in India [^4]. Sex preference practices can occur both before, in terms of sex selective abortion or choosing to stop or have more children based on the sex of the previous child, and after birth, as sex selective infanticide or neglect. The child mortality by sex plot in OWID shows that in every country, except India, child mortality is higher in boys than girls. It has been known for a long time that mortality in males exceeds that of females in almost all stages of life. So what's up with India?
 
 Using the NFHS data, I looked at the mortality rates between male and female children. Overall, the under five mortality rate shows a slightly higher rate for girls than boys in the first three surveys. In the last two surveys, the female mortality rate is ever so slightly lower than that of males. So, at least on the surface, it seems like we're moving in the right direction.
+
+<br>
 
 ```{python}
 total = pop_data[pop_data['Area'] == 'Total']
@@ -196,7 +211,10 @@ fig.update_layout(
 fig.show()
 ```
 
+<br>
 We can break this data down further and look at specific age groups as well as rural versus urban trends. Interestingly, in the neonatal period, we see an expected skew in mortality rates towards higher in boys in both rural and urban areas, like that of the rest of the world. However, in the postneonatal and child age groups, the mortality rates for girls are higher. We do seem to be getting better over time, the most recent survey (2019-21) shows a much smaller gap. I would like to stress on the fact that in the neonatal period boys have a higher mortality rate (as expected), but in the post-neonatal period girls have a higher mortality rate (this is not biological!). The higher mortality rate in girls is attributed to gender discriminating practices such as sex-selective infanticide or neglect. 
+
+<br>
 
 ```{python}
 df = UR[UR['Group'] == 'Neonatal mortality']
@@ -220,6 +238,7 @@ fig.update_layout(
     title='Neonatal mortality rates',
     xaxis_title=None,
     yaxis_title='Deaths per 100 live births',
+    margin=dict(b=50)
 )
 fig.show()
 
@@ -243,6 +262,7 @@ fig.update_layout(
     title='Postneonatal mortality rates',
     xaxis_title=None,
     yaxis_title='Deaths per 100 live births',
+    margin=dict(b=50)
 )
 fig.show()
 
@@ -267,10 +287,12 @@ fig.update_layout(
     title='Child mortality rates',
     xaxis_title=None,
     yaxis_title='Deaths per 100 live births',
+    margin=dict(b=20)
 )
 fig.show()
 ```
 
+<br>
 Something interesting seems to be happening in the postneonatal period in urban areas. We don't really see a difference in male and female mortality rates in the 92-93 and 98-99 surveys. However, 05-06 and 15-16 surveys show a higher mortality rate in females. Perhaps a wild speculation, but does this have to do with the introduction of the law banning prenatal sex determination? The data represented in the 98-99 survey and prior would primarily reflect births that occurred before the law took effect. Prior to the law, urban populations had easy access to ultrasound technology and could therefore participate in sex-selective abortion at a higher rate than rural populations. So, the lack of sex differences in postneonatal mortality rates in the earlier surveys could be due to higher female feticide rates, which would negate the need for female infanticide. I am assuming here that a significant contributor for higher female mortality rates is female infanticide and neglect. So, a conclusion from this speculation, is that the law banning prenatal sex determination led to an unintended increase (albeit temporarily) in female infanticide (yikes!).
 
 There is some evidence in the literature for the above speculation. Goodkind 1996 introduces the *substitution* hypothesis and discusses the interaction between prenatal and postnatal sex-selective practices [^5]. The substitution hypothesis posits that prenatal sex-selective abortion may represent the *substitution* for postnatal discrimination, as opposed to solely an additive effect for further discrimination. They suggest that sex-selective abortion might result in a decline in postnatal discrimination and provide evidence for this in East Asian countries. It is therefore a plausible explanation for the postneonatal data observed in urban India. The roughly similar mortality rates in males and females seen in the 92-93 and 98-99 survey could be due to higher sex-selective abortion rates in urban India with the availability of ultrasound technology. The subsequent increase in female mortality rates in the 05-06 and 15-16 surveys could indicate the revert back to postnatal discrimination after the introduction of the ban on sex-determination during pregnancy.
