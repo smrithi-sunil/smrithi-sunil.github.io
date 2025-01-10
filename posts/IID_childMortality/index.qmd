@@ -1,5 +1,5 @@
 ---
-title: Infant and Child Mortality in India - Part I
+title: Infant and Child Mortality in India
 description: It's not as grim as it sounds. Things are getting better over time! But still pretty grim.
 author: Smrithi Sunil
 date: 08-27-2024
@@ -23,9 +23,7 @@ Most of us are familiar with Hans Rosling and his infamous bubble charts. Roslin
 
 All of this is great! What about in India? I want to understand how India and its states have changed over time. To get started, I picked probably the worst thing in the world - the deaths of children. In this post, I will dive into the data on infant and child mortality in India, specifically focusing on how it has changed over time and across demographic factors. The data for this post is obtained from The National Family Health Survey (NFHS) conducted by the Ministry of Health and Family Welfare in the Government of India [^1]. Unlike the census, which aims to collect data from all households, the NFHS survey is conducted in a representative sample of households throughout India. 
 
-There are too many interesting factors to talk about in one post, so this will be the first of two posts on this topic. In this post, I will focus on overall trends in child mortality rates, urban versus rural trends, mortality rates by sex, and mortality rates by state. In the second post, I will dive into some demographic factors such as the birth size, timing of births, and maternal education.
-
-(If you make it to the end, there are some cool interactive maps!)
+In this post, I will focus on overall trends in child mortality rates, urban versus rural trends, mortality rates by sex, and mortality rates by state. (If you make it to the end, there are some cool interactive maps!)
 
 ### Childhood mortality rates
 
@@ -406,10 +404,6 @@ fig.show(config={
 
 - *Andhra Pradesh and Telangana are combined in this data.*
 - *The 92-93 and 98-99 surveys were prior to the creation of Chhattisgarh, Jharkhand, and Uttarakhand. So for these surveys, the data for these states is included in the data for Madhya Pradesh, Bihar, and Uttar Pradesh respectively.*
-
-### Part II
-
-In the next post, I will dive into some demographic factors that are correlated with childhood mortality such as birth size, timing of births, and maternal education. Stay tuned!
 
 ### Conclusion
 
