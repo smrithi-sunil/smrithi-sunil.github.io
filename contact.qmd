@@ -6,7 +6,7 @@ about:
     links:
       - icon: google scholar
         text: Google Scholar
-        href: https://scholar.google.com/citations?user=KKWokecAAAAJ&hl=en&oi=ao
+        href: https://scholar.google.com/citations?user=4Q_Q07wAAAAJ&hl=en
       - icon: github
         text: GitHub
         href: https://github.com/smrithi-sunil
