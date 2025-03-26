@@ -1,6 +1,6 @@
 ---
 title: Hyperspectral fiber photometry for dissecting neural circuit dynamics
-description: Smrithi Sunil, Kaspar Podgorski and others (Current ongoing work)
+description: Smrithi Sunil, Kaspar Podgorski and others
 date: last-modified
 categories: [Imaging, Neural Dynamics]
 image: image.png

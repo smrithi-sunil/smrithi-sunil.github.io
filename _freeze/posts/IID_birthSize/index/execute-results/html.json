@@ -1,0 +1,11 @@
+{
+  "hash": "3283543f317a4df373741d03a2f57ff2",
+  "result": {
+    "markdown": "---\ntitle: Birth Size\ndescription: Infants born with a low birth weight are at higher risk of mortality.\nauthor: Smrithi Sunil\ndate: 03-20-2025\ncategories: [India In Data]\nimage: image.jpg\nexecute:\n  echo: false\ndraft: false\n---\n\n\n\nOutline\n\n- Intro\n- Charts\n- What does low birth weight impact\n- How to think about the numbers\n- Why are the numbers in OWID higher than NFHS surveys\n\nOn October 8, 2023, my daughter was born. The delivery had gone smoothly, and I held her in my arms for the first time. But then I noticed the nurses moving quickly around us. One of them called for backup, and within moments, more people filled the room. Their movements were calm and controlled, but no one would tell me what was wrong. I kept asking, my voice growing more urgent, until the doctor finally answered: my daughter was smaller than expected, and they needed to run some checks. She reassured me that if it were something serious, the room would be much more chaotic. Still, I watched anxiously as the emergency team worked. After a few tense minutes, they determined she was stable, and my husband was called over for the weight check. The numbers flashed on the scale—2.35 kg (5 lb 3 oz). This was below 1 percentile in weight. \n\nWhile my daughter is now thriving at 70th percentile for height and weight, she is one of the lucky ones. The World Health Organization defines low birth weight as being born under 2.5 kg and low birth weight was a risk factor attributed to over 1.5 million child deaths worldwide in 2021. Infants born with a low birth weight are at much higher risk of infant mortality and health complications.\n\n![](share-of-low-birthweight-babies-born.png)\n\nIndia has one of the highest prevalence of low birth weight in the world, at least among the countries that report low birth weight. One study estimated that 83% of neonatal deaths in India occur due to complications of low birth weight. Needless to say, understanding low birth weight and minimizing its occurrence is important. \n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
