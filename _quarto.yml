@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources: 
+    - images/
 
 website:
   favicon: /images/site_photo.jpg
@@ -13,6 +15,8 @@ website:
         text: Research
       - href: posts.qmd
         text: Blog
+      - href: woodworking.html
+        text: Woodworking
       - href: /images/SmrithiSunil_CV.pdf
         text: CV
       - contact.qmd

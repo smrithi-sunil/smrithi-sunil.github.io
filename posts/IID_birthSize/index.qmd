@@ -1,0 +1,491 @@
+---
+title: Is low birth weight really a problem in India?
+description: Exploring where birth weight standards come from and why India reports some of the highest rates in the world.
+author: Smrithi Sunil
+date: 04-17-2025
+categories: [India In Data]
+image: image.jpg
+execute:
+  echo: false
+draft: false
+---
+
+```{python}
+import pandas as pd
+import geopandas as gpd
+import plotly.express as px
+import plotly.graph_objects as go
+import numpy as np
+import json
+import matplotlib as plt
+from matplotlib import colormaps
+import matplotlib.colors as mcolors
+from matplotlib.colors import TwoSlopeNorm
+
+
+preterm_cut = pd.read_csv('preterm_cut.csv')
+pop_data = pd.read_csv('mortalityBySize.csv')
+birth_size = pd.read_csv('birthSize.csv')
+# Load the CSV with GeoJSON geometries
+gdf = gpd.read_file('geojson_filtered.geojson')
+geojson_data = gdf.to_json()
+# Load the CSV with population data
+data = pd.read_csv('birthSize_State.csv')
+
+```
+
+“Low birth weight infants are about 20 times more likely to die than heavier infants.” This sentence, or variations of it, often appears in reports on the impact of low birth weight (LBW). One study in India estimated that 83% of neonatal deaths[^1] are linked to complications arising from LBW[^2]. Globally, LBW was associated with over 1.5 million child deaths in 2021, which is about one-third of all deaths in children under five[^3]. These numbers make a compelling case: reducing the incidence of LBW is critical.
+
+The WHO defines LBW as a birth weight of less than 2500 grams (5.5 pounds). India reports the highest prevalence of LBW among countries that collect birth weight data. According to Our World In Data (OWID), 27.4% of babies born in India in 2020 were classified as LBW, which is nearly double the global average of 14.7%. With an estimated 25 million births in India that year, this translates to nearly 7 million LBW newborns.
+
+![](share-of-low-birthweight-babies-born.png)
+
+Despite India’s high share of LBW births, its neonatal mortality rate is comparable to other developing countries with much lower LBW rates. In 2020, India’s neonatal mortality rate was 2%, similar to Kenya, Botswana, and Namibia. Yet these countries reported much lower LBW rates, around 10–15%[^4]. This pattern extends to infant and child mortality as well. It raises the question: are Indian babies simply smaller on average? Is the 2500 g threshold too stringent for India’s population? 
+
+Current global health literature asserts that, under favorable maternal and environmental conditions, fetal and infant growth patterns are consistent across ethnicities[^5]. This has led to the creation of standardized international growth charts based on ultrasound and anthropometric measures like weight, length, and head circumference[^6].
+
+So if ethnicity is not a factor, why does India have such a high LBW rate without a proportionally high mortality rate? What role do environmental and demographic factors play in shaping these outcomes? In this post, I explore those questions. I begin with the origin of the LBW classification, then examine how birth weight correlates with mortality and demographic trends across India using data from the National Family Health Survey (NFHS-3, NFHS-4, and NFHS-5)[^7]. Finally, I present evidence suggesting that Indian babies may, in fact, be healthy despite weighing less at birth.
+
+### A brief history of low birth weight
+
+Before diving into the data, it's worth understanding where the definition of LBW comes from. The WHO currently defines LBW as a weight at birth under 2500 grams. This threshold was first adopted in 1948 when the Expert Group on Prematurity recommended defining prematurity as either being born before 37 weeks of gestation or weighing less than or equal to 2500 grams at birth. At the time, LBW served as a convenient proxy for prematurity.
+
+The 2500 g cutoff, however, was not based on strong biological evidence. It was first used by Finnish pediatrician Dr. Arvo Ylppö in 1919 while studying infants in a German hospital—but he gave no justification for the threshold. Over the next few decades, other researchers used a range of weight cutoffs, from 2000 g to 3000 g, making it difficult to compare studies.
+
+Recognizing this inconsistency, the American Academy of Pediatrics (AAP) advocated for standardization in 1935. During a key meeting that year, 2500 g was proposed as a uniform threshold for identifying at-risk newborns. This definition was later adopted by the WHO in 1948, largely based on data from high-income countries, where LBW was typically the result of prematurity.
+
+However, as more data emerged from developing countries, a different pattern became clear: many LBW babies were born at full-term. In these regions, LBW was more often due to intrauterine growth restriction (IUGR)—a condition where the fetus does not grow as expected—rather than early delivery.
+
+While both prematurity and IUGR increase the risk of neonatal morbidity and mortality, they do so through different biological pathways, each requiring distinct care protocols and policy responses. It became increasingly important to distinguish between the two causes.
+
+In 1960, after reviewing international data, the WHO concluded that in many low-income settings, LBW was predominantly due to full-term but undergrown babies. That same year, the Expert Committee on Maternal and Child Health officially recommended shifting the definition from "prematurity" to "low birth weight," while retaining the 2500 g threshold. This remains the WHO definition today.
+
+It’s important to note that despite widespread use, birth weight is still a somewhat indirect and noisy metric. Some researchers argue that it’s not a direct factor in neonatal mortality but rather a marker that captures a range of underlying conditions. Recent studies have emphasized "small for gestational age" (SGA)—based on fetal growth trajectories—as a potentially more meaningful measure. We'll revisit this idea later when looking at how Indian babies grow compared to global standards.
+
+### Preterm births around the world over time
+
+While India has a high share of LBW babies compared to the rest of the world, I wanted to see whether preterm birth rates follow a similar trend. If India had an unusually high rate of preterm birth, that might explain the high rate of LBW. The map below shows the preterm birth rate across countries in 2020, defined as the number of preterm births per 100 live births.
+
+```{python}
+preterm_2020 = preterm_cut[preterm_cut['Period'] == 2020]
+fig = px.choropleth(
+    preterm_2020,
+    locations="SpatialDimValueCode",
+    color="Preterm Birth",
+    hover_name="Location",
+    hover_data={
+        'Location': False,
+        'SpatialDimValueCode': False,
+        'Period': True,
+        'Preterm Birth': True
+    },
+    color_continuous_scale="Greens",
+    range_color=[5,15],
+)
+fig.update_geos(
+    showframe=False,
+    showcoastlines=False,
+    projection_type='natural earth'
+)
+fig.update_layout(
+    coloraxis_colorbar=dict(
+        len=0.5,
+        thickness=30,
+        x=1.02,
+        title=''
+    ),
+    margin={"r":0, "t":0, "l":0, "b":0}
+)
+fig.show(config={
+    'staticPlot': False,
+    'scrollZoom': False,
+    'doubleClick': False
+})
+
+```
+
+India does have a relatively high preterm birth rate, but it is comparable to countries like South Africa and Ethiopia. This stands in contrast to the OWID map of LBW rates, where India has a significantly higher share of LBW births than nearly any other country.
+
+This comparison suggests that India has a disproportionately high number of full-term babies who are classified as LBW. In other words, India’s elevated LBW rate cannot be explained by preterm births alone. Instead, it points toward intrauterine growth restriction or other factors leading to smaller newborns, even at full term.
+
+### Birth weight and mortality in India
+
+When it comes to mortality, the National Family Health Survey (NFHS) relies on a subjective measure of newborn size to estimate risk. This measure is based on the mother’s recollection of how large or small her baby appeared at birth. While not a perfect proxy for actual birth weight, the relationship is still clear: babies perceived as “very small” are about five times more likely to die in the first month of life compared to those considered average or larger. These trends have remained remarkably consistent across time.
+
+```{python}
+fig = px.bar(pop_data, x='Subgroup', y='Rate',
+             color='Year', barmode='group', width=750, title='Neonatal mortality rates by baby size',
+             color_discrete_sequence=['#004F47', '#008578', '#00B3A6', '#50D8CF']
+             )
+fig.update_layout(
+    yaxis_title='Deaths per 100 live births',
+    xaxis_title='Baby size',
+)
+fig.show()
+```
+
+Despite the limitations of using maternal perception, the data reveals a strong and persistent association between perceived small size and neonatal mortality. This reinforces the importance of birth size as a rough but useful indicator of early life risk, especially in the absence of more precise measurements.
+
+### Low birth weight across states
+
+While the contribution of LBW to mortality is based on the subjective birth size metric, the reporting of LBW itself is based on WHO standards (the percentage of babies born weighing less than 2500 grams). For many years, however, recording birth weight was not routine in India. In 2005, only 34% of children had a recorded birth weight, based on either written records or parental recall. By the most recent survey in 2021, this number had increased dramatically to 90%.
+
+Still, the likelihood of recording a baby’s birth weight varies by demographic factors. For example, children born later in birth order are less likely to have documented weights. States also differ in how consistently they track this information. These variations can affect the accuracy of LBW estimates, potentially skewing the data toward groups more likely to keep medical records.
+
+Below is a map showing the percentage of LBW births across Indian states over time, followed by a slope chart that illustrates how LBW rates have changed in each state. In the slope chart, states are color-coded based on the absolute percentage point change in LBW incidence. Hover over the charts to look at state-based metrics.
+
+```{python}
+data_all = pd.DataFrame(data)
+merged_data = pd.merge(gdf, data_all, on='NAME_1')
+merged_data.rename(columns={'NAME_1': 'State'}, inplace=True)
+# Plot the choropleth map for total population
+fig = px.choropleth(merged_data,
+                    geojson=merged_data.geometry,
+                    locations=merged_data.index, #merged_data.index,  # Use the DataFrame index as locations
+                    projection="natural earth",
+                    fitbounds="locations",
+                    color="Rate",  # Column containing the values to color
+                    color_continuous_scale='Blues',
+                    range_color=(10, 30),
+                    hover_name=merged_data.State,
+                    custom_data=['State','Year'],
+                    animation_frame="Year"
+                    )
+fig.update_traces(hovertemplate="<b>%{customdata[0]}</b><br>Year: %{customdata[1]}<br>Rate: %{z}")
+fig.update_geos(
+    showframe=False,
+    showcoastlines=False,
+    projection_type='natural earth'
+)
+fig.update_layout(
+    coloraxis_colorbar=dict(
+        len=1,
+        thickness=30,
+        x=1.02,
+        title=''
+    ),
+    margin={"r":0, "t":0, "l":0, "b":0}
+)
+fig.show(config={
+    'staticPlot': False,
+    'scrollZoom': False,
+    'doubleClick': False
+})
+```
+
+```{python}
+df = data_all
+
+# Remove chandigarh
+df = df[df['NAME_1'] != 'Chandigarh']
+
+years = sorted(df['Year'].unique())
+df_pivot = df.pivot(index='NAME_1', columns='Year', values='Rate').reset_index()
+
+# Calculate absolute change from first to last year
+df_pivot['change'] = (df_pivot[years[-1]] - df_pivot[years[0]])
+
+# Get a truncated version of 'Blues'
+def truncate_colormap(cmap, minval=0.2, maxval=1.0, n=128):
+    new_cmap = mcolors.LinearSegmentedColormap.from_list(
+        f'trunc({cmap.name},{minval:.2f},{maxval:.2f})',
+        cmap(np.linspace(minval, maxval, n))
+    )
+    return new_cmap
+
+colormap = plt.colormaps.get_cmap('Blues')
+cmap = truncate_colormap(colormap, 1.0, 0.2)
+
+# Step 2: Convert to Plotly-compatible colorscale
+plotly_colorscale = [
+    [i / 255, mcolors.to_hex(cmap(i / 255))] for i in range(256)
+]
+
+norm = TwoSlopeNorm(
+    vmin=df_pivot['change'].min(),
+    vcenter=0,
+    vmax=df_pivot['change'].max()
+)
+
+# Build plot
+fig = go.Figure()
+
+for _, row in df_pivot.iterrows():
+    y_values = [row[year] for year in years]
+    
+    # Get color from colormap
+    color = mcolors.to_hex(cmap(norm(row['change'])))
+    
+    # Generate text positions
+    positions = ["middle left"] + ["middle center"] * (len(years) - 2) + ["middle right"]
+
+    fig.add_trace(go.Scatter(
+        x=years,
+        y=y_values,
+        mode='lines+markers',
+        line=dict(color=color, width=2),
+        marker=dict(size=10, color=color),
+        text=[f"{val}" for val in y_values],
+        name=row['NAME_1'],
+        showlegend=False,
+        hovertemplate=(
+            f"<b>{row['NAME_1']}</b><br>" +
+            "<br>".join([f"{year}: {row[year]}%" for year in years]) +
+            f"<br>Change: {row['change']:.1f} points" +
+            "<extra></extra>"
+        )
+    ))
+
+
+# Add vertical lines for each year
+min_y = df['Rate'].min() - 1
+max_y = df['Rate'].max() + 1
+
+for year in years:
+    fig.add_shape(
+        type="line",
+        x0=year, x1=year,
+        y0=min_y, y1=max_y,
+        line=dict(color="black", width=1)
+    )
+
+# Add invisible trace to show colorbar
+fig.add_trace(go.Scatter(
+    x=[None],
+    y=[None],
+    mode='markers',
+    marker=dict(
+        colorscale=plotly_colorscale,
+        cmin=df_pivot['change'].min(),
+        cmax=df_pivot['change'].max(),
+        colorbar=dict(
+            title=dict(
+                text="Absolute Change in LBW Rate",
+                side="right",
+                font=dict(size=14)
+            ),
+            thickness=15,
+            len=0.75
+        ),
+        showscale=True
+    )
+))
+
+# Layout
+fig.update_layout(
+    legend=dict(
+        title="State",
+        x=1.05,
+        y=1,
+        traceorder="normal"
+    ),
+    xaxis=dict(title="Year", tickmode='array', tickvals=years),
+    yaxis=dict(title="Low Birth Weight Rate (%)"),
+    showlegend=False,
+    plot_bgcolor='white'
+)
+fig.show()
+
+```
+
+Northern states like Punjab, Rajasthan, Haryana, Uttar Pradesh, and Bihar have seen the largest reductions in LBW rates over time. Haryana, for instance, recorded a 12.2 percentage point drop. Yet disparities remain wide: in the most recent survey, LBW incidence ranged from a high of 22.4% in Punjab to just 4% in Mizoram. Overall, the northeast states have lower rates of LBW.
+
+### Trends in birth weight across demographics
+
+To understand the broader environmental and social factors behind LBW, it helps to look at trends across different demographic groups—such as urban vs. rural residence, maternal age, household wealth, and education. If birth weight is driven primarily by environmental factors then I would expect to see sizeable differences in LBW rates between urban and rural populations or along the wealth and education spectrum.
+
+```{python}
+
+# Urban vs rural
+total = birth_size[birth_size['Group'] == 'Area']
+fig = px.bar(total, x='Subgroup', y='Percent below 2.5',
+             color='Year', barmode='group', 
+             title='Rate of LBW across urban and rural populations',
+             color_discrete_sequence=['#A05282', '#C48BAF', '#D7AFC6']
+             )
+fig.update_layout(
+    yaxis_title='Percentage of births under 2.5 kg',
+    xaxis_title='Urban vs rural',
+    title_x=0.45,
+    legend_title_text=None
+)
+fig.show()
+
+# Mother's age at birth
+total = birth_size[birth_size['Group'] == 'Mother age']
+fig = px.bar(total, x='Subgroup', y='Percent below 2.5',
+             color='Year', barmode='group', 
+             title='Rate of LBW by mother\'s age at birth',
+             color_discrete_sequence=['#A05282', '#C48BAF', '#D7AFC6']
+             )
+fig.update_layout(
+    yaxis_title='Percentage of births under 2.5 kg',
+    xaxis_title='Mother\'s age at birth',
+    title_x=0.45,
+    legend_title_text=None
+)
+fig.show()
+
+# Wealth quintile
+total = birth_size[birth_size['Group'] == 'Wealth']
+fig = px.bar(total, x='Subgroup', y='Percent below 2.5',
+             color='Year', barmode='group', 
+             title='Rate of LBW across wealth quintile',
+             color_discrete_sequence=['#A05282', '#C48BAF', '#D7AFC6']
+             )
+fig.update_layout(
+    yaxis_title='Percentage of births under 2.5 kg',
+    xaxis_title='Wealth quintile',
+    title_x=0.45,
+    legend_title_text=None
+)
+fig.show()
+
+# Education level
+total = birth_size[birth_size['Group'] == 'Mother education']
+fig = px.bar(total, x='Subgroup', y='Percent below 2.5',
+             color='Year', barmode='group', 
+             title='Rate of LBW by education level',
+             color_discrete_sequence=['#A05282', '#C48BAF', '#D7AFC6']
+             )
+fig.update_layout(
+    yaxis_title='Percentage of births under 2.5 kg',
+    xaxis_title='Mother\'s education level',
+    title_x=0.45,
+    legend_title_text=None
+)
+fig.show()
+```
+
+The results are surprising. There are no drastic differences across demographic groups. Urban and rural areas, for example, show nearly identical LBW rates. There are slight improvements among the highest wealth quintile and the most educated mothers—two groups that are likely correlated—but even in these categories, LBW rates hover around 15%. That’s comparable to LBW rates in Sub-Saharan Africa and still well above the global average.
+
+This suggests that environmental conditions, while important, may not fully explain India’s high rate of LBW. If they were the primary drivers, we would expect to see more dramatic differences across socioeconomic lines.
+
+### How does birth weight impact mortality?
+
+The WHO states that infants weighing less than 2500 g are approximately 20 times more likely to die than heavier babies. But what does this actually mean? Is a baby who weighs 2550 g meaningfully safer than one who weighs 2450 g? Are all babies under 2500 g at equally high risk? Definitely not and it's unlikely to be a simple linear relationship.
+
+A wide range of factors can contribute to LBW:
+
+- Maternal factors - poor nutrition during pregnancy, low pre-pregnancy weight, inadequate weight gain during pregnancy, short birth spacing, infections during pregnancy, chronic illnesses, substance abuse, stress. 
+
+- Fetal factors - multiple pregnancies (twins/triplets), placental insufficiency, preterm birth, IUGR.
+
+- Socioeconomic and demographic factors - maternal education, poverty, access to care, sanitation and hygiene, labor load during pregnancy, pollution, cultural norms and traditions.
+
+These various contributing factors makes it difficult to isolate a direct link between LBW and mortality.
+
+A study by Jana et al. (2023) used data from NFHS 2019–2021 to investigate this relationship[^8]. Their statistical model accounted for both observed factors (like maternal age, education, and wealth) and unobserved ones (such as smoking, hypertension, or food insecurity). They found that babies **born with LBW had a 53% higher likelihood of dying**, even after controlling for other risk factors.
+
+LBW is associated with complications such as birth asphyxia, respiratory and metabolic dysfunction, growth delays, and increased susceptibility to infections—all of which raise the risk of neonatal death.
+
+Still, not all contributing factors are equally important. Does smoking matter more than poor diet? How does maternal health compare to access to clean water or healthcare? Answering these questions is crucial for designing effective interventions.
+
+What’s puzzling, though, is this: if LBW increases mortality risk, why does India, with one of the highest LBW rates in the world, have similar neonatal mortality rates to countries with much lower LBW rates?
+
+For example, India’s LBW rate is around 27%, while countries like South Africa, Botswana, and Namibia report rates closer to 16%. Yet all have similar neonatal mortality rates, around 2%. One possibility is that other, unrelated causes of death push up mortality in these African countries. But another explanation is that Indian babies are simply smaller on average and not necessarily less healthy.
+
+### Are Indian babies just small?
+
+One possible explanation is that Indian babies are simply smaller on average. These babies may be healthy and well-developed in every other respect, but they happen to weigh less at birth. The 2500 g cutoff, while convenient, may not be universally applicable. Could differences in average birth weight across countries be partly genetic rather than purely environmental? The relative contributions of genetics, nutrition, environment, and disease are still debated.
+
+To tease apart these factors, researchers often study babies born to affluent, well-nourished families across diverse geographies. If the environment is favorable, any remaining differences in birth weight might be more attributable to genetics.
+
+The INTERGROWTH-21st Project, led by the University of Oxford, set out to establish international fetal and newborn growth standards using data from well-nourished, low-risk populations in eight countries: Brazil, China, India, Italy, Kenya, Oman, the UK, and the US[^9]. The main takeaway from the project was striking: **When mothers are healthy and receive good prenatal care, fetal growth patterns are remarkably similar across populations.**
+
+:::{.column-body-outset layout-ncol=2}
+
+![](FetalUltrasound.png){fig-align="center" width="95%"}
+
+![](NewBornBabyLength.png){fig-align="center" width="100%"}
+
+:::
+
+![](intergrowth-21_weight.png)
+
+Still, when looking closely at the data, some variations remain. Even in these ideal conditions, India had a higher share (9%) of full-term LBW babies compared to other countries (~1.5–3%). Despite this, neonatal mortality remained low and comparable (~0.1–0.2%) across all groups. This raises questions about whether birth weight is the most reliable indicator of neonatal risk, especially in Indian populations. The Indian Academy of Pediatrics has even developed its own growth charts to account for smaller baby sizes.
+
+Further support comes from studies of Indian-origin babies born in high-income countries. In both the US and UK, researchers have found that even when raised in favorable conditions, Indian babies tend to weigh less than their white counterparts[^10]. For instance, a study by Madan et al. in Northern California found significantly higher rates of small-for-gestational-age (SGA) classification among babies of Indian descent[^11]. The table below is taken from Madan et al.
+
+![](cali_weightbyethnicity.png)
+
+This suggests that relying on a universal weight cutoff may lead to unnecessary interventions or misclassifications for certain ethnic groups. Recognizing this, the INTERGROWTH-21st team emphasized using ultrasound-derived metrics, such as femur length, head circumference, and abdominal circumference, to track growth trajectories rather than relying solely on birth weight. Since weight is an end product of fetal growth, it’s a rough proxy at best.
+
+That said, fetal ultrasounds remain inaccessible in many of the regions where LBW is most prevalent. And even in places where ultrasounds are available, birth weight continues to guide key decisions, such as whether to admit a newborn to the NICU. This underscores a broader issue: even if better metrics exist, birth weight remains deeply embedded in clinical practice around the world. 
+
+### Conclusion
+
+All this information points to a cyclical complexity in how birth weight is used and understood. Originally adopted as an indirect indicator of prematurity, birth weight later evolved into a key metric for predicting outcomes in low-resource or high-risk environments. However, ethnic differences have raised concerns about the validity of universal birth weight cutoffs. While improved growth assessments using ultrasound have been proposed as replacements, the regions that rely most heavily on birth weight measures often lack access to these more advanced metrics. Meanwhile, even in high-resource settings, birth weight continues to play a key role in clinical decisions.
+
+So where does this leave us? 
+
+- The 2500 g cutoff originated somewhat arbitrarily from early studies in developed countries but has helped standardize global health metrics.
+
+- This standardization improved data collection and cross-country comparisons, but also exposed the indirect and complex relationship between LBW and health outcomes.
+
+- Studies have suggested that fetal and infant growth patterns are similar across populations under optimal conditions, leading to the development of global growth charts.
+
+- However, even in ideal conditions, Indian babies consistently show lower weights and growth measures compared to other ethnic groups.
+
+- While a large number of infant and child deaths are attributed to LBW, it is not by itself a causal contributor. 
+
+- Used alongside other metrics, LBW can help predict outcomes. Used alone, it risks oversimplifying a complex picture.
+
+Some takeaways specific to LBW in India:
+
+- India has a high LBW rate but only a slightly elevated rate of preterm births. This indicates that India has a higher share of full-term babies born with LBW.
+
+- While India has a high incidence of LBW, it does not have a proportionally high rate of infant mortality compared to other countries with similar environmental conditions.
+
+- Very small babies are five times more likely to die in the neonatal period compared to average babies. These trends have remained consistent over time.
+
+- Rates of LBW are highly variable across states with the lowest rates in Mizoran at 4% and the highest rates in Punjab at 22% in the most recent survey (2019-2021). On average the northern states have higher LBW rates compared to eastern or southern states.
+
+- Demographic factors such as urban/rural location, maternal education, and household wealth show only modest differences in LBW rates.
+
+- Even babies born to Indian parents in high-income settings have higher rates of LBW compared to white counterparts, suggesting a potential genetic baseline.
+
+In the end, LBW is not a simple indicator. It is a signal embedded in a web of biological, environmental, and social factors. It has been a valuable tool for standardizing global child health metrics, but its interpretation must be context-dependent. In India, where babies may be smaller on average without necessarily being less healthy, the standard 2500 g cutoff risks overestimating risk and obscuring the real drivers of poor outcomes. Rather than treating LBW as a problem in itself, we should view it as one part of a larger diagnostic picture — useful when combined with other metrics, but insufficient on its own. **Understanding why babies are small is far more important than simply flagging that they are.**
+
+<br>
+
+
+----------------------------------------------------------------------------------------
+
+*All data and code for visuals can be found on my [github page](https://github.com/smrithi-sunil). I am still new to this field, coming from a neuroscience/engineering background, and welcome any thoughts or corrections. I'd love to hear from you!*
+
+*Thumbnail photo by Amit Ranjan on [Unsplash](https://unsplash.com/photos/woman-in-red-shirt-carrying-baby-jX1iAUoXvFU)*
+      
+
+### Appendix: A note on India's data source
+
+All data presented in this post come from the National Family Health Survey (NFHS) series, specifically NFHS-3 (2005–06), NFHS-4 (2015–16), and NFHS-5 (2019–21). Conducted by the Government of India, the NFHS provides nationally representative data on population, health, and nutrition, with sampling designed to be representative at national, state, and district levels.
+
+The first two rounds of the NFHS (NFHS-1 and NFHS-2 in the 90s) are excluded from this analysis because they did not report LBW prevalence, likely due to the lack of routine birth weight recording at the time.
+
+In the three more recent rounds, birth weight was recorded in two ways:
+
+- Birth Size – Based on the mother’s recollection of the baby’s size at birth, categorized as (a) very small, (b) smaller than average, (c) average or larger, or (d) don’t recall. This subjective measure is used in analyses of neonatal mortality.
+
+- Birth Weight – The actual recorded weight, based either on a written medical record or maternal recall. In NFHS-3, only 34% of births had recorded weights; this rose to 78% in NFHS-4 and 91% in NFHS-5. While this is a major improvement, early rounds may still reflect selection bias—families who keep medical records may differ from those who don’t.
+
+A discrepancy exists between LBW estimates reported by NFHS and those published by Our World In Data (OWID). For example, in 2020, OWID reported India’s LBW rate as 27.4%, while NFHS-5 (2019–21) reported a significantly lower rate of 18.2%.
+
+Why the difference?
+
+The NFHS estimates rely on data collected during household surveys—some from documented records, but a substantial portion from maternal recall. This introduces potential recall bias and may underrepresent births without proper documentation. In contrast, OWID presents modeled estimates from UNICEF and WHO. These models adjust for missing or biased data using statistical methods and include additional sources such as hospital records, aiming to produce more internationally comparable and complete estimates.
+
+Both sources have their strengths. NFHS is invaluable for analyzing within-country variation - across states, wealth quintiles, education levels, and maternal health factors. OWID’s estimates, while less granular, offer a standardized view for cross-country comparisons.
+
+
+[^1]: Neonatal mortality: Newborns who die before reaching 28 days of age.
+[^2]: Dandona, Rakhi, et al. "Subnational mapping of under-5 and neonatal mortality trends in India: the Global Burden of Disease Study 2000–17." The Lancet 395.10237 (2020): 1640-1658.
+[^3]: Hannah Ritchie (2024) - “Half of all child deaths are linked to malnutrition” Published online at OurWorldinData.org. Retrieved from: 'https://ourworldindata.org/half-child-deaths-linked-malnutrition' [Online Resource]
+[^4]: “Data Page: Neonatal mortality rate”, part of the following publication: Saloni Dattani, Fiona Spooner, Hannah Ritchie, and Max Roser (2023) - “Child and Infant Mortality”. Data adapted from United Nations Inter-agency Group for Child Mortality Estimation, Various sources. Retrieved from https://ourworldindata.org/grapher/neonatal-mortality-wdi [online resource]
+[^5]: Villar, José, et al. "The likeness of fetal growth and newborn size across non-isolated populations in the INTERGROWTH-21st Project: the Fetal Growth Longitudinal Study and Newborn Cross-Sectional Study." The lancet Diabetes & endocrinology 2.10 (2014): 781-792.
+[^6]: [https://www.who.int/tools/child-growth-standards/standards](https://www.who.int/tools/child-growth-standards/standards)
+[^7]: See *Appendix: A note on India's data source* for more information about where the data comes from and how to compare to OWID numbers.
+[^8]: Jana, Arup, et al. "Relationship between low birth weight and infant mortality: evidence from National Family Health Survey 2019-21, India." Archives of Public Health 81.1 (2023): 28.
+[^9]: [https://intergrowth21.ndog.ox.ac.uk/](https://intergrowth21.ndog.ox.ac.uk/)
+[^10]: Morisaki, Naho, et al. "Social and anthropometric factors explaining racial/ethnical differences in birth weight in the United States." Scientific reports 7.1 (2017): 46657.
+[^11]: Madan, Ashima, et al. "Racial differences in birth weight of term infants in a northern California population." Journal of Perinatology 22.3 (2002): 230-235.

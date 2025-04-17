@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Woodworking Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font: Dancing Script -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap" rel="stylesheet">
+  
+  <!-- Justified Gallery and GLightbox CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #fdfaf6; /* Elegant soft gray-blue */
+      margin: 0;
+      padding: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      color: #2c3e50; /* Flatly blue */
+    }
+
+    #gallery {
+      max-width: 1600px;
+      margin: auto;
+    }
+
+    .justified-gallery img {
+      transition: transform 0.2s ease;
+    }
+
+    .justified-gallery a:hover img {
+      transform: scale(1.02);
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+
+  <nav style="background-color: #2c3e50; padding: 1rem;">
+      <a href="index.html" style="color: white; font-weight: bold; text-decoration: none; font-family: sans-serif; font-size: 1.1rem;">
+        Home
+      </a>
+  </nav>
+  
+  <h1>Woodworking Projects</h1>
+
+  <div id="gallery" class="justified-gallery">
+    <a href="images/catan1.jpg" class="glightbox">
+      <img src="images/catan1.jpg" alt="Catan 1">
+    </a>
+    <a href="images/catan2.jpg" class="glightbox">
+      <img src="images/catan2.jpg" alt="Catan 2">
+    </a>
+    <a href="images/astrocyte.jpg" class="glightbox">
+      <img src="images/astrocyte.jpg" alt="Astrocyte">
+    </a>
+    <a href="images/gallery1.jpg" class="glightbox">
+        <img src="images/gallery1.jpg" alt="Gallery 1">
+    </a>
+    <a href="images/dovetailbox1.jpg" class="glightbox">
+      <img src="images/dovetailbox1.jpg" alt="Dovetail Box 1">
+    </a>
+    <a href="images/laminatedcoasters.jpg" class="glightbox">
+      <img src="images/laminatedcoasters.jpg" alt="Laminated Coasters">
+    </a>
+    <a href="images/retinal_ganglion.jpg" class="glightbox">
+      <img src="images/retinal_ganglion.jpg" alt="Retinal Ganglion">
+    </a>
+    <a href="images/brain_cutout.jpg" class="glightbox">
+      <img src="images/brain_cutout.jpg" alt="Brain Cutout">
+    </a>
+    <a href="images/barstools.jpg" class="glightbox">
+      <img src="images/barstools.jpg" alt="Barstools">
+    </a>
+    <a href="images/boxjoint.jpg" class="glightbox">
+      <img src="images/boxjoint.jpg" alt="Box Joint">
+    </a>
+    <!-- Add more images here -->
+  </div>
+
+  <footer style="text-align: center; margin-top: 2rem;">
+    <p style="color: #2c3e50;">Created by Smrithi Sunil</p>
+    <p style="color: #2c3e50;">Contact me for more information or any requests.</p>
+  </footer>
+
+  <nav style="background-color: #2c3e50; padding: 1rem;">
+    <a href="index.html" style="color: white; font-weight: bold; text-decoration: none; font-family: sans-serif; font-size: 1.1rem;">
+      Home
+    </a>
+  </nav>
+
+  <!-- Justified Gallery and GLightbox Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+  <script>
+    // Initialize Justified Gallery
+    $('#gallery').justifiedGallery({
+      rowHeight: 400,
+      margins: 6,
+      lastRow: 'nojustify',
+      captions: false
+    });
+
+    // Initialize GLightbox
+    const lightbox = GLightbox({
+      selector: '.glightbox'
+    });
+  </script>
+
+</body>
+</html>

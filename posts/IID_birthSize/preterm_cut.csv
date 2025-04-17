@@ -1,0 +1,1134 @@
+ParentLocationCode,SpatialDimValueCode,Location,Period,Preterm Birth
+EUR,AND,Andorra,2010,7.74
+EUR,AND,Andorra,2011,7.77
+EUR,AND,Andorra,2012,7.79
+EUR,AND,Andorra,2013,7.81
+EUR,AND,Andorra,2014,7.83
+EUR,AND,Andorra,2015,7.85
+EUR,AND,Andorra,2016,7.87
+EUR,AND,Andorra,2017,7.88
+EUR,AND,Andorra,2018,7.9
+EUR,AND,Andorra,2019,7.92
+EUR,AND,Andorra,2020,7.94
+AMR,ARG,Argentina,2010,8.5
+AMR,ARG,Argentina,2011,8.54
+AMR,ARG,Argentina,2012,8.57
+AMR,ARG,Argentina,2013,8.61
+AMR,ARG,Argentina,2014,8.64
+AMR,ARG,Argentina,2015,8.68
+AMR,ARG,Argentina,2016,8.72
+AMR,ARG,Argentina,2017,8.75
+AMR,ARG,Argentina,2018,8.79
+AMR,ARG,Argentina,2019,8.82
+AMR,ARG,Argentina,2020,8.86
+EUR,ARM,Armenia,2010,6.78
+EUR,ARM,Armenia,2011,6.87
+EUR,ARM,Armenia,2012,6.95
+EUR,ARM,Armenia,2013,7.04
+EUR,ARM,Armenia,2014,7.13
+EUR,ARM,Armenia,2015,7.22
+EUR,ARM,Armenia,2016,7.31
+EUR,ARM,Armenia,2017,7.4
+EUR,ARM,Armenia,2018,7.49
+EUR,ARM,Armenia,2019,7.59
+EUR,ARM,Armenia,2020,7.68
+WPR,AUS,Australia,2010,7.9
+WPR,AUS,Australia,2011,7.93
+WPR,AUS,Australia,2012,7.96
+WPR,AUS,Australia,2013,7.99
+WPR,AUS,Australia,2014,8.02
+WPR,AUS,Australia,2015,8.05
+WPR,AUS,Australia,2016,8.07
+WPR,AUS,Australia,2017,8.1
+WPR,AUS,Australia,2018,8.13
+WPR,AUS,Australia,2019,8.16
+WPR,AUS,Australia,2020,8.19
+EUR,AUT,Austria,2010,8.4
+EUR,AUT,Austria,2011,8.28
+EUR,AUT,Austria,2012,8.16
+EUR,AUT,Austria,2013,8.04
+EUR,AUT,Austria,2014,7.93
+EUR,AUT,Austria,2015,7.82
+EUR,AUT,Austria,2016,7.7
+EUR,AUT,Austria,2017,7.59
+EUR,AUT,Austria,2018,7.48
+EUR,AUT,Austria,2019,7.37
+EUR,AUT,Austria,2020,7.27
+EMR,BHR,Bahrain,2010,9.91
+EMR,BHR,Bahrain,2011,10.05
+EMR,BHR,Bahrain,2012,10.18
+EMR,BHR,Bahrain,2013,10.32
+EMR,BHR,Bahrain,2014,10.46
+EMR,BHR,Bahrain,2015,10.6
+EMR,BHR,Bahrain,2016,10.74
+EMR,BHR,Bahrain,2017,10.89
+EMR,BHR,Bahrain,2018,11.03
+EMR,BHR,Bahrain,2019,11.18
+EMR,BHR,Bahrain,2020,11.32
+SEAR,BGD,Bangladesh,2010,16.37
+SEAR,BGD,Bangladesh,2011,16.37
+SEAR,BGD,Bangladesh,2012,16.35
+SEAR,BGD,Bangladesh,2013,16.32
+SEAR,BGD,Bangladesh,2014,16.31
+SEAR,BGD,Bangladesh,2015,16.29
+SEAR,BGD,Bangladesh,2016,16.26
+SEAR,BGD,Bangladesh,2017,16.24
+SEAR,BGD,Bangladesh,2018,16.22
+SEAR,BGD,Bangladesh,2019,16.2
+SEAR,BGD,Bangladesh,2020,16.16
+EUR,BLR,Belarus,2010,7.49
+EUR,BLR,Belarus,2011,7.47
+EUR,BLR,Belarus,2012,7.46
+EUR,BLR,Belarus,2013,7.44
+EUR,BLR,Belarus,2014,7.43
+EUR,BLR,Belarus,2015,7.41
+EUR,BLR,Belarus,2016,7.39
+EUR,BLR,Belarus,2017,7.38
+EUR,BLR,Belarus,2018,7.36
+EUR,BLR,Belarus,2019,7.35
+EUR,BLR,Belarus,2020,7.33
+EUR,BEL,Belgium,2010,8.03
+EUR,BEL,Belgium,2011,8.05
+EUR,BEL,Belgium,2012,8.07
+EUR,BEL,Belgium,2013,8.09
+EUR,BEL,Belgium,2014,8.11
+EUR,BEL,Belgium,2015,8.12
+EUR,BEL,Belgium,2016,8.14
+EUR,BEL,Belgium,2017,8.16
+EUR,BEL,Belgium,2018,8.18
+EUR,BEL,Belgium,2019,8.2
+EUR,BEL,Belgium,2020,8.21
+AFR,BEN,Benin,2010,6.87
+AFR,BEN,Benin,2011,6.87
+AFR,BEN,Benin,2012,6.88
+AFR,BEN,Benin,2013,6.88
+AFR,BEN,Benin,2014,6.89
+AFR,BEN,Benin,2015,6.89
+AFR,BEN,Benin,2016,6.9
+AFR,BEN,Benin,2017,6.91
+AFR,BEN,Benin,2018,6.91
+AFR,BEN,Benin,2019,6.91
+AFR,BEN,Benin,2020,6.92
+AFR,BWA,Botswana,2010,10.81
+AFR,BWA,Botswana,2011,10.79
+AFR,BWA,Botswana,2012,10.81
+AFR,BWA,Botswana,2013,10.81
+AFR,BWA,Botswana,2014,10.8
+AFR,BWA,Botswana,2015,10.8
+AFR,BWA,Botswana,2016,10.8
+AFR,BWA,Botswana,2017,10.78
+AFR,BWA,Botswana,2018,10.79
+AFR,BWA,Botswana,2019,10.79
+AFR,BWA,Botswana,2020,10.78
+AMR,BRA,Brazil,2010,11.96
+AMR,BRA,Brazil,2011,11.88
+AMR,BRA,Brazil,2012,11.8
+AMR,BRA,Brazil,2013,11.72
+AMR,BRA,Brazil,2014,11.63
+AMR,BRA,Brazil,2015,11.55
+AMR,BRA,Brazil,2016,11.47
+AMR,BRA,Brazil,2017,11.39
+AMR,BRA,Brazil,2018,11.31
+AMR,BRA,Brazil,2019,11.23
+AMR,BRA,Brazil,2020,11.15
+WPR,BRN,Brunei Darussalam,2010,6.66
+WPR,BRN,Brunei Darussalam,2011,6.57
+WPR,BRN,Brunei Darussalam,2012,6.49
+WPR,BRN,Brunei Darussalam,2013,6.41
+WPR,BRN,Brunei Darussalam,2014,6.33
+WPR,BRN,Brunei Darussalam,2015,6.25
+WPR,BRN,Brunei Darussalam,2016,6.17
+WPR,BRN,Brunei Darussalam,2017,6.1
+WPR,BRN,Brunei Darussalam,2018,6.02
+WPR,BRN,Brunei Darussalam,2019,5.95
+WPR,BRN,Brunei Darussalam,2020,5.88
+EUR,BGR,Bulgaria,2010,7.11
+EUR,BGR,Bulgaria,2011,7.19
+EUR,BGR,Bulgaria,2012,7.28
+EUR,BGR,Bulgaria,2013,7.36
+EUR,BGR,Bulgaria,2014,7.44
+EUR,BGR,Bulgaria,2015,7.53
+EUR,BGR,Bulgaria,2016,7.62
+EUR,BGR,Bulgaria,2017,7.7
+EUR,BGR,Bulgaria,2018,7.79
+EUR,BGR,Bulgaria,2019,7.88
+EUR,BGR,Bulgaria,2020,7.97
+WPR,KHM,Cambodia,2010,6.16
+WPR,KHM,Cambodia,2011,6.17
+WPR,KHM,Cambodia,2012,6.18
+WPR,KHM,Cambodia,2013,6.18
+WPR,KHM,Cambodia,2014,6.19
+WPR,KHM,Cambodia,2015,6.19
+WPR,KHM,Cambodia,2016,6.19
+WPR,KHM,Cambodia,2017,6.2
+WPR,KHM,Cambodia,2018,6.2
+WPR,KHM,Cambodia,2019,6.21
+WPR,KHM,Cambodia,2020,6.21
+AMR,CAN,Canada,2010,7.77
+AMR,CAN,Canada,2011,7.79
+AMR,CAN,Canada,2012,7.81
+AMR,CAN,Canada,2013,7.82
+AMR,CAN,Canada,2014,7.84
+AMR,CAN,Canada,2015,7.85
+AMR,CAN,Canada,2016,7.87
+AMR,CAN,Canada,2017,7.89
+AMR,CAN,Canada,2018,7.9
+AMR,CAN,Canada,2019,7.92
+AMR,CAN,Canada,2020,7.93
+AMR,CHL,Chile,2010,7.44
+AMR,CHL,Chile,2011,7.57
+AMR,CHL,Chile,2012,7.7
+AMR,CHL,Chile,2013,7.83
+AMR,CHL,Chile,2014,7.96
+AMR,CHL,Chile,2015,8.1
+AMR,CHL,Chile,2016,8.24
+AMR,CHL,Chile,2017,8.38
+AMR,CHL,Chile,2018,8.52
+AMR,CHL,Chile,2019,8.66
+AMR,CHL,Chile,2020,8.81
+WPR,CHN,China,2010,6.11
+WPR,CHN,China,2011,6.11
+WPR,CHN,China,2012,6.12
+WPR,CHN,China,2013,6.12
+WPR,CHN,China,2014,6.12
+WPR,CHN,China,2015,6.12
+WPR,CHN,China,2016,6.13
+WPR,CHN,China,2017,6.13
+WPR,CHN,China,2018,6.13
+WPR,CHN,China,2019,6.14
+WPR,CHN,China,2020,6.15
+AMR,COL,Colombia,2010,7.26
+AMR,COL,Colombia,2011,7.42
+AMR,COL,Colombia,2012,7.59
+AMR,COL,Colombia,2013,7.75
+AMR,COL,Colombia,2014,7.92
+AMR,COL,Colombia,2015,8.1
+AMR,COL,Colombia,2016,8.28
+AMR,COL,Colombia,2017,8.46
+AMR,COL,Colombia,2018,8.64
+AMR,COL,Colombia,2019,8.83
+AMR,COL,Colombia,2020,9.02
+AFR,CIV,Cote d'Ivoire,2010,11.72
+AFR,CIV,Cote d'Ivoire,2011,11.74
+AFR,CIV,Cote d'Ivoire,2012,11.73
+AFR,CIV,Cote d'Ivoire,2013,11.74
+AFR,CIV,Cote d'Ivoire,2014,11.73
+AFR,CIV,Cote d'Ivoire,2015,11.74
+AFR,CIV,Cote d'Ivoire,2016,11.73
+AFR,CIV,Cote d'Ivoire,2017,11.73
+AFR,CIV,Cote d'Ivoire,2018,11.72
+AFR,CIV,Cote d'Ivoire,2019,11.72
+AFR,CIV,Cote d'Ivoire,2020,11.73
+EUR,HRV,Croatia,2010,5.9
+EUR,HRV,Croatia,2011,5.96
+EUR,HRV,Croatia,2012,6.01
+EUR,HRV,Croatia,2013,6.06
+EUR,HRV,Croatia,2014,6.12
+EUR,HRV,Croatia,2015,6.17
+EUR,HRV,Croatia,2016,6.23
+EUR,HRV,Croatia,2017,6.28
+EUR,HRV,Croatia,2018,6.34
+EUR,HRV,Croatia,2019,6.4
+EUR,HRV,Croatia,2020,6.45
+AMR,CUB,Cuba,2010,5.89
+AMR,CUB,Cuba,2011,5.89
+AMR,CUB,Cuba,2012,5.9
+AMR,CUB,Cuba,2013,5.91
+AMR,CUB,Cuba,2014,5.92
+AMR,CUB,Cuba,2015,5.93
+AMR,CUB,Cuba,2016,5.94
+AMR,CUB,Cuba,2017,5.95
+AMR,CUB,Cuba,2018,5.96
+AMR,CUB,Cuba,2019,5.97
+AMR,CUB,Cuba,2020,5.98
+EUR,CZE,Czechia,2010,8.41
+EUR,CZE,Czechia,2011,8.25
+EUR,CZE,Czechia,2012,8.09
+EUR,CZE,Czechia,2013,7.93
+EUR,CZE,Czechia,2014,7.77
+EUR,CZE,Czechia,2015,7.62
+EUR,CZE,Czechia,2016,7.47
+EUR,CZE,Czechia,2017,7.32
+EUR,CZE,Czechia,2018,7.17
+EUR,CZE,Czechia,2019,7.03
+EUR,CZE,Czechia,2020,6.89
+AFR,COD,Democratic Republic of the Congo,2010,12.38
+AFR,COD,Democratic Republic of the Congo,2011,12.39
+AFR,COD,Democratic Republic of the Congo,2012,12.4
+AFR,COD,Democratic Republic of the Congo,2013,12.39
+AFR,COD,Democratic Republic of the Congo,2014,12.4
+AFR,COD,Democratic Republic of the Congo,2015,12.4
+AFR,COD,Democratic Republic of the Congo,2016,12.4
+AFR,COD,Democratic Republic of the Congo,2017,12.4
+AFR,COD,Democratic Republic of the Congo,2018,12.41
+AFR,COD,Democratic Republic of the Congo,2019,12.4
+AFR,COD,Democratic Republic of the Congo,2020,12.4
+EUR,DNK,Denmark,2010,6.48
+EUR,DNK,Denmark,2011,6.43
+EUR,DNK,Denmark,2012,6.38
+EUR,DNK,Denmark,2013,6.32
+EUR,DNK,Denmark,2014,6.27
+EUR,DNK,Denmark,2015,6.22
+EUR,DNK,Denmark,2016,6.18
+EUR,DNK,Denmark,2017,6.13
+EUR,DNK,Denmark,2018,6.08
+EUR,DNK,Denmark,2019,6.03
+EUR,DNK,Denmark,2020,5.98
+AMR,ECU,Ecuador,2010,7.13
+AMR,ECU,Ecuador,2011,7.13
+AMR,ECU,Ecuador,2012,7.13
+AMR,ECU,Ecuador,2013,7.13
+AMR,ECU,Ecuador,2014,7.14
+AMR,ECU,Ecuador,2015,7.14
+AMR,ECU,Ecuador,2016,7.14
+AMR,ECU,Ecuador,2017,7.16
+AMR,ECU,Ecuador,2018,7.16
+AMR,ECU,Ecuador,2019,7.16
+AMR,ECU,Ecuador,2020,7.16
+AMR,SLV,El Salvador,2010,7.99
+AMR,SLV,El Salvador,2011,7.99
+AMR,SLV,El Salvador,2012,7.99
+AMR,SLV,El Salvador,2013,7.99
+AMR,SLV,El Salvador,2014,8.0
+AMR,SLV,El Salvador,2015,7.99
+AMR,SLV,El Salvador,2016,7.99
+AMR,SLV,El Salvador,2017,8.0
+AMR,SLV,El Salvador,2018,7.99
+AMR,SLV,El Salvador,2019,7.99
+AMR,SLV,El Salvador,2020,7.99
+EUR,EST,Estonia,2010,6.03
+EUR,EST,Estonia,2011,6.01
+EUR,EST,Estonia,2012,5.98
+EUR,EST,Estonia,2013,5.96
+EUR,EST,Estonia,2014,5.94
+EUR,EST,Estonia,2015,5.92
+EUR,EST,Estonia,2016,5.89
+EUR,EST,Estonia,2017,5.87
+EUR,EST,Estonia,2018,5.85
+EUR,EST,Estonia,2019,5.83
+EUR,EST,Estonia,2020,5.81
+AFR,ETH,Ethiopia,2010,12.87
+AFR,ETH,Ethiopia,2011,12.88
+AFR,ETH,Ethiopia,2012,12.88
+AFR,ETH,Ethiopia,2013,12.89
+AFR,ETH,Ethiopia,2014,12.89
+AFR,ETH,Ethiopia,2015,12.89
+AFR,ETH,Ethiopia,2016,12.9
+AFR,ETH,Ethiopia,2017,12.9
+AFR,ETH,Ethiopia,2018,12.9
+AFR,ETH,Ethiopia,2019,12.9
+AFR,ETH,Ethiopia,2020,12.91
+EUR,FIN,Finland,2010,5.62
+EUR,FIN,Finland,2011,5.62
+EUR,FIN,Finland,2012,5.61
+EUR,FIN,Finland,2013,5.6
+EUR,FIN,Finland,2014,5.6
+EUR,FIN,Finland,2015,5.59
+EUR,FIN,Finland,2016,5.58
+EUR,FIN,Finland,2017,5.58
+EUR,FIN,Finland,2018,5.57
+EUR,FIN,Finland,2019,5.56
+EUR,FIN,Finland,2020,5.56
+EUR,FRA,France,2010,7.36
+EUR,FRA,France,2011,7.34
+EUR,FRA,France,2012,7.32
+EUR,FRA,France,2013,7.3
+EUR,FRA,France,2014,7.28
+EUR,FRA,France,2015,7.25
+EUR,FRA,France,2016,7.23
+EUR,FRA,France,2017,7.21
+EUR,FRA,France,2018,7.19
+EUR,FRA,France,2019,7.17
+EUR,FRA,France,2020,7.15
+AFR,GAB,Gabon,2010,6.82
+AFR,GAB,Gabon,2011,6.81
+AFR,GAB,Gabon,2012,6.82
+AFR,GAB,Gabon,2013,6.81
+AFR,GAB,Gabon,2014,6.82
+AFR,GAB,Gabon,2015,6.82
+AFR,GAB,Gabon,2016,6.83
+AFR,GAB,Gabon,2017,6.83
+AFR,GAB,Gabon,2018,6.84
+AFR,GAB,Gabon,2019,6.84
+AFR,GAB,Gabon,2020,6.85
+EUR,GEO,Georgia,2010,6.31
+EUR,GEO,Georgia,2011,6.44
+EUR,GEO,Georgia,2012,6.58
+EUR,GEO,Georgia,2013,6.72
+EUR,GEO,Georgia,2014,6.87
+EUR,GEO,Georgia,2015,7.01
+EUR,GEO,Georgia,2016,7.17
+EUR,GEO,Georgia,2017,7.32
+EUR,GEO,Georgia,2018,7.48
+EUR,GEO,Georgia,2019,7.63
+EUR,GEO,Georgia,2020,7.8
+EUR,DEU,Germany,2010,8.76
+EUR,DEU,Germany,2011,8.72
+EUR,DEU,Germany,2012,8.68
+EUR,DEU,Germany,2013,8.64
+EUR,DEU,Germany,2014,8.6
+EUR,DEU,Germany,2015,8.56
+EUR,DEU,Germany,2016,8.52
+EUR,DEU,Germany,2017,8.48
+EUR,DEU,Germany,2018,8.44
+EUR,DEU,Germany,2019,8.4
+EUR,DEU,Germany,2020,8.36
+AFR,GHA,Ghana,2010,8.01
+AFR,GHA,Ghana,2011,8.01
+AFR,GHA,Ghana,2012,8.01
+AFR,GHA,Ghana,2013,8.01
+AFR,GHA,Ghana,2014,8.01
+AFR,GHA,Ghana,2015,8.01
+AFR,GHA,Ghana,2016,8.01
+AFR,GHA,Ghana,2017,8.0
+AFR,GHA,Ghana,2018,7.99
+AFR,GHA,Ghana,2019,7.99
+AFR,GHA,Ghana,2020,8.0
+EUR,GRC,Greece,2010,11.16
+EUR,GRC,Greece,2011,11.2
+EUR,GRC,Greece,2012,11.24
+EUR,GRC,Greece,2013,11.28
+EUR,GRC,Greece,2014,11.32
+EUR,GRC,Greece,2015,11.36
+EUR,GRC,Greece,2016,11.4
+EUR,GRC,Greece,2017,11.44
+EUR,GRC,Greece,2018,11.48
+EUR,GRC,Greece,2019,11.52
+EUR,GRC,Greece,2020,11.56
+AMR,GTM,Guatemala,2010,10.5
+AMR,GTM,Guatemala,2011,10.49
+AMR,GTM,Guatemala,2012,10.5
+AMR,GTM,Guatemala,2013,10.5
+AMR,GTM,Guatemala,2014,10.5
+AMR,GTM,Guatemala,2015,10.5
+AMR,GTM,Guatemala,2016,10.49
+AMR,GTM,Guatemala,2017,10.48
+AMR,GTM,Guatemala,2018,10.48
+AMR,GTM,Guatemala,2019,10.48
+AMR,GTM,Guatemala,2020,10.48
+AMR,GUY,Guyana,2010,11.58
+AMR,GUY,Guyana,2011,11.57
+AMR,GUY,Guyana,2012,11.57
+AMR,GUY,Guyana,2013,11.57
+AMR,GUY,Guyana,2014,11.57
+AMR,GUY,Guyana,2015,11.56
+AMR,GUY,Guyana,2016,11.56
+AMR,GUY,Guyana,2017,11.56
+AMR,GUY,Guyana,2018,11.56
+AMR,GUY,Guyana,2019,11.55
+AMR,GUY,Guyana,2020,11.55
+EUR,HUN,Hungary,2010,8.97
+EUR,HUN,Hungary,2011,8.9
+EUR,HUN,Hungary,2012,8.84
+EUR,HUN,Hungary,2013,8.77
+EUR,HUN,Hungary,2014,8.71
+EUR,HUN,Hungary,2015,8.64
+EUR,HUN,Hungary,2016,8.58
+EUR,HUN,Hungary,2017,8.52
+EUR,HUN,Hungary,2018,8.46
+EUR,HUN,Hungary,2019,8.39
+EUR,HUN,Hungary,2020,8.33
+EUR,ISL,Iceland,2010,5.77
+EUR,ISL,Iceland,2011,5.81
+EUR,ISL,Iceland,2012,5.86
+EUR,ISL,Iceland,2013,5.91
+EUR,ISL,Iceland,2014,5.96
+EUR,ISL,Iceland,2015,6.0
+EUR,ISL,Iceland,2016,6.05
+EUR,ISL,Iceland,2017,6.09
+EUR,ISL,Iceland,2018,6.15
+EUR,ISL,Iceland,2019,6.19
+EUR,ISL,Iceland,2020,6.24
+SEAR,IND,India,2010,13.15
+SEAR,IND,India,2011,13.14
+SEAR,IND,India,2012,13.13
+SEAR,IND,India,2013,13.12
+SEAR,IND,India,2014,13.11
+SEAR,IND,India,2015,13.1
+SEAR,IND,India,2016,13.08
+SEAR,IND,India,2017,13.07
+SEAR,IND,India,2018,13.06
+SEAR,IND,India,2019,13.05
+SEAR,IND,India,2020,13.04
+EMR,IRN,Iran (Islamic Republic of),2010,7.49
+EMR,IRN,Iran (Islamic Republic of),2011,7.48
+EMR,IRN,Iran (Islamic Republic of),2012,7.47
+EMR,IRN,Iran (Islamic Republic of),2013,7.47
+EMR,IRN,Iran (Islamic Republic of),2014,7.47
+EMR,IRN,Iran (Islamic Republic of),2015,7.47
+EMR,IRN,Iran (Islamic Republic of),2016,7.47
+EMR,IRN,Iran (Islamic Republic of),2017,7.47
+EMR,IRN,Iran (Islamic Republic of),2018,7.47
+EMR,IRN,Iran (Islamic Republic of),2019,7.46
+EMR,IRN,Iran (Islamic Republic of),2020,7.47
+EUR,IRL,Ireland,2010,6.12
+EUR,IRL,Ireland,2011,6.2
+EUR,IRL,Ireland,2012,6.29
+EUR,IRL,Ireland,2013,6.37
+EUR,IRL,Ireland,2014,6.46
+EUR,IRL,Ireland,2015,6.55
+EUR,IRL,Ireland,2016,6.64
+EUR,IRL,Ireland,2017,6.73
+EUR,IRL,Ireland,2018,6.83
+EUR,IRL,Ireland,2019,6.92
+EUR,IRL,Ireland,2020,7.01
+EUR,ITA,Italy,2010,7.49
+EUR,ITA,Italy,2011,7.49
+EUR,ITA,Italy,2012,7.49
+EUR,ITA,Italy,2013,7.5
+EUR,ITA,Italy,2014,7.5
+EUR,ITA,Italy,2015,7.5
+EUR,ITA,Italy,2016,7.5
+EUR,ITA,Italy,2017,7.5
+EUR,ITA,Italy,2018,7.5
+EUR,ITA,Italy,2019,7.5
+EUR,ITA,Italy,2020,7.5
+WPR,JPN,Japan,2010,5.74
+WPR,JPN,Japan,2011,5.72
+WPR,JPN,Japan,2012,5.71
+WPR,JPN,Japan,2013,5.69
+WPR,JPN,Japan,2014,5.67
+WPR,JPN,Japan,2015,5.65
+WPR,JPN,Japan,2016,5.64
+WPR,JPN,Japan,2017,5.62
+WPR,JPN,Japan,2018,5.6
+WPR,JPN,Japan,2019,5.58
+WPR,JPN,Japan,2020,5.57
+EMR,JOR,Jordan,2010,8.71
+EMR,JOR,Jordan,2011,8.71
+EMR,JOR,Jordan,2012,8.71
+EMR,JOR,Jordan,2013,8.7
+EMR,JOR,Jordan,2014,8.7
+EMR,JOR,Jordan,2015,8.69
+EMR,JOR,Jordan,2016,8.69
+EMR,JOR,Jordan,2017,8.69
+EMR,JOR,Jordan,2018,8.68
+EMR,JOR,Jordan,2019,8.68
+EMR,JOR,Jordan,2020,8.68
+EUR,KAZ,Kazakhstan,2010,5.53
+EUR,KAZ,Kazakhstan,2011,5.52
+EUR,KAZ,Kazakhstan,2012,5.51
+EUR,KAZ,Kazakhstan,2013,5.51
+EUR,KAZ,Kazakhstan,2014,5.5
+EUR,KAZ,Kazakhstan,2015,5.5
+EUR,KAZ,Kazakhstan,2016,5.5
+EUR,KAZ,Kazakhstan,2017,5.5
+EUR,KAZ,Kazakhstan,2018,5.49
+EUR,KAZ,Kazakhstan,2019,5.49
+EUR,KAZ,Kazakhstan,2020,5.48
+AFR,KEN,Kenya,2010,8.75
+AFR,KEN,Kenya,2011,8.76
+AFR,KEN,Kenya,2012,8.76
+AFR,KEN,Kenya,2013,8.76
+AFR,KEN,Kenya,2014,8.76
+AFR,KEN,Kenya,2015,8.77
+AFR,KEN,Kenya,2016,8.77
+AFR,KEN,Kenya,2017,8.76
+AFR,KEN,Kenya,2018,8.76
+AFR,KEN,Kenya,2019,8.76
+AFR,KEN,Kenya,2020,8.76
+WPR,LAO,Lao People's Democratic Republic,2010,8.54
+WPR,LAO,Lao People's Democratic Republic,2011,8.54
+WPR,LAO,Lao People's Democratic Republic,2012,8.53
+WPR,LAO,Lao People's Democratic Republic,2013,8.54
+WPR,LAO,Lao People's Democratic Republic,2014,8.54
+WPR,LAO,Lao People's Democratic Republic,2015,8.53
+WPR,LAO,Lao People's Democratic Republic,2016,8.53
+WPR,LAO,Lao People's Democratic Republic,2017,8.53
+WPR,LAO,Lao People's Democratic Republic,2018,8.53
+WPR,LAO,Lao People's Democratic Republic,2019,8.53
+WPR,LAO,Lao People's Democratic Republic,2020,8.52
+EUR,LVA,Latvia,2010,5.85
+EUR,LVA,Latvia,2011,5.82
+EUR,LVA,Latvia,2012,5.8
+EUR,LVA,Latvia,2013,5.77
+EUR,LVA,Latvia,2014,5.74
+EUR,LVA,Latvia,2015,5.71
+EUR,LVA,Latvia,2016,5.69
+EUR,LVA,Latvia,2017,5.66
+EUR,LVA,Latvia,2018,5.63
+EUR,LVA,Latvia,2019,5.61
+EUR,LVA,Latvia,2020,5.58
+EMR,LBN,Lebanon,2010,8.76
+EMR,LBN,Lebanon,2011,8.75
+EMR,LBN,Lebanon,2012,8.75
+EMR,LBN,Lebanon,2013,8.75
+EMR,LBN,Lebanon,2014,8.76
+EMR,LBN,Lebanon,2015,8.75
+EMR,LBN,Lebanon,2016,8.76
+EMR,LBN,Lebanon,2017,8.75
+EMR,LBN,Lebanon,2018,8.75
+EMR,LBN,Lebanon,2019,8.75
+EMR,LBN,Lebanon,2020,8.74
+EMR,LBY,Libya,2010,7.82
+EMR,LBY,Libya,2011,7.83
+EMR,LBY,Libya,2012,7.84
+EMR,LBY,Libya,2013,7.82
+EMR,LBY,Libya,2014,7.83
+EMR,LBY,Libya,2015,7.84
+EMR,LBY,Libya,2016,7.83
+EMR,LBY,Libya,2017,7.84
+EMR,LBY,Libya,2018,7.84
+EMR,LBY,Libya,2019,7.83
+EMR,LBY,Libya,2020,7.82
+EUR,LTU,Lithuania,2010,5.68
+EUR,LTU,Lithuania,2011,5.66
+EUR,LTU,Lithuania,2012,5.63
+EUR,LTU,Lithuania,2013,5.61
+EUR,LTU,Lithuania,2014,5.59
+EUR,LTU,Lithuania,2015,5.57
+EUR,LTU,Lithuania,2016,5.55
+EUR,LTU,Lithuania,2017,5.52
+EUR,LTU,Lithuania,2018,5.5
+EUR,LTU,Lithuania,2019,5.48
+EUR,LTU,Lithuania,2020,5.46
+EUR,LUX,Luxembourg,2010,8.39
+EUR,LUX,Luxembourg,2011,8.4
+EUR,LUX,Luxembourg,2012,8.42
+EUR,LUX,Luxembourg,2013,8.43
+EUR,LUX,Luxembourg,2014,8.44
+EUR,LUX,Luxembourg,2015,8.45
+EUR,LUX,Luxembourg,2016,8.47
+EUR,LUX,Luxembourg,2017,8.48
+EUR,LUX,Luxembourg,2018,8.49
+EUR,LUX,Luxembourg,2019,8.5
+EUR,LUX,Luxembourg,2020,8.51
+AFR,MWI,Malawi,2010,14.56
+AFR,MWI,Malawi,2011,14.55
+AFR,MWI,Malawi,2012,14.55
+AFR,MWI,Malawi,2013,14.55
+AFR,MWI,Malawi,2014,14.55
+AFR,MWI,Malawi,2015,14.55
+AFR,MWI,Malawi,2016,14.53
+AFR,MWI,Malawi,2017,14.53
+AFR,MWI,Malawi,2018,14.52
+AFR,MWI,Malawi,2019,14.53
+AFR,MWI,Malawi,2020,14.51
+SEAR,MDV,Maldives,2010,9.74
+SEAR,MDV,Maldives,2011,9.75
+SEAR,MDV,Maldives,2012,9.77
+SEAR,MDV,Maldives,2013,9.77
+SEAR,MDV,Maldives,2014,9.78
+SEAR,MDV,Maldives,2015,9.79
+SEAR,MDV,Maldives,2016,9.8
+SEAR,MDV,Maldives,2017,9.81
+SEAR,MDV,Maldives,2018,9.82
+SEAR,MDV,Maldives,2019,9.83
+SEAR,MDV,Maldives,2020,9.84
+AFR,MLI,Mali,2010,6.11
+AFR,MLI,Mali,2011,6.11
+AFR,MLI,Mali,2012,6.11
+AFR,MLI,Mali,2013,6.12
+AFR,MLI,Mali,2014,6.12
+AFR,MLI,Mali,2015,6.12
+AFR,MLI,Mali,2016,6.12
+AFR,MLI,Mali,2017,6.12
+AFR,MLI,Mali,2018,6.12
+AFR,MLI,Mali,2019,6.13
+AFR,MLI,Mali,2020,6.12
+EUR,MLT,Malta,2010,7.56
+EUR,MLT,Malta,2011,7.54
+EUR,MLT,Malta,2012,7.52
+EUR,MLT,Malta,2013,7.5
+EUR,MLT,Malta,2014,7.49
+EUR,MLT,Malta,2015,7.47
+EUR,MLT,Malta,2016,7.46
+EUR,MLT,Malta,2017,7.44
+EUR,MLT,Malta,2018,7.42
+EUR,MLT,Malta,2019,7.41
+EUR,MLT,Malta,2020,7.39
+AMR,MEX,Mexico,2010,6.96
+AMR,MEX,Mexico,2011,6.97
+AMR,MEX,Mexico,2012,6.98
+AMR,MEX,Mexico,2013,6.99
+AMR,MEX,Mexico,2014,6.99
+AMR,MEX,Mexico,2015,7.0
+AMR,MEX,Mexico,2016,7.01
+AMR,MEX,Mexico,2017,7.02
+AMR,MEX,Mexico,2018,7.02
+AMR,MEX,Mexico,2019,7.03
+AMR,MEX,Mexico,2020,7.04
+WPR,MNG,Mongolia,2010,6.02
+WPR,MNG,Mongolia,2011,6.02
+WPR,MNG,Mongolia,2012,6.03
+WPR,MNG,Mongolia,2013,6.02
+WPR,MNG,Mongolia,2014,6.02
+WPR,MNG,Mongolia,2015,6.02
+WPR,MNG,Mongolia,2016,6.01
+WPR,MNG,Mongolia,2017,6.01
+WPR,MNG,Mongolia,2018,6.02
+WPR,MNG,Mongolia,2019,6.02
+WPR,MNG,Mongolia,2020,6.02
+AFR,MOZ,Mozambique,2010,6.99
+AFR,MOZ,Mozambique,2011,6.99
+AFR,MOZ,Mozambique,2012,7.0
+AFR,MOZ,Mozambique,2013,7.0
+AFR,MOZ,Mozambique,2014,7.0
+AFR,MOZ,Mozambique,2015,7.0
+AFR,MOZ,Mozambique,2016,7.01
+AFR,MOZ,Mozambique,2017,7.02
+AFR,MOZ,Mozambique,2018,7.02
+AFR,MOZ,Mozambique,2019,7.03
+AFR,MOZ,Mozambique,2020,7.03
+SEAR,NPL,Nepal,2010,11.11
+SEAR,NPL,Nepal,2011,11.12
+SEAR,NPL,Nepal,2012,11.13
+SEAR,NPL,Nepal,2013,11.15
+SEAR,NPL,Nepal,2014,11.15
+SEAR,NPL,Nepal,2015,11.16
+SEAR,NPL,Nepal,2016,11.16
+SEAR,NPL,Nepal,2017,11.17
+SEAR,NPL,Nepal,2018,11.17
+SEAR,NPL,Nepal,2019,11.19
+SEAR,NPL,Nepal,2020,11.2
+EUR,NLD,Netherlands (Kingdom of the),2010,7.34
+EUR,NLD,Netherlands (Kingdom of the),2011,7.28
+EUR,NLD,Netherlands (Kingdom of the),2012,7.22
+EUR,NLD,Netherlands (Kingdom of the),2013,7.16
+EUR,NLD,Netherlands (Kingdom of the),2014,7.1
+EUR,NLD,Netherlands (Kingdom of the),2015,7.04
+EUR,NLD,Netherlands (Kingdom of the),2016,6.98
+EUR,NLD,Netherlands (Kingdom of the),2017,6.92
+EUR,NLD,Netherlands (Kingdom of the),2018,6.87
+EUR,NLD,Netherlands (Kingdom of the),2019,6.81
+EUR,NLD,Netherlands (Kingdom of the),2020,6.75
+WPR,NZL,New Zealand,2010,7.52
+WPR,NZL,New Zealand,2011,7.52
+WPR,NZL,New Zealand,2012,7.52
+WPR,NZL,New Zealand,2013,7.52
+WPR,NZL,New Zealand,2014,7.52
+WPR,NZL,New Zealand,2015,7.52
+WPR,NZL,New Zealand,2016,7.52
+WPR,NZL,New Zealand,2017,7.53
+WPR,NZL,New Zealand,2018,7.53
+WPR,NZL,New Zealand,2019,7.53
+WPR,NZL,New Zealand,2020,7.53
+AMR,NIC,Nicaragua,2010,5.87
+AMR,NIC,Nicaragua,2011,5.86
+AMR,NIC,Nicaragua,2012,5.86
+AMR,NIC,Nicaragua,2013,5.85
+AMR,NIC,Nicaragua,2014,5.84
+AMR,NIC,Nicaragua,2015,5.83
+AMR,NIC,Nicaragua,2016,5.83
+AMR,NIC,Nicaragua,2017,5.82
+AMR,NIC,Nicaragua,2018,5.81
+AMR,NIC,Nicaragua,2019,5.8
+AMR,NIC,Nicaragua,2020,5.8
+AFR,NGA,Nigeria,2010,9.93
+AFR,NGA,Nigeria,2011,9.93
+AFR,NGA,Nigeria,2012,9.93
+AFR,NGA,Nigeria,2013,9.93
+AFR,NGA,Nigeria,2014,9.93
+AFR,NGA,Nigeria,2015,9.93
+AFR,NGA,Nigeria,2016,9.92
+AFR,NGA,Nigeria,2017,9.93
+AFR,NGA,Nigeria,2018,9.92
+AFR,NGA,Nigeria,2019,9.92
+AFR,NGA,Nigeria,2020,9.92
+EUR,MKD,North Macedonia,2010,4.4
+EUR,MKD,North Macedonia,2011,4.55
+EUR,MKD,North Macedonia,2012,4.7
+EUR,MKD,North Macedonia,2013,4.86
+EUR,MKD,North Macedonia,2014,5.02
+EUR,MKD,North Macedonia,2015,5.19
+EUR,MKD,North Macedonia,2016,5.36
+EUR,MKD,North Macedonia,2017,5.55
+EUR,MKD,North Macedonia,2018,5.74
+EUR,MKD,North Macedonia,2019,5.93
+EUR,MKD,North Macedonia,2020,6.13
+EUR,NOR,Norway,2010,5.73
+EUR,NOR,Norway,2011,5.71
+EUR,NOR,Norway,2012,5.69
+EUR,NOR,Norway,2013,5.67
+EUR,NOR,Norway,2014,5.65
+EUR,NOR,Norway,2015,5.63
+EUR,NOR,Norway,2016,5.61
+EUR,NOR,Norway,2017,5.59
+EUR,NOR,Norway,2018,5.57
+EUR,NOR,Norway,2019,5.55
+EUR,NOR,Norway,2020,5.53
+EMR,PAK,Pakistan,2010,14.27
+EMR,PAK,Pakistan,2011,14.28
+EMR,PAK,Pakistan,2012,14.28
+EMR,PAK,Pakistan,2013,14.3
+EMR,PAK,Pakistan,2014,14.31
+EMR,PAK,Pakistan,2015,14.32
+EMR,PAK,Pakistan,2016,14.32
+EMR,PAK,Pakistan,2017,14.32
+EMR,PAK,Pakistan,2018,14.34
+EMR,PAK,Pakistan,2019,14.34
+EMR,PAK,Pakistan,2020,14.36
+WPR,PNG,Papua New Guinea,2010,9.11
+WPR,PNG,Papua New Guinea,2011,9.1
+WPR,PNG,Papua New Guinea,2012,9.09
+WPR,PNG,Papua New Guinea,2013,9.09
+WPR,PNG,Papua New Guinea,2014,9.08
+WPR,PNG,Papua New Guinea,2015,9.08
+WPR,PNG,Papua New Guinea,2016,9.07
+WPR,PNG,Papua New Guinea,2017,9.06
+WPR,PNG,Papua New Guinea,2018,9.06
+WPR,PNG,Papua New Guinea,2019,9.05
+WPR,PNG,Papua New Guinea,2020,9.05
+AMR,PRY,Paraguay,2010,7.58
+AMR,PRY,Paraguay,2011,7.6
+AMR,PRY,Paraguay,2012,7.62
+AMR,PRY,Paraguay,2013,7.65
+AMR,PRY,Paraguay,2014,7.67
+AMR,PRY,Paraguay,2015,7.69
+AMR,PRY,Paraguay,2016,7.71
+AMR,PRY,Paraguay,2017,7.73
+AMR,PRY,Paraguay,2018,7.76
+AMR,PRY,Paraguay,2019,7.78
+AMR,PRY,Paraguay,2020,7.81
+AMR,PER,Peru,2010,6.65
+AMR,PER,Peru,2011,6.65
+AMR,PER,Peru,2012,6.65
+AMR,PER,Peru,2013,6.65
+AMR,PER,Peru,2014,6.66
+AMR,PER,Peru,2015,6.66
+AMR,PER,Peru,2016,6.66
+AMR,PER,Peru,2017,6.63
+AMR,PER,Peru,2018,6.67
+AMR,PER,Peru,2019,6.7
+AMR,PER,Peru,2020,6.68
+WPR,PHL,Philippines,2010,7.7
+WPR,PHL,Philippines,2011,7.7
+WPR,PHL,Philippines,2012,7.7
+WPR,PHL,Philippines,2013,7.71
+WPR,PHL,Philippines,2014,7.71
+WPR,PHL,Philippines,2015,7.71
+WPR,PHL,Philippines,2016,7.71
+WPR,PHL,Philippines,2017,7.71
+WPR,PHL,Philippines,2018,7.71
+WPR,PHL,Philippines,2019,7.7
+WPR,PHL,Philippines,2020,7.7
+EUR,POL,Poland,2010,6.79
+EUR,POL,Poland,2011,6.84
+EUR,POL,Poland,2012,6.89
+EUR,POL,Poland,2013,6.94
+EUR,POL,Poland,2014,6.99
+EUR,POL,Poland,2015,7.04
+EUR,POL,Poland,2016,7.09
+EUR,POL,Poland,2017,7.14
+EUR,POL,Poland,2018,7.19
+EUR,POL,Poland,2019,7.24
+EUR,POL,Poland,2020,7.29
+EUR,PRT,Portugal,2010,7.79
+EUR,PRT,Portugal,2011,7.79
+EUR,PRT,Portugal,2012,7.79
+EUR,PRT,Portugal,2013,7.78
+EUR,PRT,Portugal,2014,7.78
+EUR,PRT,Portugal,2015,7.77
+EUR,PRT,Portugal,2016,7.77
+EUR,PRT,Portugal,2017,7.76
+EUR,PRT,Portugal,2018,7.76
+EUR,PRT,Portugal,2019,7.76
+EUR,PRT,Portugal,2020,7.75
+EMR,QAT,Qatar,2010,6.84
+EMR,QAT,Qatar,2011,6.84
+EMR,QAT,Qatar,2012,6.84
+EMR,QAT,Qatar,2013,6.84
+EMR,QAT,Qatar,2014,6.85
+EMR,QAT,Qatar,2015,6.85
+EMR,QAT,Qatar,2016,6.85
+EMR,QAT,Qatar,2017,6.85
+EMR,QAT,Qatar,2018,6.85
+EMR,QAT,Qatar,2019,6.85
+EMR,QAT,Qatar,2020,6.86
+WPR,KOR,Republic of Korea,2010,6.27
+WPR,KOR,Republic of Korea,2011,6.45
+WPR,KOR,Republic of Korea,2012,6.64
+WPR,KOR,Republic of Korea,2013,6.84
+WPR,KOR,Republic of Korea,2014,7.04
+WPR,KOR,Republic of Korea,2015,7.25
+WPR,KOR,Republic of Korea,2016,7.46
+WPR,KOR,Republic of Korea,2017,7.68
+WPR,KOR,Republic of Korea,2018,7.9
+WPR,KOR,Republic of Korea,2019,8.13
+WPR,KOR,Republic of Korea,2020,8.36
+EUR,MDA,Republic of Moldova,2010,4.94
+EUR,MDA,Republic of Moldova,2011,4.94
+EUR,MDA,Republic of Moldova,2012,4.94
+EUR,MDA,Republic of Moldova,2013,4.94
+EUR,MDA,Republic of Moldova,2014,4.94
+EUR,MDA,Republic of Moldova,2015,4.95
+EUR,MDA,Republic of Moldova,2016,4.95
+EUR,MDA,Republic of Moldova,2017,4.95
+EUR,MDA,Republic of Moldova,2018,4.95
+EUR,MDA,Republic of Moldova,2019,4.96
+EUR,MDA,Republic of Moldova,2020,4.96
+EUR,ROU,Romania,2010,8.56
+EUR,ROU,Romania,2011,8.55
+EUR,ROU,Romania,2012,8.54
+EUR,ROU,Romania,2013,8.53
+EUR,ROU,Romania,2014,8.52
+EUR,ROU,Romania,2015,8.51
+EUR,ROU,Romania,2016,8.5
+EUR,ROU,Romania,2017,8.48
+EUR,ROU,Romania,2018,8.47
+EUR,ROU,Romania,2019,8.46
+EUR,ROU,Romania,2020,8.45
+EUR,RUS,Russian Federation,2010,5.73
+EUR,RUS,Russian Federation,2011,5.75
+EUR,RUS,Russian Federation,2012,5.78
+EUR,RUS,Russian Federation,2013,5.81
+EUR,RUS,Russian Federation,2014,5.83
+EUR,RUS,Russian Federation,2015,5.86
+EUR,RUS,Russian Federation,2016,5.89
+EUR,RUS,Russian Federation,2017,5.91
+EUR,RUS,Russian Federation,2018,5.94
+EUR,RUS,Russian Federation,2019,5.97
+EUR,RUS,Russian Federation,2020,6.0
+AFR,RWA,Rwanda,2010,9.34
+AFR,RWA,Rwanda,2011,9.34
+AFR,RWA,Rwanda,2012,9.34
+AFR,RWA,Rwanda,2013,9.34
+AFR,RWA,Rwanda,2014,9.34
+AFR,RWA,Rwanda,2015,9.34
+AFR,RWA,Rwanda,2016,9.34
+AFR,RWA,Rwanda,2017,9.34
+AFR,RWA,Rwanda,2018,9.35
+AFR,RWA,Rwanda,2019,9.35
+AFR,RWA,Rwanda,2020,9.35
+EUR,SRB,Serbia,2010,4.08
+EUR,SRB,Serbia,2011,4.08
+EUR,SRB,Serbia,2012,4.08
+EUR,SRB,Serbia,2013,4.08
+EUR,SRB,Serbia,2014,4.09
+EUR,SRB,Serbia,2015,4.09
+EUR,SRB,Serbia,2016,4.09
+EUR,SRB,Serbia,2017,4.09
+EUR,SRB,Serbia,2018,4.1
+EUR,SRB,Serbia,2019,4.1
+EUR,SRB,Serbia,2020,4.1
+WPR,SGP,Singapore,2010,9.23
+WPR,SGP,Singapore,2011,9.12
+WPR,SGP,Singapore,2012,9.01
+WPR,SGP,Singapore,2013,8.91
+WPR,SGP,Singapore,2014,8.8
+WPR,SGP,Singapore,2015,8.7
+WPR,SGP,Singapore,2016,8.59
+WPR,SGP,Singapore,2017,8.49
+WPR,SGP,Singapore,2018,8.39
+WPR,SGP,Singapore,2019,8.29
+WPR,SGP,Singapore,2020,8.19
+EUR,SVK,Slovakia,2010,6.18
+EUR,SVK,Slovakia,2011,6.18
+EUR,SVK,Slovakia,2012,6.17
+EUR,SVK,Slovakia,2013,6.17
+EUR,SVK,Slovakia,2014,6.17
+EUR,SVK,Slovakia,2015,6.16
+EUR,SVK,Slovakia,2016,6.16
+EUR,SVK,Slovakia,2017,6.16
+EUR,SVK,Slovakia,2018,6.16
+EUR,SVK,Slovakia,2019,6.15
+EUR,SVK,Slovakia,2020,6.15
+EUR,SVN,Slovenia,2010,7.35
+EUR,SVN,Slovenia,2011,7.34
+EUR,SVN,Slovenia,2012,7.34
+EUR,SVN,Slovenia,2013,7.34
+EUR,SVN,Slovenia,2014,7.33
+EUR,SVN,Slovenia,2015,7.33
+EUR,SVN,Slovenia,2016,7.33
+EUR,SVN,Slovenia,2017,7.32
+EUR,SVN,Slovenia,2018,7.32
+EUR,SVN,Slovenia,2019,7.32
+EUR,SVN,Slovenia,2020,7.31
+AFR,ZAF,South Africa,2010,12.92
+AFR,ZAF,South Africa,2011,12.92
+AFR,ZAF,South Africa,2012,12.93
+AFR,ZAF,South Africa,2013,12.93
+AFR,ZAF,South Africa,2014,12.94
+AFR,ZAF,South Africa,2015,12.95
+AFR,ZAF,South Africa,2016,12.95
+AFR,ZAF,South Africa,2017,12.95
+AFR,ZAF,South Africa,2018,12.96
+AFR,ZAF,South Africa,2019,12.96
+AFR,ZAF,South Africa,2020,12.96
+EUR,ESP,Spain,2010,7.88
+EUR,ESP,Spain,2011,7.8
+EUR,ESP,Spain,2012,7.72
+EUR,ESP,Spain,2013,7.64
+EUR,ESP,Spain,2014,7.56
+EUR,ESP,Spain,2015,7.48
+EUR,ESP,Spain,2016,7.4
+EUR,ESP,Spain,2017,7.32
+EUR,ESP,Spain,2018,7.24
+EUR,ESP,Spain,2019,7.16
+EUR,ESP,Spain,2020,7.09
+SEAR,LKA,Sri Lanka,2010,7.78
+SEAR,LKA,Sri Lanka,2011,7.78
+SEAR,LKA,Sri Lanka,2012,7.78
+SEAR,LKA,Sri Lanka,2013,7.78
+SEAR,LKA,Sri Lanka,2014,7.79
+SEAR,LKA,Sri Lanka,2015,7.78
+SEAR,LKA,Sri Lanka,2016,7.78
+SEAR,LKA,Sri Lanka,2017,7.78
+SEAR,LKA,Sri Lanka,2018,7.79
+SEAR,LKA,Sri Lanka,2019,7.79
+SEAR,LKA,Sri Lanka,2020,7.8
+AMR,SUR,Suriname,2010,12.85
+AMR,SUR,Suriname,2011,12.85
+AMR,SUR,Suriname,2012,12.85
+AMR,SUR,Suriname,2013,12.84
+AMR,SUR,Suriname,2014,12.83
+AMR,SUR,Suriname,2015,12.84
+AMR,SUR,Suriname,2016,12.85
+AMR,SUR,Suriname,2017,12.84
+AMR,SUR,Suriname,2018,12.85
+AMR,SUR,Suriname,2019,12.84
+AMR,SUR,Suriname,2020,12.84
+EUR,SWE,Sweden,2010,5.79
+EUR,SWE,Sweden,2011,5.74
+EUR,SWE,Sweden,2012,5.71
+EUR,SWE,Sweden,2013,5.67
+EUR,SWE,Sweden,2014,5.63
+EUR,SWE,Sweden,2015,5.59
+EUR,SWE,Sweden,2016,5.55
+EUR,SWE,Sweden,2017,5.51
+EUR,SWE,Sweden,2018,5.48
+EUR,SWE,Sweden,2019,5.44
+EUR,SWE,Sweden,2020,5.4
+EUR,CHE,Switzerland,2010,7.3
+EUR,CHE,Switzerland,2011,7.27
+EUR,CHE,Switzerland,2012,7.23
+EUR,CHE,Switzerland,2013,7.2
+EUR,CHE,Switzerland,2014,7.16
+EUR,CHE,Switzerland,2015,7.13
+EUR,CHE,Switzerland,2016,7.09
+EUR,CHE,Switzerland,2017,7.06
+EUR,CHE,Switzerland,2018,7.02
+EUR,CHE,Switzerland,2019,6.99
+EUR,CHE,Switzerland,2020,6.96
+SEAR,THA,Thailand,2010,7.25
+SEAR,THA,Thailand,2011,7.25
+SEAR,THA,Thailand,2012,7.25
+SEAR,THA,Thailand,2013,7.26
+SEAR,THA,Thailand,2014,7.26
+SEAR,THA,Thailand,2015,7.26
+SEAR,THA,Thailand,2016,7.26
+SEAR,THA,Thailand,2017,7.27
+SEAR,THA,Thailand,2018,7.26
+SEAR,THA,Thailand,2019,7.27
+SEAR,THA,Thailand,2020,7.27
+EMR,TUN,Tunisia,2010,8.69
+EMR,TUN,Tunisia,2011,8.69
+EMR,TUN,Tunisia,2012,8.69
+EMR,TUN,Tunisia,2013,8.69
+EMR,TUN,Tunisia,2014,8.69
+EMR,TUN,Tunisia,2015,8.69
+EMR,TUN,Tunisia,2016,8.69
+EMR,TUN,Tunisia,2017,8.69
+EMR,TUN,Tunisia,2018,8.69
+EMR,TUN,Tunisia,2019,8.69
+EMR,TUN,Tunisia,2020,8.69
+EUR,TUR,Türkiye,2010,11.01
+EUR,TUR,Türkiye,2011,11.01
+EUR,TUR,Türkiye,2012,11.01
+EUR,TUR,Türkiye,2013,11.01
+EUR,TUR,Türkiye,2014,11.01
+EUR,TUR,Türkiye,2015,11.01
+EUR,TUR,Türkiye,2016,11.01
+EUR,TUR,Türkiye,2017,11.01
+EUR,TUR,Türkiye,2018,11.01
+EUR,TUR,Türkiye,2019,11.01
+EUR,TUR,Türkiye,2020,11.01
+AFR,UGA,Uganda,2010,9.88
+AFR,UGA,Uganda,2011,9.9
+AFR,UGA,Uganda,2012,9.92
+AFR,UGA,Uganda,2013,9.92
+AFR,UGA,Uganda,2014,9.92
+AFR,UGA,Uganda,2015,9.93
+AFR,UGA,Uganda,2016,9.94
+AFR,UGA,Uganda,2017,9.95
+AFR,UGA,Uganda,2018,9.95
+AFR,UGA,Uganda,2019,9.96
+AFR,UGA,Uganda,2020,9.95
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland,2010,7.23
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland,2011,7.3
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland,2012,7.38
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland,2013,7.47
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland,2014,7.55
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland,2015,7.63
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland,2016,7.71
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland,2017,7.8
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland,2018,7.88
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland,2019,7.96
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland,2020,8.05
+AFR,TZA,United Republic of Tanzania,2010,8.39
+AFR,TZA,United Republic of Tanzania,2011,8.39
+AFR,TZA,United Republic of Tanzania,2012,8.38
+AFR,TZA,United Republic of Tanzania,2013,8.38
+AFR,TZA,United Republic of Tanzania,2014,8.38
+AFR,TZA,United Republic of Tanzania,2015,8.39
+AFR,TZA,United Republic of Tanzania,2016,8.39
+AFR,TZA,United Republic of Tanzania,2017,8.39
+AFR,TZA,United Republic of Tanzania,2018,8.38
+AFR,TZA,United Republic of Tanzania,2019,8.38
+AFR,TZA,United Republic of Tanzania,2020,8.39
+AMR,USA,United States of America,2010,9.72
+AMR,USA,United States of America,2011,9.74
+AMR,USA,United States of America,2012,9.77
+AMR,USA,United States of America,2013,9.8
+AMR,USA,United States of America,2014,9.82
+AMR,USA,United States of America,2015,9.85
+AMR,USA,United States of America,2016,9.88
+AMR,USA,United States of America,2017,9.9
+AMR,USA,United States of America,2018,9.93
+AMR,USA,United States of America,2019,9.95
+AMR,USA,United States of America,2020,9.98
+AMR,URY,Uruguay,2010,9.08
+AMR,URY,Uruguay,2011,9.11
+AMR,URY,Uruguay,2012,9.13
+AMR,URY,Uruguay,2013,9.15
+AMR,URY,Uruguay,2014,9.17
+AMR,URY,Uruguay,2015,9.19
+AMR,URY,Uruguay,2016,9.22
+AMR,URY,Uruguay,2017,9.24
+AMR,URY,Uruguay,2018,9.26
+AMR,URY,Uruguay,2019,9.28
+AMR,URY,Uruguay,2020,9.3
+AMR,VEN,Venezuela (Bolivarian Republic of),2010,8.28
+AMR,VEN,Venezuela (Bolivarian Republic of),2011,8.28
+AMR,VEN,Venezuela (Bolivarian Republic of),2012,8.28
+AMR,VEN,Venezuela (Bolivarian Republic of),2013,8.27
+AMR,VEN,Venezuela (Bolivarian Republic of),2014,8.27
+AMR,VEN,Venezuela (Bolivarian Republic of),2015,8.27
+AMR,VEN,Venezuela (Bolivarian Republic of),2016,8.27
+AMR,VEN,Venezuela (Bolivarian Republic of),2017,8.27
+AMR,VEN,Venezuela (Bolivarian Republic of),2018,8.27
+AMR,VEN,Venezuela (Bolivarian Republic of),2019,8.27
+AMR,VEN,Venezuela (Bolivarian Republic of),2020,8.27
+WPR,VNM,Viet Nam,2010,8.63
+WPR,VNM,Viet Nam,2011,8.62
+WPR,VNM,Viet Nam,2012,8.63
+WPR,VNM,Viet Nam,2013,8.62
+WPR,VNM,Viet Nam,2014,8.61
+WPR,VNM,Viet Nam,2015,8.61
+WPR,VNM,Viet Nam,2016,8.61
+WPR,VNM,Viet Nam,2017,8.6
+WPR,VNM,Viet Nam,2018,8.59
+WPR,VNM,Viet Nam,2019,8.59
+WPR,VNM,Viet Nam,2020,8.59
+AFR,ZMB,Zambia,2010,7.63
+AFR,ZMB,Zambia,2011,7.64
+AFR,ZMB,Zambia,2012,7.63
+AFR,ZMB,Zambia,2013,7.63
+AFR,ZMB,Zambia,2014,7.63
+AFR,ZMB,Zambia,2015,7.64
+AFR,ZMB,Zambia,2016,7.65
+AFR,ZMB,Zambia,2017,7.65
+AFR,ZMB,Zambia,2018,7.66
+AFR,ZMB,Zambia,2019,7.66
+AFR,ZMB,Zambia,2020,7.66
+EMR,PSE,"occupied Palestinian territory, including east Jerusalem",2010,13.18
+EMR,PSE,"occupied Palestinian territory, including east Jerusalem",2011,13.18
+EMR,PSE,"occupied Palestinian territory, including east Jerusalem",2012,13.17
+EMR,PSE,"occupied Palestinian territory, including east Jerusalem",2013,13.19
+EMR,PSE,"occupied Palestinian territory, including east Jerusalem",2014,13.18
+EMR,PSE,"occupied Palestinian territory, including east Jerusalem",2015,13.18
+EMR,PSE,"occupied Palestinian territory, including east Jerusalem",2016,13.18
+EMR,PSE,"occupied Palestinian territory, including east Jerusalem",2017,13.17
+EMR,PSE,"occupied Palestinian territory, including east Jerusalem",2018,13.17
+EMR,PSE,"occupied Palestinian territory, including east Jerusalem",2019,13.16
+EMR,PSE,"occupied Palestinian territory, including east Jerusalem",2020,13.15
