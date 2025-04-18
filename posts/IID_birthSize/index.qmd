@@ -459,7 +459,7 @@ In the end, LBW is not a simple indicator. It is a signal embedded in a web of b
 
 #### Appendix: A note on India's data source
 
-All data presented in this post come from the National Family Health Survey (NFHS) series, specifically NFHS-3 (2005–06), NFHS-4 (2015–16), and NFHS-5 (2019–21). Conducted by the Government of India, the NFHS provides nationally representative data on population, health, and nutrition, with sampling designed to be representative at national, state, and district levels.
+The data presented in this post comes from the National Family Health Survey (NFHS) series, specifically NFHS-3 (2005–06), NFHS-4 (2015–16), and NFHS-5 (2019–21). Conducted by the Government of India, the NFHS provides nationally representative data on population, health, and nutrition, with sampling designed to be representative at national, state, and district levels.
 
 The first two rounds of the NFHS (NFHS-1 and NFHS-2 in the 90s) are excluded from this analysis because they did not report LBW prevalence, likely due to the lack of routine birth weight recording at the time.
 
