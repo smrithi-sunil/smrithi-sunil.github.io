@@ -403,7 +403,7 @@ The INTERGROWTH-21st Project, led by the University of Oxford, set out to establ
 
 ![](intergrowth-21_weight.png)
 
-Still, when looking closely at the data, some variations remain. Even in these ideal conditions, India had a higher share (9%) of full-term LBW babies compared to other countries (~1.5–3%). Despite this, neonatal mortality remained low and comparable (~0.1–0.2%) across all groups. This raises questions about whether birth weight is the most reliable indicator of neonatal risk, especially in Indian populations. The Indian Academy of Pediatrics has even developed its own growth charts to account for smaller baby sizes but international comparisons continue to use WHO standards.
+Still, when looking closely at the data, some variations remain. Even in these ideal conditions, India had a higher share (9%) of full-term LBW babies compared to other countries (~1.5–3%). Despite this, neonatal mortality remained low and comparable (~0.1–0.2%) across all groups. This raises questions about whether birth weight is the most reliable indicator of neonatal risk, especially in Indian populations. The Indian Academy of Pediatrics has even developed its own growth charts to account for smaller baby sizes but international comparisons continue to use WHO standards. 
 
 Further support comes from studies of Indian-origin babies born in high-income countries. In both the US and UK, researchers have found that even when raised in favorable conditions, Indian babies tend to weigh less than their white counterparts[^10]. For instance, a study by Madan et al. in Northern California found significantly higher rates of small-for-gestational-age (SGA) classification among babies of Indian descent[^11]. The table below is taken from Madan et al.
 
