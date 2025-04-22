@@ -452,7 +452,7 @@ In the end, LBW is not a simple indicator. It is a signal embedded in a web of b
 
 ----------------------------------------------------------------------------------------
 
-*All data and code for visuals can be found on my [github page](https://github.com/smrithi-sunil). I am still new to this field, coming from a neuroscience/engineering background, and welcome any thoughts or corrections. I'd love to hear from you!*
+*All data and code for visuals can be found on my [github page](https://github.com/smrithi-sunil). I am still new to this field, and welcome any thoughts or corrections. I'd love to hear from you!*
 
 *Thumbnail photo by Amit Ranjan on [Unsplash](https://unsplash.com/photos/woman-in-red-shirt-carrying-baby-jX1iAUoXvFU)*
       
