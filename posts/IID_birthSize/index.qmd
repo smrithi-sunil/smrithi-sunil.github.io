@@ -2,7 +2,7 @@
 title: Is low birth weight really a problem in India?
 description: Exploring where birth weight standards come from and why India reports some of the highest rates in the world.
 author: Smrithi Sunil
-date: 04-17-2025
+date: 04-22-2025
 categories: [India In Data]
 image: image.jpg
 execute:
@@ -40,7 +40,7 @@ The WHO defines LBW as a birth weight of less than 2500 grams (5.5 pounds). Indi
 
 ![](share-of-low-birthweight-babies-born.png)
 
-Despite India’s high share of LBW births, its neonatal mortality rate is comparable to other developing countries with much lower LBW rates. In 2020, India’s neonatal mortality rate was 2%, similar to Kenya, Botswana, and Namibia. Yet these countries reported much lower LBW rates, around 10–15%[^4]. This pattern extends to infant and child mortality as well. It raises the question: are Indian babies simply smaller on average? Is the 2500 g threshold too stringent for India’s population? 
+Despite India’s high share of LBW births, its neonatal mortality rate is comparable to other developing countries with much lower LBW rates. In 2020, India’s neonatal mortality rate was 2%, similar to Kenya, Botswana, and Namibia. Yet these countries reported much lower LBW rates, around 10–15%[^4]. This pattern extends to infant and child mortality as well. Overall, while India's LBW rates are double that of the world, its infant mortality rates are comparable to the world average. It raises the question: are Indian babies simply smaller on average? Is the 2500 g threshold too stringent for India’s population? 
 
 Current global health literature asserts that, under favorable maternal and environmental conditions, fetal and infant growth patterns are consistent across ethnicities[^5]. This has led to the creation of standardized international growth charts based on ultrasound and anthropometric measures like weight, length, and head circumference[^6].
 
