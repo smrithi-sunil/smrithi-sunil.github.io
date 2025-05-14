@@ -4,7 +4,7 @@ description: What do citation counts tell us about prize-winning work? A data po
 author: Smrithi Sunil
 date: 05-14-2025
 categories: [Data explorations]
-image: image.png
+image: citationsimage.png
 execute:
   echo: false
 draft: false
