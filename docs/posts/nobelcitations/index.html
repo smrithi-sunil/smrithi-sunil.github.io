@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Smrithi Sunil">
+<meta name="dcterms.date" content="2025-05-14">
+<meta name="description" content="What do citation counts tell us about prize-winning work? A data post.">
+
+<title>Smrithi Sunil - One measure of the impact of Nobel Prize-winning work</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../..//images/site_photo.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.scss">
+<meta name="twitter:title" content="Smrithi Sunil - One measure of the impact of Nobel Prize-winning work">
+<meta name="twitter:description" content="What do citation counts tell us about prize-winning work? A data post.">
+<meta name="twitter:image" content="https://smrithisunil.com/posts/nobelcitations/image.png">
+<meta name="twitter:image-height" content="1767">
+<meta name="twitter:image-width" content="3392">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Smrithi Sunil</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../research.html" rel="" target="">
+ <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../woodworking.html" rel="" target="">
+ <span class="menu-text">Woodworking</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../images/SmrithiSunil_CV.pdf" rel="" target="">
+ <span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../contact.html" rel="" target="">
+ <span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">One measure of the impact of Nobel Prize-winning work</h1>
+                  <div>
+        <div class="description">
+          What do citation counts tell us about prize-winning work? A data post.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Data explorations</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Smrithi Sunil </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 14, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#gathering-data-on-citation-counts" id="toc-gathering-data-on-citation-counts" class="nav-link active" data-scroll-target="#gathering-data-on-citation-counts">Gathering data on citation counts</a></li>
+  <li><a href="#total-citation-counts-for-nobel-prize-work" id="toc-total-citation-counts-for-nobel-prize-work" class="nav-link" data-scroll-target="#total-citation-counts-for-nobel-prize-work">Total citation counts for Nobel Prize work</a></li>
+  <li><a href="#citation-counts-over-time" id="toc-citation-counts-over-time" class="nav-link" data-scroll-target="#citation-counts-over-time">Citation counts over time</a></li>
+  <li><a href="#the-second-awakening" id="toc-the-second-awakening" class="nav-link" data-scroll-target="#the-second-awakening">The second awakening</a></li>
+  <li><a href="#sleeping-beauties-of-science" id="toc-sleeping-beauties-of-science" class="nav-link" data-scroll-target="#sleeping-beauties-of-science">Sleeping Beauties of Science</a></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p><em>Cross-posted on my new <a href="https://smrithisunil.substack.com/">Substack</a> newsletter</em></p>
+<p>The Nobel Prize is the highest honor in science, awarded in physics, chemistry, and medicine. Alfred Nobel envisioned it as a way to reward those who “have conferred the greatest benefit to humankind.” Studying the people and discoveries behind these awards offers a window into how scientific breakthroughs happen. With more than a century of Nobel history, we now have enough data to begin analyzing the ingredients that underlie prize-winning work.</p>
+<p>A recent <a href="https://www.construction-physics.com/p/who-wins-nobel-prizes">post by Brian Potter on <em>Construction Physics</em></a> took a deep-dive into the people behind the prizes in chemistry, physics, and medicine. This excellent piece examined questions like: Where were Nobel laureates born? Where were they educated? Where did they conduct their groundbreaking work? And when did they receive recognition?</p>
+<p>I loved the focus on people. Understanding the individuals behind scientific progress is deeply underrated. We might learn far more about how to foster breakthrough discoveries by studying the lives and trajectories of those who produce them. That said, Brian’s post also got me thinking about the nature of the work itself. Are there patterns in how impactful a discovery is <em>before</em> it wins the Nobel? Does the prize boost its influence? Could we predict Nobel-worthy work and accelerate its impact?</p>
+<p>One measure of scientific impact is citation counts, which is the number of times a paper is referenced by other papers. Citation counts are appealing because they provide a simple, quantitative measure of influence within the scientific community. But they also come with serious limitations. <a href="https://www.nber.org/papers/w26752#fromrss">This paper</a> argues that the obsession with citations has pushed science toward safe, incremental advances rather than bold, exploratory work. As the authors write, “our main concern with citations is that they reduce scientific progress to a set of numbers that capture just one important dimension of scientific productivity,” and “citations are an imperfect and noisy way to measure scientific influence, and yet, citations are a useful measure of scientific influence.”</p>
+<p>While they go on to suggest alternative metrics, such as quantifying novelty, citation counts remain our best available tool for now. With those caveats in mind, let’s explore what they can reveal about the impact and trajectory of Nobel-winning work.</p>
+<section id="gathering-data-on-citation-counts" class="level3">
+<h3 class="anchored" data-anchor-id="gathering-data-on-citation-counts">Gathering data on citation counts</h3>
+<p>Brian’s dataset on <a href="https://github.com/briancpotter/nobelpubs/tree/main">GitHub</a> includes information on 545 Nobel laureates in physics, chemistry, and medicine from 1902 to 2016. For each laureate, it lists the type of prize, the award year, and the publications associated with the prize winning work, along with their digital object identifiers (DOIs) and original publication dates. (See <a href="https://www.construction-physics.com/p/who-wins-nobel-prizes">Brian’s post</a> for more details on how the data were compiled.)</p>
+<p>This was a great foundation for adding citation data. I used the OpenAlex database to retrieve year-by-year citation counts for each publication. Some entries were missing DOIs, so I manually filled in gaps when possible. I then automated the process using the OpenAlex API. I was able to find citation data for 696 of the 749 unique publications. The ones with missing information tended to be older publications or laureates’ entries with incomplete metadata. (You can find my code and dataset on <a href="https://github.com/smrithi-sunil/nobelcitations/tree/main">GitHub</a>.)</p>
+<p>One important caveat: how do we know which papers truly contributed to the Nobel-winning discovery? Often, breakthroughs are built on a foundation of earlier work, and the “key” paper may not be obvious. For this post, I’ve relied on the papers included in Brian’s dataset, which itself draws from the methodology used in <a href="https://www.nature.com/articles/s41597-019-0033-6">this paper</a>.</p>
+</section>
+<section id="total-citation-counts-for-nobel-prize-work" class="level3">
+<h3 class="anchored" data-anchor-id="total-citation-counts-for-nobel-prize-work">Total citation counts for Nobel Prize work</h3>
+<p>A simple place to start is by asking: how many total citations do Nobel Prize-winning papers receive? Naturally, these numbers depend both on how long a paper has been published and on broader trends like the growing number of papers published each year.</p>
+<p>The scatter plot below shows each Nobel Prize-winning publication as a point, plotted by its year of publication and total citation count. (The y-axis is on a logarithmic scale.) One pattern is immediately clear: newer papers tend to receive far more citations than older ones, even though they have been around for less time<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<iframe src="https://datawrapper.dwcdn.net/ZZREB/5/" width="600" height="450">
+</iframe>
+</section>
+<section id="citation-counts-over-time" class="level3">
+<h3 class="anchored" data-anchor-id="citation-counts-over-time">Citation counts over time</h3>
+<p>While total citation counts offer a snapshot of overall impact, looking at how that impact grows over time can be more revealing, especially when thinking about how to accelerate scientific progress.</p>
+<p>The chart below shows the cumulative citation count for each prize-winning publication, starting from its year of publication. Each trace begins at zero and tracks how citations accumulate over time. The lines are color-coded by publication year: darker blues for older papers, and greenish hues for more recent ones. (The y-axis is on a logarithmic scale.) By aligning all traces to year zero at the time of publication, we can compare how different papers accumulate citations over time.</p>
+<p><img src="cumulative_citations_by_year.png" class="img-fluid"></p>
+<p>Newer papers tend to show a rapid initial rise in citations, often followed by a plateau. Older papers, by contrast, accumulate citations more slowly. But intriguingly, some older papers experience a second surge in attention roughly 80 years after publication. These are raw citation counts and don’t account for the growing volume of scientific literature over time, which likely skews results in favor of newer papers.</p>
+<p>To better compare trajectories, I normalized each paper’s cumulative citation count by its total citations to date. The chart below shows these normalized curves, with all papers aligned to their publication year (set to year 0). I’ve also marked the year each paper won the Nobel Prize with a dot.</p>
+<p><img src="normalized_cumulative_citations_by_year.png" class="img-fluid"></p>
+<p>The plot reveals a wide range of citation trajectories. Some papers make an immediate impact, while others remain quiet for decades before suddenly gaining attention. On average, newer papers take off more quickly, whereas older papers often lie dormant for many years before their influence emerges.</p>
+</section>
+<section id="the-second-awakening" class="level3">
+<h3 class="anchored" data-anchor-id="the-second-awakening">The second awakening</h3>
+<p>Some older papers show a striking pattern: a second surge in citations many decades after publication. I find this fascinating. Were these papers simply ahead of their time, like theoretical work that required experimental advances to be appreciated? Or do these later bursts reflect new applications of old ideas?</p>
+<p>Understanding the causes of these second awakenings might offer clues for accelerating scientific impact. After all, these weren’t obscure papers. They were part of Nobel-winning work, already recognized as major contributions. And yet, many remained relatively quiet for decades, sometimes more than 80 years, before gaining broader influence.</p>
+<p>The chart below highlights only those papers with more than 1,000 total citations. While the 1,000-citation cutoff is arbitrary, it helps illustrate that this isn’t just about a paper going from 2 to 20 citations. Many of these late bloomers have become highly influential.</p>
+<p><img src="normalized_cumulative_citations_by_year_1000.png" class="img-fluid"></p>
+<p>In the earlier plot, all citation curves were aligned to year zero at the time of publication. But I was curious if the second citation surge tends to happen around the same real-world time for these older papers? For example, was there a common trigger, like something in the 1990s, that revived interest across multiple works?</p>
+<p>The chart below re-aligns the data to actual publication years and includes only papers published before 1950, for visual clarity. Many of these curves resemble classic exponential growth, while others show distinct inflection points, which could be possible signs of external events or developments that reignited attention.</p>
+<p><img src="normalized_cumulative_citations_by_year_1950.png" class="img-fluid"></p>
+<p>One striking example is Irving Langmuir, whom I’ll explore more deeply in a future post. He won the Nobel Prize in Chemistry in 1932 for his work on surface chemistry. In the chart below, I’ve highlighted his four prize-associated papers in crimson, with all others shown in gray.</p>
+<p>Three of those four papers received less than 10% of their total citations before the early 2000s, despite being recognized with a Nobel just 15 years after publication. One in particular, his 1918 paper titled “<em>The adsorption of gases on plane surfaces of glass, mica and platinum</em>,” now has over 20,000 citations. What was it originally recognized for? What sparked its resurgence nearly a century later? And what had to change in the field, or for science more broadly, for that revival to happen?</p>
+<p><img src="langmuir_highlighted_citations.png" class="img-fluid"></p>
+<p><img src="langmuir_1918_citations.png" class="img-fluid"></p>
+</section>
+<section id="sleeping-beauties-of-science" class="level3">
+<h3 class="anchored" data-anchor-id="sleeping-beauties-of-science">Sleeping Beauties of Science</h3>
+<p>In metascience, a commonly used term for these late-blooming papers is <em>“Sleeping Beauties.”</em> Coined by <a href="https://link.springer.com/article/10.1023/B:SCIE.0000018543.82441.f1">Anthony van Raan</a>, the term refers to scientific publications that remain unnoticed or under-cited for decades before suddenly receiving widespread attention. Since then, several groups have attempted to quantify Sleeping Beauties using citation data. For example, <a href="https://www.pnas.org/doi/full/10.1073/pnas.1424329112">one large-scale study</a> analyzed over 22 million papers across the natural and social sciences to identify the most prominent examples of this phenomenon. Below is a table from this paper listing the top Sleeping Beauties.</p>
+<p><img src="SleepingBeauties.png" class="img-fluid"></p>
+<p>Among the papers identified in the large-scale study were several well-known examples: the Einstein, Podolsky, and Rosen (EPR) paper, <em>“Can quantum-mechanical description of physical reality be considered complete?”</em>; Langmuir’s <em>“The constitution and fundamental properties of solids and liquids. Part I. Solids”</em>; and Wenzel’s <em>“Resistance of solid surfaces to wetting by water.”</em></p>
+<p>While the EPR paper was a Sleeping Beauty in terms of citation delay, it, and Einstein himself, were highly recognized at the time. Similarly, Langmuir won the Nobel Prize in Chemistry in 1932, but the broader impact of his prize-winning work didn’t take off until the early 2000s. Of the three, only Wenzel’s paper fits the strictest definition of a Sleeping Beauty: it received little to no recognition or impact until decades later.</p>
+<p>So while citation data might suggest that some papers had no early influence, that doesn’t always mean they were overlooked. As this excellent <a href="https://worksinprogress.co/issue/waking-up-sciences-sleeping-beauties/">essay in Works in Progress</a> argues, there are many reasons a paper might appear to “sleep”, like from being ahead of its time to needing the right application context. Based on the examples above, even highly celebrated, Nobel-recognized work can remain dormant for much of its life.</p>
+</section>
+<section id="conclusions" class="level3">
+<h3 class="anchored" data-anchor-id="conclusions">Conclusions</h3>
+<p>In this post, I explored the impact of Nobel Prize-winning work through the lens of citation counts. While citation counts have clear limitations, they offer a useful, if one-dimensional, measure of a publication’s influence within its field.</p>
+<p>Notably, newer papers tend to have far more citations than older ones, despite having been published more recently. This may be due to the sheer increase in the number of papers published today, as well as the tendency of authors to cite only the most immediate prior work. For example, if I develop a new microscope, I would cite recent advances in imaging and not Newton’s optics. These patterns create a compounding effect that favors recent publications.</p>
+<p>Even among Nobel-winning papers, citation trajectories vary widely. Some take off quickly and plateau; others remain dormant for decades before exploding in impact. I find this second group especially fascinating. It’s tempting to assume these late bloomers were simply unrecognized at first. But the papers analyzed here were all identified as Nobel-worthy, yet they only reached their full influence many decades later.</p>
+<p>So, how might we speed up these delayed awakenings? One approach is to learn from history. If we want to predict which papers could become transformative, we might start by identifying already-recognized work, like Nobel-winning research, and finding ways to bring it into new fields more deliberately, rather than waiting for serendipity. Maybe AI can help us do that.</p>
+<p>Thanks for reading!</p>
+
+
+</section>
+
+
+<script data-collect-dnt="true" async="" defer="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Papers with very low citation counts, like the ones that have less than 10, are probably issues with how citations are being counted. See <a href="https://help.openalex.org/hc/en-us/articles/31459794276759-Where-does-your-citation-information-come-from">here</a> about how OpenAlex gets their citation counts.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

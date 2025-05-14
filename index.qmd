@@ -30,7 +30,7 @@ twitter-card:
 ![](images/hawaii.jpg)
 ::: -->
 
-Hi, I'm Smrithi! I'm a neuroscientist and bioengineer currently living in Seattle, Washington. I grew up in the bustling city of Bangalore and moved to the United States for college.
+Hi, I'm Smrithi! I'm a neuroscientist and bioengineer currently living in Seattle, Washington. I grew up in Bangalore, India and moved to the United States for college.
 
 My interest in neuroscience began during my undergraduate studies at Case Western Reserve University in Cleveland, Ohio, in [Jeffrey Capadona's lab](https://case.edu/bme/research/labs/capadona-lab). There, I researched the brain's response to implanted electrodes, focusing on improving the longevity of neural implants. I spent my summers and most of my non-class hours in the windowless basement lab, staining mouse brain slices and counting neurons.
 
@@ -38,7 +38,7 @@ I continued my research at Boston University, where I earned my PhD in Biomedica
 
 Following my PhD, I joined the Optical Physiology team at the [Allen Institute for Neural Dynamics](https://alleninstitute.org/what-we-do/brain-science/research/allen-institute-neural-dynamics/) in Seattle. At the Allen Institute, I developed and applied a hyperspectral photometry system to study how neuromodulators like dopamine, serotonin, and acetylcholine influence decision-making processes in mice.
 
-Outside of research, I enjoy [woodworking](https://smrithisunil.com/woodworking.html), creating [interactive visuals](https://smrithisunil.com/posts/USA_testscores/) and [reporting](https://smrithisunil.com/posts/IID_birthSize/) on publicly available datasets, and spending time hiking around the Pacific Northwest with my family. 
+Outside of research, I enjoy [woodworking](https://smrithisunil.com/woodworking.html), creating [interactive visuals](https://smrithisunil.com/posts/USA_testscores/) and [reporting](https://smrithisunil.com/posts/IID_birthSize/) on publicly available datasets. I have also started writing about [scientific progress](https://smrithisunil.substack.com/) and the process of discovery. My essay titled, "A Brief History of GFP" was published in [Asimov Press](https://press.asimov.com/articles/gfp). And, I enjoy spending time hiking around the Pacific Northwest with my family. 
 
 <!-- <style>
 body, main {

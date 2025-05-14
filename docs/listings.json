@@ -9,6 +9,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/nobelcitations/index.html",
       "/posts/IID_birthSize/index.html",
       "/posts/USA_testscores/index.html",
       "/posts/2024-12-04-creativecontext-energeticaliens/index.html",
@@ -16,8 +17,7 @@
       "/posts/2024-08-18-bar-stools/index.html",
       "/posts/2024-08-17-coasters/index.html",
       "/posts/IID_population/index.html",
-      "/posts/2023-09-14-paul-sellers-cutting-boards/index.html",
-      "/posts/2023-09-14-introduction/index.html"
+      "/posts/2023-09-14-paul-sellers-cutting-boards/index.html"
     ]
   },
   {
