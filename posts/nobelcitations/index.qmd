@@ -1,5 +1,5 @@
 ---
-title: One measure of the impact of Nobel Prize-winning work
+title: Measuring the impact of Nobel Prize-winning work through citations
 description: What do citation counts tell us about prize-winning work? A data post.
 author: Smrithi Sunil
 date: 05-14-2025
