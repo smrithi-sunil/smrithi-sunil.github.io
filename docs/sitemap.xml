@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://smrithisunil.com/index.html</loc>
-    <lastmod>2025-05-14T22:08:43.359Z</lastmod>
+    <lastmod>2025-06-03T17:21:44.910Z</lastmod>
   </url>
   <url>
     <loc>https://smrithisunil.com/research.html</loc>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://smrithisunil.com/posts.html</loc>
-    <lastmod>2025-05-14T22:25:50.859Z</lastmod>
+    <lastmod>2025-06-03T17:21:32.824Z</lastmod>
   </url>
   <url>
     <loc>https://smrithisunil.com/posts/IID_childMortality/index.html</loc>
@@ -99,5 +99,9 @@
   <url>
     <loc>https://smrithisunil.com/posts/nobelcitations/index.html</loc>
     <lastmod>2025-05-14T22:25:43.202Z</lastmod>
+  </url>
+  <url>
+    <loc>https://smrithisunil.com/posts/IrvingLangmuir/index.html</loc>
+    <lastmod>2025-06-03T17:19:26.293Z</lastmod>
   </url>
 </urlset>
