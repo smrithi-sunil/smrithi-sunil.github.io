@@ -50,17 +50,17 @@ So if ethnicity is not a factor, why does India have such a high LBW rate withou
 
 Before diving into the data, it's worth understanding where the definition of LBW comes from. The WHO currently defines LBW as a weight at birth under 2500 grams. This threshold was first adopted in 1948 when the Expert Group on Prematurity recommended defining prematurity as either being born before 37 weeks of gestation or weighing less than or equal to 2500 grams at birth. At the time, LBW served as a convenient proxy for prematurity.
 
-The 2500 g cutoff, however, was not based on strong biological evidence. It was first used by Finnish pediatrician Dr. Arvo Ylppö in 1919 while studying infants in a German hospital—but he gave no justification for the threshold. Over the next few decades, other researchers used a range of weight cutoffs, from 2000 g to 3000 g, making it difficult to compare studies.
+The 2500 g cutoff, however, was not based on strong biological evidence. It was first used by Finnish pediatrician Dr. Arvo Ylppö in 1919 while studying infants in a German hospital, but he gave no justification for the threshold. Over the next few decades, other researchers used a range of weight cutoffs, from 2000 g to 3000 g, making it difficult to compare studies.
 
 Recognizing this inconsistency, the American Academy of Pediatrics (AAP) advocated for standardization in 1935. During a key meeting that year, 2500 g was proposed as a uniform threshold for identifying at-risk newborns. This definition was later adopted by the WHO in 1948, largely based on data from high-income countries, where LBW was typically the result of prematurity.
 
-However, as more data emerged from developing countries, a different pattern became clear: many LBW babies were born at full-term. In these regions, LBW was more often due to intrauterine growth restriction (IUGR)—a condition where the fetus does not grow as expected—rather than early delivery.
+However, as more data emerged from developing countries, a different pattern became clear: many LBW babies were born at full-term. In these regions, LBW was more often due to intrauterine growth restriction (IUGR), which is a condition where the fetus does not grow as expected, rather than early delivery.
 
 While both prematurity and IUGR increase the risk of neonatal morbidity and mortality, they do so through different biological pathways, each requiring distinct care protocols and policy responses. It became increasingly important to distinguish between the two causes.
 
 In 1960, after reviewing international data, the WHO concluded that in many low-income settings, LBW was predominantly due to full-term but undergrown babies. That same year, the Expert Committee on Maternal and Child Health officially recommended shifting the definition from "prematurity" to "low birth weight," while retaining the 2500 g threshold. This remains the WHO definition today.
 
-It’s important to note that despite widespread use, birth weight is still a somewhat indirect and noisy metric. Some researchers argue that it’s not a direct factor in neonatal mortality but rather a marker that captures a range of underlying conditions. Recent studies have emphasized "small for gestational age" (SGA)—based on fetal growth trajectories—as a potentially more meaningful measure. We'll revisit this idea later when looking at how Indian babies grow compared to global standards.
+It’s important to note that despite widespread use, birth weight is still a somewhat indirect and noisy metric. Some researchers argue that it’s not a direct factor in neonatal mortality but rather a marker that captures a range of underlying conditions. Recent studies have emphasized "small for gestational age" (SGA), based on fetal growth trajectories, as a potentially more meaningful measure. We'll revisit this idea later when looking at how Indian babies grow compared to global standards.
 
 ### Preterm births around the world over time
 
@@ -292,7 +292,7 @@ Northern states like Punjab, Rajasthan, Haryana, Uttar Pradesh, and Bihar have s
 
 ### Trends in birth weight across demographics
 
-To understand the broader environmental and social factors behind LBW, it helps to look at trends across different demographic groups—such as urban vs. rural residence, maternal age, household wealth, and education. If birth weight is driven primarily by environmental factors then I would expect to see sizeable differences in LBW rates between urban and rural populations or along the wealth and education spectrum.
+To understand the broader environmental and social factors behind LBW, it helps to look at trends across different demographic groups, such as urban vs. rural residence, maternal age, household wealth, and education. If birth weight is driven primarily by environmental factors then I would expect to see sizeable differences in LBW rates between urban and rural populations or along the wealth and education spectrum.
 
 ```{python}
 
@@ -357,7 +357,7 @@ fig.update_layout(
 fig.show()
 ```
 
-The results are surprising. There are no drastic differences across demographic groups. Urban and rural areas, for example, show nearly identical LBW rates. There are slight improvements among the highest wealth quintile and the most educated mothers—two groups that are likely correlated—but even in these categories, LBW rates hover around 15%. That’s comparable to LBW rates in Sub-Saharan Africa and still well above the global average.
+The results are surprising. There are no drastic differences across demographic groups. Urban and rural areas, for example, show nearly identical LBW rates. There are slight improvements among the highest wealth quintile and the most educated mothers, two groups that are likely correlated, but even in these categories, LBW rates hover around 15%. That’s comparable to LBW rates in Sub-Saharan Africa and still well above the global average.
 
 This suggests that environmental conditions, while important, may not fully explain India’s high rate of LBW. If they were the primary drivers, we would expect to see more dramatic differences across socioeconomic lines.
 
@@ -377,7 +377,7 @@ These various contributing factors makes it difficult to isolate a direct link b
 
 A study by Jana et al. (2023) used data from NFHS 2019–2021 to investigate this relationship[^8]. Their statistical model accounted for both observed factors (like maternal age, education, and wealth) and unobserved ones (such as smoking, hypertension, or food insecurity). They found that babies **born with LBW had a 53% higher likelihood of dying**, even after controlling for other risk factors.
 
-LBW is associated with complications such as birth asphyxia, respiratory and metabolic dysfunction, growth delays, and increased susceptibility to infections—all of which raise the risk of neonatal death.
+LBW is associated with complications such as birth asphyxia, respiratory and metabolic dysfunction, growth delays, and increased susceptibility to infections, all of which raise the risk of neonatal death.
 
 Still, not all contributing factors are equally important. Does smoking matter more than poor diet? How does maternal health compare to access to clean water or healthcare? Answering these questions is crucial for designing effective interventions.
 
@@ -473,7 +473,7 @@ A discrepancy exists between LBW estimates reported by NFHS and those published 
 
 Why the difference?
 
-The NFHS estimates rely on data collected during household surveys—some from documented records, but a substantial portion from maternal recall. This introduces potential recall bias and may underrepresent births without proper documentation. In contrast, OWID presents modeled estimates from UNICEF and WHO. These models adjust for missing or biased data using statistical methods and include additional sources such as hospital records, aiming to produce more internationally comparable and complete estimates.
+The NFHS estimates rely on data collected during household surveys, some from documented records, but a substantial portion from maternal recall. This introduces potential recall bias and may underrepresent births without proper documentation. In contrast, OWID presents modeled estimates from UNICEF and WHO. These models adjust for missing or biased data using statistical methods and include additional sources such as hospital records, aiming to produce more internationally comparable and complete estimates.
 
 Both sources have their strengths. NFHS is invaluable for analyzing within-country variation - across states, wealth quintiles, education levels, and maternal health factors. OWID’s estimates, while less granular, offer a standardized view for cross-country comparisons.
 
