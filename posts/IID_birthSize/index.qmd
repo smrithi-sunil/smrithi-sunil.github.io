@@ -467,7 +467,7 @@ In the three more recent rounds, birth weight was recorded in two ways:
 
 - Birth Size – Based on the mother’s recollection of the baby’s size at birth, categorized as (a) very small, (b) smaller than average, (c) average or larger, or (d) don’t recall. This subjective measure is used in analyses of neonatal mortality.
 
-- Birth Weight – The actual recorded weight, based either on a written medical record or maternal recall. In NFHS-3, only 34% of births had recorded weights; this rose to 78% in NFHS-4 and 91% in NFHS-5. While this is a major improvement, early rounds may still reflect selection bias—families who keep medical records may differ from those who don’t.
+- Birth Weight – The actual recorded weight, based either on a written medical record or maternal recall. In NFHS-3, only 34% of births had recorded weights; this rose to 78% in NFHS-4 and 91% in NFHS-5. While this is a major improvement, early rounds may still reflect selection bias, families who keep medical records may differ from those who don’t.
 
 A discrepancy exists between LBW estimates reported by NFHS and those published by Our World In Data (OWID). For example, in 2020, OWID reported India’s LBW rate as 27.4%, while NFHS-5 (2019–21) reported a significantly lower rate of 18.2%.
 
