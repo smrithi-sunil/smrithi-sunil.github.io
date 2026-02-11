@@ -32,6 +32,8 @@ twitter-card:
 
 Hi, I'm Smrithi! I'm a neuroscientist and biomedical engineer currently living in Madison, WI. I grew up in Bangalore, India, and moved to the United States for college. My work broadly focuses on developing microscopy techniques to study brain function. I am a research scientist in [Elizabeth Wright's lab](https://wrightlab.wisc.edu/), where I focus on advancing correlative light and electron microscopy to study cellular neurodegeneration.
 
+My writing mostly lives on my Substack, [Engineering Discovery](https://www.engineering-discovery.com/), these days. Follow along there!
+
 My interest in neuroscience began during my undergraduate studies at Case Western Reserve University in Cleveland, Ohio, in [Jeffrey Capadona's lab](https://case.edu/bme/research/labs/capadona-lab). There, I researched the brain's response to implanted electrodes, focusing on improving the longevity of neural implants. I spent my summers and most of my non-class hours in a windowless basement lab, staining mouse brain slices and counting neurons.
 
 I continued my research at Boston University, where I earned my PhD in Biomedical Engineering under [David Boas](https://sites.bu.edu/boas/). My [dissertation](images/Diss.pdf), “Wide-field optical imaging of neurovascular coupling during stroke recovery,” centered on developing a clinically relevant mouse stroke model and a multimodal imaging platform capable of simultaneously capturing neural activity and hemodynamic signals. I used this system to investigate the structural and functional reorganization of neurovascular circuits over time following stroke.
